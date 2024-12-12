@@ -1,5 +1,5 @@
-﻿function Preloader() {
+function Preloader() {
     return <div>Preloader</div>;
 }
 
-export {Preloader};
+export { Preloader };
