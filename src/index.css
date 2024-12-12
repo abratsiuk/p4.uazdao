@@ -1,4 +1,4 @@
-/* .main {
+.main {
     height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -32,8 +32,4 @@
     border: 1px solid #DADDDD;
     background-color: #DADDDD;
     background-image: url('/src/assets/image/welcome_small.gif');
-} */
-
-.welcome {
-    background-color: red;
 }
