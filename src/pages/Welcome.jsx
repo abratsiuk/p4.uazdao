@@ -1,13 +1,11 @@
-import './Welcome.css';
-
 function Welcome() {
     return (
         <div className='welcome'>
-            {/* <img
-                    src='/src/assets/image/welcome_small.gif'
-                    alt='welcome'
-                /> */}
-            <div className='welcome__image'></div>
+            {/* <div className='welcome__image welcome__image--red'>11</div> */}
+            <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+                fugiat!
+            </span>
         </div>
     );
 }

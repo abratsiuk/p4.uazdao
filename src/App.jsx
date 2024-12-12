@@ -1,9 +1,16 @@
 ﻿import { Welcome } from './pages/Welcome';
+import { Header } from './layout/Header';
+import { Footer } from './layout/Footer';
+import './App.css';
 
 function App() {
-    return (
-        <div>
-            <Welcome />
+    const mode = 1;
+    return mode === 1 ? (
+        <Welcome />
+    ) : (
+        <div className='main'>
+            <Header />
+            <Footer />
         </div>
     );
 }
