@@ -133,3 +133,6 @@ Set-Content -Path .\src\index.css -Value @""@ -Encoding UTF8
 
 по-этому файлы нужно создавать вручную и очищать вручную
 ========================================================================
+
+ico files
+https://icon-icons.com/search/icons/?filtro=car&page=3
