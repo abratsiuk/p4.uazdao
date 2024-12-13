@@ -5,6 +5,7 @@ import './styles/_typography.css';
 import './styles/welcome.css';
 import './styles/_debug.css';
 import './styles/header.css';
+import './styles/main.css';
 import './styles/footer.css';
 
 import App from './App.jsx';

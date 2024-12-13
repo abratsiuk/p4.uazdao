@@ -1,4 +1,18 @@
 .footer {
     grid-row: 3/4;
     background-color: #DADDDD;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.footer__my,
+.footer__repo {
+    min-width: 50%;
+}
+
+.footer__repo {
+    text-align: right;
 }

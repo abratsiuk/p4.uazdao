@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
     const mode = 1;
-    return mode === 1 ? (
+    return mode === 2 ? (
         <Welcome />
     ) : (
         <div className='main'>
