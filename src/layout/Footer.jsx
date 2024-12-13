@@ -6,7 +6,9 @@ function Footer() {
                 <a href='https://github.com/abratsiuk/p4.uazdao'>repo</a>
             </div>
             <div className='footer__ievlev'>
-                <span>© Павел Иевлев </span>
+                <span style={{ marginRight: '0.5rem' }}>
+                    © 2021 Павел Иевлев
+                </span>
                 <a href='https://www.rulit.me/books/uazdao-ili-dao-vyrazhennoe-rukami-read-445410-1.html'>
                     Уаздао или Дао, выраженное руками
                 </a>
