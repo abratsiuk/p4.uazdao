@@ -1,35 +1,7 @@
-.main {
-    height: 100vh;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    background-color: green;
+body {
+    margin: 0;
 }
 
-.header {
-    grid-row: 1/2;
-    background-color: #DADDDD;
-}
-
-.footer {
-    grid-row: 3/4;
-    background-color: #DADDDD;
-}
-
-.welcome {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr 180px 1fr;
-    grid-template-rows: 1fr 140px 1fr;
-    background-color: grey;
-}
-
-.welcome__image {
-    width: 180px;
-    height: 140px;
-    grid-column: 2/3;
-    grid-row: 2/3;
-    border-radius: 50%;
-    border: 1px solid #DADDDD;
-    background-color: #DADDDD;
-    background-image: url('/src/assets/image/welcome_small.gif');
+html {
+    font-size: 10px;
 }
