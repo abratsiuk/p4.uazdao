@@ -136,3 +136,14 @@ Set-Content -Path .\src\index.css -Value @""@ -Encoding UTF8
 
 ico files
 https://icon-icons.com/search/icons/?filtro=car&page=3
+
+---------------------
+
+https://fontawesome.com/kits/48e596834e/setup
+
+<script src="https://kit.fontawesome.com/48e596834e.js" crossorigin="anonymous"></script>
+
+![](_md_img/flow_images/flow%202024-12-15-19-07-26.png)
+
+![](_md_img/flow_images/flow%202024-12-15-19-08-23.png)
+[3.1] 10 25:35
