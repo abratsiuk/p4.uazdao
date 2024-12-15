@@ -147,3 +147,18 @@ https://fontawesome.com/kits/48e596834e/setup
 
 ![](_md_img/flow_images/flow%202024-12-15-19-08-23.png)
 [3.1] 10 25:35
+
+-----------------
+
+## for start in new note
+```
+    npm install --global yarn
+
+    --admin:
+    corepack enable
+    corepack prepare yarn@4.5.3 --activate
+
+    yarn config set nodeLinker node-modules
+    yarn
+    yarn dev
+```
