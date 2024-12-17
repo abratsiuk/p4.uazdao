@@ -1,9 +1,9 @@
 .welcome {
-    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 180px 1fr;
     grid-template-rows: 1fr 140px 1fr;
     background-color: grey;
+    height: 100%;
 }
 
 .welcome__image {

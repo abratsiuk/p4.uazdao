@@ -1,18 +1,10 @@
 .footer {
-    grid-row: 3/4;
     background-color: #c2c9c9;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 1rem 2rem;
-}
-
-.footer__my,
-.footer__repo {
-    min-width: 50%;
-}
-
-.footer__repo {
-    text-align: right;
+    align-items: center;
+    height: 5rem;
+    padding: 0 1rem;
 }

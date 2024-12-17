@@ -1,13 +1,12 @@
 function Home() {
     return (
-        <div className='home text__header'>
+        <div className='home'>
             <img
-                classname='home__image'
+                className='home__image'
                 src='/src/assets/image/book/title.webp'
                 alt='book title'
-                className='home__title'
             />
-            <div className='home_quote text__header'>
+            <div className='home_quotes text__header'>
                 <blockquote className='home__quote'>
                     <span className='home__quote__text'>
                         Дао, которое может быть выражено словами, не есть

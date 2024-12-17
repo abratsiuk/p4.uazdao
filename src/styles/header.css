@@ -1,9 +1,9 @@
 .header {
-    grid-row: 1/2;
     background-color: #c2c9c9;
-    min-height: 2rem;
+    height: 7rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header__text {
