@@ -1,7 +1,11 @@
+import { Link } from 'react-router-dom';
+
 function Header() {
     return (
         <header className='header text-base'>
-            <div className='header__text  great-vibes-regular '>Уаздао</div>
+            <div className='header__text  great-vibes-regular '>
+                <Link to='/home'>Уаздао</Link>
+            </div>
             <nav className='header__nav'>
                 <ul className='menu'>
                     <li>

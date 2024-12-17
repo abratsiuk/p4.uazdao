@@ -11,10 +11,13 @@ function App() {
             <Header />
             <main className='main'>
                 <Switch>
-                    <Route path='/welcome'>
+                    <Route
+                        exact
+                        path='/'
+                    >
                         <Welcome />
                     </Route>
-                    <Route path='/'>
+                    <Route path='/home'>
                         <Home />
                     </Route>
                 </Switch>
