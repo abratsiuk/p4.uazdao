@@ -304,3 +304,26 @@ https://icon-icons.com/search/icons/?filtro=car&page=3
 horizontal menu
 https://html5book.ru/gorizontalnoe-menu/
 
+========================================================================
+
+typography
+
+[4.2] Dmitrii Fokeev – Теория дизайна - для веб дизайнеров, фотографов и... (https://www.udemy.com/course/cniiaptv/learn/lecture/28968206?start=195#overview)
+
+![](_md_img/flow_images/flow%202024-12-17-14-01-21.png)
+
+30
+small 14px - маленокое
+base 16px - обычный, параграфы
+action 18px - кнопки и меню навигации, bold, semi-boid
+header (18-96px) 24px заголовки, bold, extra-bold
+
+межстртрочное обычного - 160% - 180% от base текста = 25.6 - 28.8 px
+
+межстрочное заголовка - уменьшать по мере увеличения шрифта и его толщины
+
+длина строки < 500-800 px максимум
+
+используйте только 2 шрифта, тогда будет гармонично
+
+---------------------

@@ -1,9 +1,90 @@
+.text__small {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+.text__base {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.text__base--article {
+    line-height: 2.6rem;
+    max-width: 60rem;
+}
+
+.text__action {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.text__header {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 2.4rem;
+}
+
+.text__decorate {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+}
+
+
 .great-vibes-regular {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;
 }
 
-.text__base {
-    font-size: 1.8rem;
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
 }
