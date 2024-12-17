@@ -136,3 +136,9 @@ Set-Content -Path .\src\index.css -Value @""@ -Encoding UTF8
 
 ico files
 https://icon-icons.com/search/icons/?filtro=car&page=3
+
+========================================================================
+
+horizontal menu
+https://html5book.ru/gorizontalnoe-menu/
+

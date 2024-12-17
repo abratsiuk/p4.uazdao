@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <div className='footer text__base'>
+        <footer className='footer text__base'>
             <div className='footer__my'>© 2024 abratsiuk</div>
             <div className='footer__repo'>
                 <a href='https://github.com/abratsiuk/p4.uazdao'>repo</a>
@@ -13,7 +13,7 @@ function Footer() {
                     Уаздао или Дао, выраженное руками
                 </a>
             </div>
-        </div>
+        </footer>
     );
 }
 
