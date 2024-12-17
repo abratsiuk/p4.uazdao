@@ -1,0 +1,34 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.home_quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.home__quote {
+    max-width: 40rem;
+    color: navy;
+    position: relative;
+    margin-bottom: 10rem;
+    line-height: 2.1rem;
+}
+
+.home__quote cite {
+    display: block;
+    position: absolute;
+    right: 2rem;
+    bottom: -2.2rem;
+    font-size: 2.4rem;
+}
+
+.home__image {
+    display: block;
+    position: absolute;
+    left: 0;
+}

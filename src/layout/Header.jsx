@@ -5,22 +5,52 @@ function Header() {
             <nav className='header__nav'>
                 <ul className='menu'>
                     <li>
-                        <a href='#'>изречение</a>
+                        <a
+                            href='#'
+                            className='text__action'
+                        >
+                            изречение
+                        </a>
                     </li>
                     <li>
-                        <a href='#'>книга</a>
+                        <a
+                            href='#'
+                            className='text__action'
+                        >
+                            книга
+                        </a>
                     </li>
                     <li>
-                        <a href='#'>автор</a>
+                        <a
+                            href='#'
+                            className='text__action'
+                        >
+                            автор
+                        </a>
                     </li>
                     <li>
-                        <a href='#'>добрый грём</a>
+                        <a
+                            href='#'
+                            className='text__action'
+                        >
+                            добрый грём
+                        </a>
                     </li>
                     <li>
-                        <a href='#'>дао</a>
+                        <a
+                            href='#'
+                            className='text__action'
+                        >
+                            дао
+                        </a>
                     </li>
                     <li>
-                        <a href='#'>запчасти</a>
+                        <a
+                            href='#'
+                            className='text__action'
+                        >
+                            запчасти
+                        </a>
                     </li>
                 </ul>
             </nav>

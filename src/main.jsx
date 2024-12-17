@@ -7,6 +7,7 @@ import './styles/_debug.css';
 import './styles/header.css';
 import './styles/main.css';
 import './styles/footer.css';
+import './styles/home.css';
 
 import App from './App.jsx';
 

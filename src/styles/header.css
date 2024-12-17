@@ -1,6 +1,6 @@
 .header {
     grid-row: 1/2;
-    background-color: #DADDDD;
+    background-color: #c2c9c9;
     min-height: 2rem;
     display: flex;
     justify-content: space-between;
@@ -16,9 +16,10 @@
 }
 
 ul.menu {
+    width: 100%;
+    height: 100%;
     list-style: none;
-    margin: 0;
-    padding-left: 0;
+    padding: 0 2rem;
     display: flex;
     justify-content: flex-end;
     align-items: stretch;

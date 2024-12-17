@@ -1,6 +1,6 @@
 .footer {
     grid-row: 3/4;
-    background-color: #DADDDD;
+    background-color: #c2c9c9;
 
     display: flex;
     flex-wrap: wrap;
