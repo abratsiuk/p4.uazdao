@@ -36,14 +36,14 @@ function Header() {
                             добрый грём
                         </a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a
                             href='#'
                             className='text__action'
                         >
                             дао
                         </a>
-                    </li>
+                    </li> */}
                     <li>
                         <a
                             href='#'
