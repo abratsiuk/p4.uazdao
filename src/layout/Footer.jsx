@@ -14,7 +14,12 @@ function Footer() {
             </div>
 
             <div className='footer__repo'>
-                <a href='https://github.com/abratsiuk/p4.uazdao'>repo</a>
+                <a
+                    href='https://github.com/abratsiuk/p4.uazdao'
+                    target='_blank'
+                >
+                    repo
+                </a>
             </div>
         </footer>
     );
