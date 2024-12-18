@@ -8,8 +8,9 @@
 
 .header__text {
     font-size: 5rem;
-    color: navy;
 }
+
+
 
 .header__nav {
     flex-grow: 1;
