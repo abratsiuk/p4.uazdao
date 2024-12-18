@@ -13,7 +13,7 @@ function Sentence() {
                         интеллигентные люди. Без этих заклинаний вы просто
                         ничего не открутите, проверено.
                     </span>
-                    <cite className='sentence__cite text__small'>...</cite>
+                    <cite className='text__small'>...</cite>
                 </blockquote>
             </div>
         </div>
