@@ -5,6 +5,7 @@ import { Welcome } from './pages/Welcome';
 import { Home } from './pages/Home';
 import { Sentence } from './pages/Sentence';
 import './App.css';
+import { NotFound } from './pages/NotFound';
 
 function App() {
     return (
@@ -24,7 +25,8 @@ function App() {
                     <Route
                         path='/sentence'
                         component={Sentence}
-                    />
+                    />{' '}
+                    <Route component={NotFound} />
                 </Switch>
             </main>
             <Footer />

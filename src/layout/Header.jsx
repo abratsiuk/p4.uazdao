@@ -22,44 +22,41 @@ function Header() {
                         </Link>
                     </li>
                     <li>
-                        <a
-                            href='#'
-                            className='text__action'
+                        {' '}
+                        <Link
+                            to='/book'
+                            className='link text__action'
                         >
                             книга
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a
-                            href='#'
-                            className='text__action'
+                        {' '}
+                        <Link
+                            to='/author'
+                            className='link text__action'
                         >
                             автор
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a
-                            href='#'
-                            className='text__action'
+                        {' '}
+                        <Link
+                            to='/goodgrem'
+                            className='link text__action'
                         >
                             добрый грём
-                        </a>
+                        </Link>
                     </li>
-                    {/* <li>
-                        <a
-                            href='#'
-                            className='text__action'
-                        >
-                            дао
-                        </a>
-                    </li> */}
+
                     <li>
-                        <a
-                            href='#'
-                            className='text__action'
+                        {' '}
+                        <Link
+                            to='/parts'
+                            className='link text__action'
                         >
                             запчасти
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>
