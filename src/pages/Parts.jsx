@@ -1,4 +1,4 @@
-function Tool() {
-    return <div>Tool</div>;
+function Parts() {
+    return <div>Parts</div>;
 }
-export { Tool };
+export { Parts };

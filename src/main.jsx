@@ -9,6 +9,10 @@ import './styles/footer.css';
 import './styles/welcome.css';
 import './styles/home.css';
 import './styles/sentence.css';
+import './styles/author.css';
+import './styles/book.css';
+import './styles/goodgrem.css';
+import './styles/parts.css';
 
 import App from './App.jsx';
 

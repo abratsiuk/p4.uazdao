@@ -6,6 +6,10 @@ import { Home } from './pages/Home';
 import { Sentence } from './pages/Sentence';
 import './App.css';
 import { NotFound } from './pages/NotFound';
+import { Author } from './pages/Author';
+import { Book } from './pages/Book';
+import { GoodGrem } from './pages/GoodGrem';
+import { Parts } from './pages/Parts';
 
 function App() {
     return (
@@ -25,7 +29,23 @@ function App() {
                     <Route
                         path='/sentence'
                         component={Sentence}
-                    />{' '}
+                    />
+                    <Route
+                        path='/author'
+                        component={Author}
+                    />
+                    <Route
+                        path='/book'
+                        component={Book}
+                    />
+                    <Route
+                        path='/goodgrem'
+                        component={GoodGrem}
+                    />
+                    <Route
+                        path='/parts'
+                        component={Parts}
+                    />
                     <Route component={NotFound} />
                 </Switch>
             </main>
