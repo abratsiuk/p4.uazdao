@@ -176,7 +176,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.12.1":
+"@babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.12.13":
   version: 7.26.0
   resolution: "@babel/runtime@npm:7.26.0"
   dependencies:
@@ -2976,19 +2976,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mini-create-react-context@npm:^0.4.0":
-  version: 0.4.1
-  resolution: "mini-create-react-context@npm:0.4.1"
-  dependencies:
-    "@babel/runtime": "npm:^7.12.1"
-    tiny-warning: "npm:^1.0.3"
-  peerDependencies:
-    prop-types: ^15.0.0
-    react: ^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
-  checksum: 10c0/80b8daa8fa6092293547984537c8193093e32d0025d387d8d21b6a2807bbf6f209bceef97eb61c518be9c4f7dfcd077584d1c8dbcd828a0e96b80273a5bad148
-  languageName: node
-  linkType: hard
-
 "minimatch@npm:^3.1.2":
   version: 3.1.2
   resolution: "minimatch@npm:3.1.2"
@@ -3289,7 +3276,7 @@ __metadata:
     globals: "npm:^15.12.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
-    react-router-dom: "npm:5.2.0"
+    react-router-dom: "npm:^5.3.0"
     stylelint: "npm:^16.11.0"
     vite: "npm:^6.0.1"
   languageName: unknown
@@ -3510,32 +3497,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:5.2.0":
-  version: 5.2.0
-  resolution: "react-router-dom@npm:5.2.0"
+"react-router-dom@npm:^5.3.0":
+  version: 5.3.4
+  resolution: "react-router-dom@npm:5.3.4"
   dependencies:
-    "@babel/runtime": "npm:^7.1.2"
+    "@babel/runtime": "npm:^7.12.13"
     history: "npm:^4.9.0"
     loose-envify: "npm:^1.3.1"
     prop-types: "npm:^15.6.2"
-    react-router: "npm:5.2.0"
+    react-router: "npm:5.3.4"
     tiny-invariant: "npm:^1.0.2"
     tiny-warning: "npm:^1.0.0"
   peerDependencies:
     react: ">=15"
-  checksum: 10c0/1f6c139174fbbf5d91ae622a7684f5a1794d4008b5fabd034a996572fe3be3d205822b06e7112fe179509977f5d01b9d5b0b650da6fa267c43d4a052bbf35556
+  checksum: 10c0/f04f727e2ed2e9d1d3830af02cc61690ff67b1524c0d18690582bfba0f4d14142ccc88fb6da6befad644fddf086f5ae4c2eb7048c67da8a0b0929c19426421b0
   languageName: node
   linkType: hard
 
-"react-router@npm:5.2.0":
-  version: 5.2.0
-  resolution: "react-router@npm:5.2.0"
+"react-router@npm:5.3.4":
+  version: 5.3.4
+  resolution: "react-router@npm:5.3.4"
   dependencies:
-    "@babel/runtime": "npm:^7.1.2"
+    "@babel/runtime": "npm:^7.12.13"
     history: "npm:^4.9.0"
     hoist-non-react-statics: "npm:^3.1.0"
     loose-envify: "npm:^1.3.1"
-    mini-create-react-context: "npm:^0.4.0"
     path-to-regexp: "npm:^1.7.0"
     prop-types: "npm:^15.6.2"
     react-is: "npm:^16.6.0"
@@ -3543,7 +3529,7 @@ __metadata:
     tiny-warning: "npm:^1.0.0"
   peerDependencies:
     react: ">=15"
-  checksum: 10c0/3225ca136f0e95a972d3698f05d83e48733b0ea1248b28e1051727cf12e7e13700ee638141a076ebad4dea2b9e915f65aac097d33da785d64e8a08f23cdd34e9
+  checksum: 10c0/e15c00dfef199249b4c6e6d98e5e76cc352ce66f3270f13df37cc069ddf7c05e43281e8c308fc407e4435d72924373baef1d2890e0f6b0b1eb423cf47315a053
   languageName: node
   linkType: hard
 
@@ -4205,7 +4191,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tiny-warning@npm:^1.0.0, tiny-warning@npm:^1.0.3":
+"tiny-warning@npm:^1.0.0":
   version: 1.0.3
   resolution: "tiny-warning@npm:1.0.3"
   checksum: 10c0/ef8531f581b30342f29670cb41ca248001c6fd7975ce22122bd59b8d62b4fc84ad4207ee7faa95cde982fa3357cd8f4be650142abc22805538c3b1392d7084fa
