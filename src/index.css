@@ -11,3 +11,7 @@ html {
 *::after {
     box-sizing: border-box;
 }
+
+.link {
+    text-decoration: none;
+}

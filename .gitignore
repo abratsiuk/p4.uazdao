@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+"src/assets/image/book/compressed jpeg/*"
+"src/assets/image/book/compressed webp/*"
+"src/assets/image/book/converted webp/*"
+"src/assets/image/book/original/*"

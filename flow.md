@@ -368,3 +368,13 @@ yarn dev
 Vite стремится быть максимально быстрым и современным, но из-за этого иногда требует ручной настройки для специфичных задач, таких как маршруты в React. Этот дополнительный шаг необходим для работы с react-router-dom.
 
 ========================================================================
+
+compression jpeg https://tinypng.com/
+
+convert jpeg to webp https://image.online-convert.com/convert/jpeg-to-webp
+
+original jpeg 9.27 Mb
+compressed jpeg 2.21 MB
+converted webp 2.22 Mb
+compressed webp 1.51 Mb
+========================================================================

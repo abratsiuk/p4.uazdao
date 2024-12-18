@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { Welcome } from './pages/Welcome';
 import { Header } from './layout/Header';
 import { Footer } from './layout/Footer';
+import { Welcome } from './pages/Welcome';
 import { Home } from './pages/Home';
+import { Sentence } from './pages/Sentence';
 import './App.css';
 
 function App() {
@@ -14,12 +15,16 @@ function App() {
                     <Route
                         exact
                         path='/'
-                    >
-                        <Welcome />
-                    </Route>
-                    <Route path='/home'>
-                        <Home />
-                    </Route>
+                        component={Welcome}
+                    />
+                    <Route
+                        path='/home'
+                        component={Home}
+                    />
+                    <Route
+                        path='/sentence'
+                        component={Sentence}
+                    />
                 </Switch>
             </main>
             <Footer />

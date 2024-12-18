@@ -4,17 +4,22 @@ function Header() {
     return (
         <header className='header text-base'>
             <div className='header__text  great-vibes-regular '>
-                <Link to='/home'>Уаздао</Link>
+                <Link
+                    to='/home'
+                    className='link'
+                >
+                    Уаздао
+                </Link>
             </div>
             <nav className='header__nav'>
                 <ul className='menu'>
                     <li>
-                        <a
-                            href='#'
-                            className='text__action'
+                        <Link
+                            to='/sentence'
+                            className='link text__action'
                         >
                             изречение
-                        </a>
+                        </Link>
                     </li>
                     <li>
                         <a
