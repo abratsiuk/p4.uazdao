@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 function NotFound() {
-    const [isVulgare, setIsVulgare] = useState(false);
+    const [isSentence, setIsSentence] = useState(false);
 
     useEffect(() => {
         setTimeout(() => {
-            setIsVulgare(true);
+            setIsSentence(true);
             setTimeout(() => {
-                setIsVulgare(false);
+                setIsSentence(false);
             }, 7000);
         }, 5000);
     }, []);
@@ -16,15 +16,15 @@ function NotFound() {
             <img
                 className='sentence__image'
                 src={
-                    !isVulgare
+                    !isSentence
                         ? '/src/assets/image/book/p62.webp'
-                        : '/src/assets/image/book/p0.webp'
+                        : '/src/assets/image/book/p128.webp'
                 }
                 alt='not found'
             />
 
             <div className='home_quotes'>
-                {!isVulgare ? (
+                {!isSentence ? (
                     <blockquote className='sentence__quote'>
                         <span className='sentence__quote__text text__base'>
                             Не найдено.
@@ -33,7 +33,8 @@ function NotFound() {
                 ) : (
                     <blockquote className='sentence__quote '>
                         <pre className='sentence__quote__text text__base'>
-                            Хуйня случается.
+                            Ибо сказано: ● Любая дорога куда-нибудь, да
+                            приводит. Даже если никакой дороги там нет.
                         </pre>
                         <cite className='text__small'>...</cite>
                     </blockquote>
