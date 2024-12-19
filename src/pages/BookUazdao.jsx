@@ -1,6 +1,6 @@
 function BookUazdao() {
     return (
-        <div className='text-regular text-regular--article'>
+        <div className='book text-regular text-regular--article'>
             <h2>Павел Иевлев</h2>
 
             <h1>
