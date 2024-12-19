@@ -1,8 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
+import { UazdaoContext } from '../component/Context';
+
 function NotFound() {
     const [isSentence, setIsSentence] = useState(false);
+    const { setIsFooterShowCar = Function.prototype } =
+        useContext(UazdaoContext);
 
     useEffect(() => {
+        /* TO DO на этой странице слетает контекст и стает false, 
+        я его принужительно ставлю true,  но не понятно почему слетает */
+        setIsFooterShowCar(true);
         setTimeout(() => {
             setIsSentence(true);
             setTimeout(() => {

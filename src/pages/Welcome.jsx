@@ -4,7 +4,8 @@ import { useHistory } from 'react-router-dom';
 
 function Welcome() {
     const history = useHistory();
-    const { toggleIsFooterShowCar } = useContext(UazdaoContext);
+    const { toggleIsFooterShowCar = Function.prototype } =
+        useContext(UazdaoContext);
 
     useEffect(() => {
         setTimeout(() => {

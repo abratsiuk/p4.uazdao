@@ -12,6 +12,7 @@ export function Context(props) {
     const value = {
         isFooterShowCar,
         toggleIsFooterShowCar,
+        setIsFooterShowCar,
     };
 
     return (
