@@ -6,10 +6,6 @@ const sentenceNotFound = {
     imgPath: '/src/assets/image/book/p62.webp',
     text: 'Не найдено.',
 };
-const sentenceAnother = {
-    imgPath: '/src/assets/image/book/p128.webp',
-    text: 'Ибо сказано: ● Любая дорога куда-нибудь, да приводит. Даже если никакой дороги там нет.',
-};
 
 function NotFound() {
     const [sentence, setSentence] = useState(sentenceNotFound);
@@ -22,7 +18,10 @@ function NotFound() {
         setIsFooterShowCar(true);
 
         setTimeout(() => {
-            setSentence(sentenceAnother);
+            setSentence({
+                imgPath: '/src/assets/image/book/p128.webp',
+                text: 'Ибо сказано: ● Любая дорога куда-нибудь, да приводит. Даже если никакой дороги там нет.',
+            });
             setTimeout(() => {
                 setSentence(sentenceNotFound);
             }, 7000);
