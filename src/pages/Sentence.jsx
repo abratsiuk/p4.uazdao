@@ -19,10 +19,10 @@ function Sentence() {
             />
             <div className='home_quotes'>
                 <blockquote className='sentence__quote '>
-                    <span className='sentence__quote__text text__base text__base--article'>
+                    <span className='sentence__quote__text text-regular text-regular--article'>
                         {sentence.text}
                     </span>
-                    <cite className='text__small'>...</cite>
+                    <cite className='text-light'>...</cite>
                 </blockquote>
             </div>
         </div>

@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <footer className='footer text__base'>
+        <footer className='footer text-regular'>
             <div className='footer__copyring'>
                 <div className='footer__my'>© 2024 abratsiuk</div>
                 <div className='footer__ievlev'>

@@ -6,13 +6,13 @@ function Home() {
                 src='/src/assets/image/book/title.webp'
                 alt='book title'
             />
-            <div className='home_quotes text__header'>
+            <div className='home_quotes text-header'>
                 <blockquote className='home__quote'>
                     <span className='home__quote__text'>
                         Дао, которое может быть выражено словами, не есть
                         настоящее дао.
                     </span>
-                    <cite className='text__decorate'>Дао Дэ Цзин</cite>
+                    <cite className='text-decorate'>Дао Дэ Цзин</cite>
                 </blockquote>
 
                 <blockquote className='home__quote'>
@@ -20,7 +20,7 @@ function Home() {
                         Дело Мастера боится, потому что Мастер знает много
                         страшных слов.
                     </span>
-                    <cite className='text__decorate'>УАЗдао</cite>
+                    <cite className='text-decorate'>УАЗдао</cite>
                 </blockquote>
             </div>
         </div>

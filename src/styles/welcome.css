@@ -12,14 +12,12 @@
     grid-column: 2/3;
     grid-row: 2/3;
     border-radius: 40%;
-    /* border: 1px solid #DADDDD; */
-    /* background-color: #DADDDD;
-    background-repeat: no-repeat; */
 }
 
 .welcome__image--quickly {
     background: #DADDDD url('/src/assets/image/welcome_small_quickly.gif') no-repeat;
     background-position: center;
+
 }
 
 .welcome__image--gump {
@@ -31,7 +29,7 @@
     grid-column: 2/3;
     grid-row: 2/3;
     z-index: 10;
-    margin: 5px auto;
+    margin: 1px auto;
     font-size: 2.5rem;
     color: blue
 }

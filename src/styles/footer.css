@@ -8,3 +8,10 @@
     height: 5rem;
     padding: 0 1rem;
 }
+
+
+.footer__image--gump {
+    background: #DADDDD url('/src/assets/image/welcome_small_gump.gif') no-repeat;
+    background-position: center;
+    background-size: 50%;
+}

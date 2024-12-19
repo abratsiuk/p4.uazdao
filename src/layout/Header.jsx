@@ -16,7 +16,7 @@ function Header() {
                     <li>
                         <Link
                             to='/sentence'
-                            className='link text__action'
+                            className='link text-action'
                         >
                             изречение
                         </Link>
@@ -25,7 +25,7 @@ function Header() {
                         {' '}
                         <Link
                             to='/book'
-                            className='link text__action'
+                            className='link text-action'
                         >
                             книга
                         </Link>
@@ -34,7 +34,7 @@ function Header() {
                         {' '}
                         <Link
                             to='/author'
-                            className='link text__action'
+                            className='link text-action'
                         >
                             автор
                         </Link>
@@ -43,7 +43,7 @@ function Header() {
                         {' '}
                         <Link
                             to='/goodgrem'
-                            className='link text__action'
+                            className='link text-action'
                         >
                             добрый грём
                         </Link>
@@ -53,7 +53,7 @@ function Header() {
                         {' '}
                         <Link
                             to='/parts'
-                            className='link text__action'
+                            className='link text-action'
                         >
                             запчасти
                         </Link>

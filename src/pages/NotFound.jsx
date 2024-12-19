@@ -26,17 +26,17 @@ function NotFound() {
             <div className='home_quotes'>
                 {!isSentence ? (
                     <blockquote className='sentence__quote'>
-                        <span className='sentence__quote__text text__base'>
+                        <span className='sentence__quote__text text-regular'>
                             Не найдено.
                         </span>
                     </blockquote>
                 ) : (
                     <blockquote className='sentence__quote '>
-                        <pre className='sentence__quote__text text__base'>
+                        <pre className='sentence__quote__text text-regular'>
                             Ибо сказано: ● Любая дорога куда-нибудь, да
                             приводит. Даже если никакой дороги там нет.
                         </pre>
-                        <cite className='text__small'>...</cite>
+                        <cite className='text-light'>...</cite>
                     </blockquote>
                 )}
             </div>
