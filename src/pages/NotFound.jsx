@@ -1,8 +1,17 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { UazdaoContext } from '../component/Context';
 
+const sentenceNotFound = {
+    imgPath: '/src/assets/image/book/p62.webp',
+    text: 'Не найдено.',
+};
+const sentenceAnother = {
+    imgPath: '/src/assets/image/book/p128.webp',
+    text: 'Ибо сказано: ● Любая дорога куда-нибудь, да приводит. Даже если никакой дороги там нет.',
+};
+
 function NotFound() {
-    const [isSentence, setIsSentence] = useState(false);
+    const [sentence, setSentence] = useState(sentenceNotFound);
     const { setIsFooterShowCar = Function.prototype } =
         useContext(UazdaoContext);
 
@@ -10,10 +19,11 @@ function NotFound() {
         /* TO DO на этой странице слетает контекст и стает false, 
         я его принужительно ставлю true,  но не понятно почему слетает */
         setIsFooterShowCar(true);
+
         setTimeout(() => {
-            setIsSentence(true);
+            setSentence(sentenceAnother);
             setTimeout(() => {
-                setIsSentence(false);
+                setSentence(sentenceNotFound);
             }, 7000);
         }, 5000);
     }, []);
@@ -22,30 +32,16 @@ function NotFound() {
         <div className='sentence'>
             <img
                 className='sentence__image'
-                src={
-                    !isSentence
-                        ? '/src/assets/image/book/p62.webp'
-                        : '/src/assets/image/book/p128.webp'
-                }
-                alt='not found'
+                src={sentence.imgPath}
+                alt='sentence image'
             />
-
             <div className='home_quotes'>
-                {!isSentence ? (
-                    <blockquote className='sentence__quote'>
-                        <span className='sentence__quote__text text-regular'>
-                            Не найдено.
-                        </span>
-                    </blockquote>
-                ) : (
-                    <blockquote className='sentence__quote '>
-                        <pre className='sentence__quote__text text-regular'>
-                            Ибо сказано: ● Любая дорога куда-нибудь, да
-                            приводит. Даже если никакой дороги там нет.
-                        </pre>
-                        <cite className='text-light'>...</cite>
-                    </blockquote>
-                )}
+                <blockquote className='sentence__quote '>
+                    <span className='sentence__quote__text text-regular text-regular--article'>
+                        {sentence.text}
+                    </span>
+                    <cite className='text-light'>...</cite>
+                </blockquote>
             </div>
         </div>
     );
