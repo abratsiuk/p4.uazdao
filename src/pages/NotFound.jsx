@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { SentenceIten } from '../component/SentenceItem.jsx';
-// import { useContext } from 'react';
-// import { UazdaoContext } from '../component/Context';
+import { useContext } from 'react';
+import { UazdaoContext } from '../component/Context';
 
 const sentenceNotFound = {
     imgPath: '/src/assets/image/book/p62.webp',
