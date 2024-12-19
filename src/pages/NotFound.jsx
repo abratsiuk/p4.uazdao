@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { UazdaoContext } from '../component/Context';
+import { SentenceIten } from '../component/SentenceItem.jsx';
 
 const sentenceNotFound = {
     imgPath: '/src/assets/image/book/p62.webp',
@@ -29,21 +30,10 @@ function NotFound() {
     }, []);
 
     return (
-        <div className='sentence'>
-            <img
-                className='sentence__image'
-                src={sentence.imgPath}
-                alt='sentence image'
-            />
-            <div className='home_quotes'>
-                <blockquote className='sentence__quote '>
-                    <span className='sentence__quote__text text-regular text-regular--article'>
-                        {sentence.text}
-                    </span>
-                    <cite className='text-light'>...</cite>
-                </blockquote>
-            </div>
-        </div>
+        <SentenceIten
+            imgPath={sentence.imgPath}
+            text={sentence.text}
+        />
     );
 }
 export { NotFound };

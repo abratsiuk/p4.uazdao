@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { SentenceIten } from '../component/SentenceItem.jsx';
 import { getNextSentence } from '../services/api.js';
 
 function Sentence() {
@@ -11,21 +12,10 @@ function Sentence() {
     }, [location]);
 
     return (
-        <div className='sentence'>
-            <img
-                className='sentence__image'
-                src={sentence.imgPath}
-                alt='book title'
-            />
-            <div className='home_quotes'>
-                <blockquote className='sentence__quote '>
-                    <span className='sentence__quote__text text-regular text-regular--article'>
-                        {sentence.text}
-                    </span>
-                    <cite className='text-light'>...</cite>
-                </blockquote>
-            </div>
-        </div>
+        <SentenceIten
+            imgPath={sentence.imgPath}
+            text={sentence.text}
+        />
     );
 }
 export { Sentence };
