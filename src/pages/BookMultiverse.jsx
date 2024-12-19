@@ -1,6 +1,6 @@
 function BookMultiverse() {
     return (
-        <div>
+        <div className='text-regular text-regular--article'>
             <img
                 src='/src/assets/image/bookmultiverse/title.jpg'
                 alt=''

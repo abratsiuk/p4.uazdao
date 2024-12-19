@@ -1,6 +1,6 @@
 function BookMizantrop() {
     return (
-        <div>
+        <div className='text-regular text-regular--article'>
             <h2>Павел Иевлев</h2>
             <h1>
                 <a
