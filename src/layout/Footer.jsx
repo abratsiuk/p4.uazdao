@@ -1,7 +1,8 @@
 function Footer() {
     return (
         <footer className='footer text-regular'>
-            <div className='footer__copyring'>
+            {/* <div className='footer__image--gump'></div> */}
+            <div className='footer__copyringht footer__image--gump'>
                 <div className='footer__my'>© 2024 abratsiuk</div>
                 <div className='footer__ievlev'>
                     <span style={{ marginRight: '0.5rem' }}>
