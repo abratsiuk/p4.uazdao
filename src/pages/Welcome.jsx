@@ -4,15 +4,17 @@ import { useHistory } from 'react-router-dom';
 
 function Welcome() {
     const history = useHistory();
-    const { toggleIsFooterShowCar = Function.prototype } =
+    const { setIsFooterShowCar = Function.prototype } =
         useContext(UazdaoContext);
 
     useEffect(() => {
+        setIsFooterShowCar(false);
         setTimeout(() => {
             history.push('/home');
-            toggleIsFooterShowCar();
+            setIsFooterShowCar(true);
         }, 5000);
     }, []);
+
     return (
         <div className='welcome'>
             <div className='welcome__text great-vibes-regular'>Уаздао</div>

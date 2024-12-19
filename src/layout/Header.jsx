@@ -5,7 +5,7 @@ function Header() {
         <header className='header text-base'>
             <div className='header__text  great-vibes-regular '>
                 <Link
-                    to='/home'
+                    to='/'
                     className='link'
                 >
                     Уаздао

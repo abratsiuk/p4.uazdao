@@ -1,6 +1,7 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { UazdaoContext } from '../component/Context';
+import React, { useState, useEffect } from 'react';
 import { SentenceIten } from '../component/SentenceItem.jsx';
+// import { useContext } from 'react';
+// import { UazdaoContext } from '../component/Context';
 
 const sentenceNotFound = {
     imgPath: '/src/assets/image/book/p62.webp',
@@ -9,13 +10,12 @@ const sentenceNotFound = {
 
 function NotFound() {
     const [sentence, setSentence] = useState(sentenceNotFound);
-    const { setIsFooterShowCar = Function.prototype } =
-        useContext(UazdaoContext);
+    // const { setIsFooterShowCar = Function.prototype } =
+    //     useContext(UazdaoContext);
 
     useEffect(() => {
-        /* TO DO на этой странице слетает контекст и стает false, 
-        я его принужительно ставлю true,  но не понятно почему слетает */
-        setIsFooterShowCar(true);
+        // // NotFound imitate as write unknown page => writing any page reload site => context re-mounting
+        // setIsFooterShowCar(true);
 
         setTimeout(() => {
             setSentence({

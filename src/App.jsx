@@ -25,6 +25,11 @@ function App() {
                             component={Welcome}
                         />
                         <Route
+                            exact
+                            path='/welcome'
+                            component={Welcome}
+                        />
+                        <Route
                             path='/home'
                             component={Home}
                         />

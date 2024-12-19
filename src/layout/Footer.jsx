@@ -1,8 +1,20 @@
 import { useContext } from 'react';
 import { UazdaoContext } from '../component/Context';
+import { useRouteMatch, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 function Footer() {
     const { isFooterShowCar = false } = useContext(UazdaoContext);
+    const location = useLocation();
+    const math = useRouteMatch(location.pathname);
+
+    useEffect(() => {
+        console.log('Footer location', location);
+    }, [location]);
+
+    useEffect(() => {
+        console.log('Footer math', math);
+    }, [math]);
 
     return (
         <footer className='footer text-regular'>
@@ -18,7 +30,10 @@ function Footer() {
                     <span style={{ marginRight: '0.5rem' }}>
                         © 2021 Павел Иевлев
                     </span>
-                    <a href='https://www.rulit.me/books/uazdao-ili-dao-vyrazhennoe-rukami-read-445410-1.html'>
+                    <a
+                        href='https://www.rulit.me/books/uazdao-ili-dao-vyrazhennoe-rukami-read-445410-1.html'
+                        target='_blank'
+                    >
                         Уаздао или Дао, выраженное руками
                     </a>
                 </div>
