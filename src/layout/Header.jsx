@@ -31,12 +31,27 @@ function Header() {
                         </Link>
                     </li>
                     <li>
-                        {' '}
                         <Link
-                            to='/book'
+                            to='/book-uazdao'
                             className='link text-action'
                         >
-                            книга
+                            версия 1
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to='/book-multiverse'
+                            className='link text-action'
+                        >
+                            версия 2
+                        </Link>
+                    </li>{' '}
+                    <li>
+                        <Link
+                            to='/book-mizantrop'
+                            className='link text-action'
+                        >
+                            версия 3
                         </Link>
                     </li>
                     {/* <li>

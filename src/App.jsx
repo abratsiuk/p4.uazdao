@@ -7,9 +7,9 @@ import { Sentence } from './pages/Sentence';
 import './App.css';
 import { NotFound } from './pages/NotFound';
 import { Author } from './pages/Author';
-import { Book } from './pages/Book';
-import { GoodGrem } from './pages/GoodGrem';
-import { Parts } from './pages/Parts';
+import { BookMizantrop } from './pages/BookMizantrop';
+import { BookMultiverse } from './pages/BookMultiverse';
+import { BookUazdao } from './pages/BookUazdao';
 import { Context } from './component/Context';
 
 function App() {
@@ -42,16 +42,16 @@ function App() {
                             component={Author}
                         />
                         <Route
-                            path='/book'
-                            component={Book}
+                            path='/book-uazdao'
+                            component={BookUazdao}
                         />
                         <Route
-                            path='/goodgrem'
-                            component={GoodGrem}
+                            path='/book-multiverse'
+                            component={BookMultiverse}
                         />
                         <Route
-                            path='/parts'
-                            component={Parts}
+                            path='/book-mizantrop'
+                            component={BookMizantrop}
                         />
                         <Route component={NotFound} />
                     </Switch>
