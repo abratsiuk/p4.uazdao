@@ -2,7 +2,10 @@ import { Link } from 'react-router-dom';
 
 function Header() {
     return (
-        <header className='header text-base'>
+        <header
+            id='header'
+            className='header text-base'
+        >
             <div className='header__text  great-vibes-regular '>
                 <Link
                     to='/'

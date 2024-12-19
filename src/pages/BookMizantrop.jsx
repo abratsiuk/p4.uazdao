@@ -745,6 +745,8 @@ function BookMizantrop() {
                 а геморрой начнется сразу.
             </p>
             <p>Это УАЗдао!</p>
+            <br />
+            <a href='#header'>Вверх</a>
         </div>
     );
 }
