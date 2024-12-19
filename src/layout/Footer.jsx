@@ -1,20 +1,8 @@
 import { useContext } from 'react';
 import { UazdaoContext } from '../component/Context';
-import { useRouteMatch, useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
 
 function Footer() {
     const { isFooterShowCar = false } = useContext(UazdaoContext);
-    const location = useLocation();
-    const math = useRouteMatch(location.pathname);
-
-    useEffect(() => {
-        console.log('Footer location', location);
-    }, [location]);
-
-    useEffect(() => {
-        console.log('Footer math', math);
-    }, [math]);
 
     return (
         <footer className='footer text-regular'>
