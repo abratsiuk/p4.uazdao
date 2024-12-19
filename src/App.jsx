@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Header } from './layout/Header';
 import { Footer } from './layout/Footer';
+import { Main } from './layout/Main';
 import { Welcome } from './pages/Welcome';
 import { Home } from './pages/Home';
 import { Sentence } from './pages/Sentence';
@@ -17,7 +18,7 @@ function App() {
         <Context>
             <Router>
                 <Header />
-                <main className='main'>
+                <Main>
                     <Switch>
                         <Route
                             exact
@@ -55,7 +56,7 @@ function App() {
                         />
                         <Route component={NotFound} />
                     </Switch>
-                </main>
+                </Main>
                 <Footer />
             </Router>
         </Context>

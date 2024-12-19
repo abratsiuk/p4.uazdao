@@ -14,13 +14,6 @@ export function Context(props) {
         setIsFooterShowCar,
     };
 
-    useEffect(() => {
-        console.log(
-            'Context mounted or updated. Current state:',
-            isFooterShowCar
-        );
-    }, [isFooterShowCar]);
-
     return (
         <UazdaoContext.Provider value={value}>
             {props.children}

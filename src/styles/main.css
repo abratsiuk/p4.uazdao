@@ -2,3 +2,8 @@
     height: calc(100vh - 7rem - 5rem);
     background-color: #DADDDD;
 }
+
+.main--min-height {
+    min-height: calc(100vh - 7rem - 5rem);
+    background-color: #DADDDD;
+}
