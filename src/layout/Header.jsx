@@ -24,22 +24,22 @@ function Header() {
                     <li>
                         {' '}
                         <Link
+                            to='/author'
+                            className='link text-action'
+                        >
+                            Павел Иевлев
+                        </Link>
+                    </li>
+                    <li>
+                        {' '}
+                        <Link
                             to='/book'
                             className='link text-action'
                         >
                             книга
                         </Link>
                     </li>
-                    <li>
-                        {' '}
-                        <Link
-                            to='/author'
-                            className='link text-action'
-                        >
-                            автор
-                        </Link>
-                    </li>
-                    <li>
+                    {/* <li>
                         {' '}
                         <Link
                             to='/goodgrem'
@@ -57,7 +57,7 @@ function Header() {
                         >
                             запчасти
                         </Link>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
         </header>
