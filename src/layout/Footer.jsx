@@ -1,8 +1,18 @@
+import { useContext } from 'react';
+import { UazdaoContext } from '../component/Context';
+
 function Footer() {
+    const { isFooterShowCar = false } = useContext(UazdaoContext);
+
     return (
         <footer className='footer text-regular'>
-            {/* <div className='footer__image--gump'></div> */}
-            <div className='footer__copyringht footer__image--gump'>
+            <div
+                className={
+                    isFooterShowCar
+                        ? 'footer__copyringht footer__image--gump'
+                        : 'footer__copyringht'
+                }
+            >
                 <div className='footer__my'>© 2024 abratsiuk</div>
                 <div className='footer__ievlev'>
                     <span style={{ marginRight: '0.5rem' }}>
