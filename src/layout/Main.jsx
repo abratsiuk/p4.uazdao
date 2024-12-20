@@ -4,7 +4,6 @@ function Main({ children }) {
     const location = useLocation();
     const [className, setClassName] = useState('main');
 
-    console.log(location);
     useEffect(() => {
         if (location.pathname.indexOf('/book') !== -1) {
             setClassName('main--min-height');

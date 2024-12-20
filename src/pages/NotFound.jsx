@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { SentenceIten } from '../component/SentenceItem.jsx';
+import { SentenceItem } from '../component/SentenceItem.jsx';
 import { useContext } from 'react';
 import { UazdaoContext } from '../component/Context';
 
@@ -29,7 +29,7 @@ function NotFound() {
     }, []);
 
     return (
-        <SentenceIten
+        <SentenceItem
             imgPath={sentence.imgPath}
             text={sentence.text}
         />

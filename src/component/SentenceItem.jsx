@@ -1,12 +1,15 @@
-function SentenceIten({ imgPath, text }) {
+function SentenceItem({ imgPath, text }) {
     return (
         <div className='sentence'>
-            <img
-                className='sentence__image'
-                src={imgPath}
-                alt='sentence image'
-            />
-            <div className='home_quotes'>
+            <div className='sentence__images'>
+                <img
+                    className='sentence__image'
+                    src={imgPath}
+                    alt='sentence image'
+                />
+            </div>
+
+            <div className='sentence_quotes'>
                 <blockquote className='sentence__quote '>
                     <span className='sentence__quote__text text-regular text-regular--article'>
                         {text}
@@ -18,4 +21,4 @@ function SentenceIten({ imgPath, text }) {
     );
 }
 
-export { SentenceIten };
+export { SentenceItem };

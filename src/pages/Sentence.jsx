@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { SentenceIten } from '../component/SentenceItem.jsx';
+import { SentenceItem } from '../component/SentenceItem.jsx';
 import { getNextSentence } from '../services/api.js';
 
 function Sentence() {
@@ -12,7 +12,7 @@ function Sentence() {
     }, [location]);
 
     return (
-        <SentenceIten
+        <SentenceItem
             imgPath={sentence.imgPath}
             text={sentence.text}
         />
