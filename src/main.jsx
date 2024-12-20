@@ -13,6 +13,7 @@ import './styles/author.css';
 import './styles/book.css';
 import './styles/goodgrem.css';
 import './styles/parts.css';
+import './styles/arrow.css';
 
 import App from './App.jsx';
 
