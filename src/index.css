@@ -1,4 +1,7 @@
-body {
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
     margin: 0;
 }
 
@@ -6,10 +9,25 @@ html {
     font-size: 10px;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+body {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Merriweather", serif;
+    font-weight: bold;
 }
 
 .link {

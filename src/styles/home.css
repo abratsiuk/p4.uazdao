@@ -1,14 +1,15 @@
 .home {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     overflow: hidden;
 }
 
 .home__image {
     display: block;
-    max-width: 50%;
+    max-width: 40%;
     object-fit: contain;
     object-position: center;
     padding-left: 1rem;
@@ -20,6 +21,7 @@
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
+    max-width: 40%;
 }
 
 .home__quote {
