@@ -378,3 +378,9 @@ compressed jpeg 2.21 MB
 converted webp 2.22 Mb
 compressed webp 1.51 Mb
 ========================================================================
+
+refactoring CSS:
+Михаил Непомнящий: CSS-модули, SASS/SCSS и сброс стилей в React-приложении
+https://www.youtube.com/watch?v=oYnyQ47BUSo&t=705s&ab_channel=%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB%D0%9D%D0%B5%D0%BF%D0%BE%D0%BC%D0%BD%D1%8F%D1%89%D0%B8%D0%B9
+
+========================================================================

@@ -38,23 +38,6 @@ h2 {
     font-size: 2rem;
 }
 
-.link {
-    font-family: "Merriweather", serif;
-    font-size: 1.8rem;
-    text-decoration: none;
-    color: #2626bf;
-}
-
-.link-active {
-    font-weight: 700;
-    color: #1f1f81;
-}
-
-.link:hover {
-    color: #1f1f81;
-    text-shadow: 1px 0px 0px #1f1f81;
-}
-
 
 /*https://fonts.google.com/::after
 
