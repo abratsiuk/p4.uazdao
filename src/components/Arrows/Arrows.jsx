@@ -1,4 +1,5 @@
 import { AbstractArrow } from './AbstractArrow';
+import './Arrows.css';
 
 export const ArrowLeft = ({
     children,

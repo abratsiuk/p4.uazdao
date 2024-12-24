@@ -1,3 +1,5 @@
+import './home.css';
+
 export const Home = () => {
     return (
         <div className='home'>
@@ -6,7 +8,7 @@ export const Home = () => {
                 src='/src/assets/image/book/title.webp'
                 alt='book title'
             />
-            <div className='home_quotes text-header'>
+            <h1 className='home_quotes'>
                 <blockquote className='home__quote'>
                     <span className='home__quote__text'>
                         Дао, которое может быть выражено словами, не есть
@@ -22,7 +24,7 @@ export const Home = () => {
                     </span>
                     <cite className='text-decorate'>УАЗдао</cite>
                 </blockquote>
-            </div>
+            </h1>
         </div>
     );
 };

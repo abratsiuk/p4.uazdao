@@ -1,6 +1,6 @@
 export const BookMizantrop = () => {
     return (
-        <div className='book text-regular text-regular--article'>
+        <div className='book'>
             <h2>Павел Иевлев</h2>
             <h1>
                 <a

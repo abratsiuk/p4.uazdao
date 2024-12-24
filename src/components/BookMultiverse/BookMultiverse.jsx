@@ -1,6 +1,6 @@
 export const BookMultiverse = () => {
     return (
-        <div className='book text-regular text-regular--article'>
+        <div className='book'>
             <img
                 src='/src/assets/image/bookmultiverse/title.jpg'
                 alt=''

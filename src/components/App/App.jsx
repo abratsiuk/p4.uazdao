@@ -2,16 +2,16 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Header } from '../../layout/Header';
 import { Footer } from '../../layout/Footer';
 import { Main } from '../../layout/Main';
-import { Welcome } from '../../pages/Welcome';
-import { Home } from '../../pages/Home';
-import { Sentence } from '../../pages/Sentence';
-import './App.css';
-import { NotFound } from '../../pages/NotFound';
-import { Author } from '../../pages/Author';
-import { BookMizantrop } from '../../pages/BookMizantrop';
-import { BookMultiverse } from '../../pages/BookMultiverse';
-import { BookUazdao } from '../../pages/BookUazdao';
+import { Welcome } from '../Welcome';
+import { Home } from '../Home';
+import { Sentence } from '../Sentence';
+import { NotFound } from '../NotFound';
+import { Author } from '../Author';
+import { BookMizantrop } from '../BookMizantrop';
+import { BookMultiverse } from '../BookMultiverse';
+import { BookUazdao } from '../BookUazdao';
 import { Context } from '../Context';
+import './App.css';
 
 export const App = () => {
     return (

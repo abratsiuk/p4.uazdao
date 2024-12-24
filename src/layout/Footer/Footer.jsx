@@ -1,11 +1,12 @@
 import { useContext } from 'react';
-import { UazdaoContext } from '../components/Context/Context';
+import { UazdaoContext } from '../../components/Context';
+import './footer.css';
 
-function Footer() {
+export const Footer = () => {
     const { isFooterShowCar = false } = useContext(UazdaoContext);
 
     return (
-        <footer className='footer text-regular'>
+        <footer className='footer'>
             <div
                 className={
                     isFooterShowCar
@@ -37,6 +38,4 @@ function Footer() {
             </div>
         </footer>
     );
-}
-
-export { Footer };
+};

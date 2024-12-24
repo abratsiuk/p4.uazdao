@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom/cjs/react-router-dom.min';
-function Main({ children }) {
+import './main.css';
+
+export const Main = ({ children }) => {
     const location = useLocation();
     const [className, setClassName] = useState('main');
 
@@ -13,5 +15,4 @@ function Main({ children }) {
     }, [location]);
 
     return <main className={className}>{children}</main>;
-}
-export { Main };
+};

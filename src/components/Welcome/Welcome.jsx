@@ -1,6 +1,7 @@
 import { useEffect, useContext } from 'react';
-import { UazdaoContext } from '../../components/Context/Context';
+import { UazdaoContext } from '../Context/Context';
 import { useHistory } from 'react-router-dom';
+import './welcome.css';
 
 export const Welcome = () => {
     const history = useHistory();

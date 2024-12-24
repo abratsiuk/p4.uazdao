@@ -1,6 +1,7 @@
 import { Link, NavLink } from 'react-router-dom';
+import './header.css';
 
-function Header() {
+export const Header = () => {
     return (
         <header
             id='header'
@@ -77,6 +78,4 @@ function Header() {
             </ul>
         </header>
     );
-}
-
-export { Header };
+};

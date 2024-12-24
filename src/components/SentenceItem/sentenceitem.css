@@ -9,7 +9,7 @@
     max-height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
 }
 
 .sentence__quote blockquote {
