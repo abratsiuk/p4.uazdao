@@ -5,7 +5,7 @@ import {
     getRandomSentence,
     getPreviousSentence,
     getNextSentence,
-} from '../services/api';
+} from '../services';
 
 function Sentence() {
     let location = useLocation();

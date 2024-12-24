@@ -11,9 +11,6 @@ import './styles/home.css';
 import './styles/sentence.css';
 import './styles/author.css';
 import './styles/book.css';
-import './styles/goodgrem.css';
-import './styles/parts.css';
-import './styles/arrow.css';
 
 import App from './components/App';
 
