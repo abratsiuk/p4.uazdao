@@ -1,5 +1,5 @@
-import { AbstractArrow } from './AbstractArrow';
-import './Arrows.css';
+import { ArrowAbstract } from '../ArrowAbstract';
+import './ArrowLeft.css';
 
 export const ArrowLeft = ({
     children,
@@ -7,12 +7,12 @@ export const ArrowLeft = ({
     onClick = Function.prototype,
 }) => {
     return (
-        <AbstractArrow
+        <ArrowAbstract
             className={className}
             direction='left'
             onClick={onClick}
         >
             {children}
-        </AbstractArrow>
+        </ArrowAbstract>
     );
 };

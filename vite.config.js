@@ -7,4 +7,14 @@ export default defineConfig({
     server: {
         historyApiFallback: true, // Включает поддержку маршрутов React
     },
+    css: {
+        preprocessorOptions: {
+            scss: {
+                api: 'modern-compiler',
+                importers: [
+                    // ...
+                ],
+            },
+        },
+    },
 });

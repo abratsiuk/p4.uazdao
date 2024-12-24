@@ -1,4 +1,5 @@
-import { ArrowLeft, ArrowRight } from '../Arrows/ArrowRight';
+import { ArrowLeft } from '../ArrowLeft';
+import { ArrowRight } from '../ArrowRight';
 import './SentenceItem.css';
 
 function SentenceItem({

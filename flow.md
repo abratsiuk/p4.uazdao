@@ -25,6 +25,8 @@ use command "…or create a new repository on the command line" from github
 ```
 yarn add react-router-dom@5.2.0
 yarn add stylelint
+yarn add sass --dev
+
 ```
 ### 4. no install
 
@@ -384,3 +386,22 @@ refactoring CSS:
 https://www.youtube.com/watch?v=oYnyQ47BUSo&t=705s&ab_channel=%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB%D0%9D%D0%B5%D0%BF%D0%BE%D0%BC%D0%BD%D1%8F%D1%89%D0%B8%D0%B9
 
 ========================================================================
+
+add scss:
+
+```
+https://vite.dev/guide/features.html#css-pre-processors
+
+CSS Pre-processors
+Because Vite targets modern browsers only, it is recommended to use native CSS variables with PostCSS plugins that implement CSSWG drafts (e.g. postcss-nesting) and author plain, future-standards-compliant CSS.
+
+That said, Vite does provide built-in support for .scss, .sass, .less, .styl and .stylus files. There is no need to install Vite-specific plugins for them, but the corresponding pre-processor itself must be installed:
+...
+
+You can also use CSS modules combined with pre-processors by prepending .module to the file extension, for example style.module.scss.
+
+```
+и выполнил команду:
+```
+yarn add sass --dev
+```
