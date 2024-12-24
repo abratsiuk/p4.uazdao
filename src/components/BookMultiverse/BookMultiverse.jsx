@@ -1,8 +1,8 @@
-import './BookMultiverse.css';
+import styles from './BookMultiverse.module.css';
 
 export const BookMultiverse = () => {
     return (
-        <div className='book'>
+        <div className={styles.book}>
             <img
                 src='/src/assets/image/bookmultiverse/title.jpg'
                 alt=''

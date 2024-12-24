@@ -1,14 +1,14 @@
-import './Author.css';
+import styles from './Author.module.css';
 
 export const Author = () => {
     return (
-        <div className='author'>
+        <div className={styles.author}>
             <img
-                className='author__avatar'
+                className={styles.author__avatar}
                 src='/src/assets/image/ievlev/avatar.webp'
                 alt=''
             />
-            <div className='author_cart'>
+            <div className={styles.author_cart}>
                 <h1>
                     <a
                         href='https://author.today/u/semiurg/works'

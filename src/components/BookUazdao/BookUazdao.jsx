@@ -1,8 +1,8 @@
-import './BookUazdao.css';
+import styles from './BookUazdao.module.css';
 
 export const BookUazdao = () => {
     return (
-        <div className='book'>
+        <div className={styles.book}>
             <h2>Павел Иевлев</h2>
 
             <h1>

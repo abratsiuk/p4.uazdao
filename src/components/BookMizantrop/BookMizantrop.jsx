@@ -1,8 +1,8 @@
-import './BookMizantrop.css';
+import styles from './BookMizantrop.module.css';
 
 export const BookMizantrop = () => {
     return (
-        <div className='book'>
+        <div className={styles.book}>
             <h2>Павел Иевлев</h2>
             <h1>
                 <a

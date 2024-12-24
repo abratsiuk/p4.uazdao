@@ -1,1 +1,2 @@
-export { ArrowLeft, ArrowRight } from './Arrows';
+export { ArrowLeft } from './ArrowLeft';
+export { ArrowRight } from './ArrowRight';
