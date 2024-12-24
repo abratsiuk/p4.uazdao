@@ -1,3 +1,5 @@
+import './BookMizantrop.css';
+
 export const BookMizantrop = () => {
     return (
         <div className='book'>

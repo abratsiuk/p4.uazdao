@@ -55,14 +55,7 @@ h2 {
     text-shadow: 1px 0px 0px #1f1f81;
 }
 
-.book {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    max-width: 60rem;
-    margin: 0 auto;
-}
+
 
 
 /*https://fonts.google.com/::after

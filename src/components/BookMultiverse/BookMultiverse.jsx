@@ -1,3 +1,5 @@
+import './BookMultiverse.css';
+
 export const BookMultiverse = () => {
     return (
         <div className='book'>

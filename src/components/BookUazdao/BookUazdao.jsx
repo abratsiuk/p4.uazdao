@@ -1,3 +1,5 @@
+import './BookUazdao.css';
+
 export const BookUazdao = () => {
     return (
         <div className='book'>
