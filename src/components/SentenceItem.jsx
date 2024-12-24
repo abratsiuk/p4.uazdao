@@ -22,10 +22,7 @@ function SentenceItem({
                 onClick={() => onPrevious()}
             >
                 <blockquote>
-                    <span className='text-regular text-regular--article'>
-                        {text}
-                    </span>
-                    <cite className='text-light'>...</cite>
+                    <span className=''>{text}</span>
                 </blockquote>
             </ArrowRight>
         </div>
