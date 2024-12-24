@@ -11,7 +11,7 @@ import { BookMizantrop } from '../BookMizantrop';
 import { BookMultiverse } from '../BookMultiverse';
 import { BookUazdao } from '../BookUazdao';
 import { Context } from '../Context';
-import './App.css';
+import './App.scss';
 
 export const App = () => {
     return (

@@ -1,4 +1,4 @@
-import styles from './Author.module.css';
+import styles from './Author.module.scss';
 
 export const Author = () => {
     return (

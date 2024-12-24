@@ -1,6 +1,6 @@
 import { ArrowLeft } from '../ArrowLeft';
 import { ArrowRight } from '../ArrowRight';
-import './SentenceItem.css';
+import './SentenceItem.scss';
 
 function SentenceItem({
     imgPath,

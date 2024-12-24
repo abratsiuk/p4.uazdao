@@ -1,4 +1,4 @@
-import styles from './BookMizantrop.module.css';
+import styles from './BookMizantrop.module.scss';
 
 export const BookMizantrop = () => {
     return (

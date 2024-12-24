@@ -1,4 +1,4 @@
-import styles from './BookMultiverse.module.css';
+import styles from './BookMultiverse.module.scss';
 
 export const BookMultiverse = () => {
     return (

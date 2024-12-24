@@ -1,5 +1,5 @@
 import { ArrowAbstract } from '../ArrowAbstract';
-import './ArrowRight.css';
+import './ArrowRight.scss';
 
 export const ArrowRight = ({
     children,

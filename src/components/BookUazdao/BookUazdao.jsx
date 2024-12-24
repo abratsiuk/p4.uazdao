@@ -1,4 +1,4 @@
-import styles from './BookUazdao.module.css';
+import styles from './BookUazdao.module.scss';
 
 export const BookUazdao = () => {
     return (

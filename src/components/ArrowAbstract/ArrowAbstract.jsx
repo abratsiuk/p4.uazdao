@@ -1,6 +1,6 @@
 import React from 'react';
 import { isPointInRectangle } from '../../services';
-import './ArrowAbstract.css';
+import './ArrowAbstract.scss';
 
 export const ArrowAbstract = ({
     children,

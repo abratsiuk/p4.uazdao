@@ -6,7 +6,7 @@ import {
     getPreviousSentence,
     getNextSentence,
 } from '../../services';
-import './sentence.css';
+import './Sentence.scss';
 
 export const Sentence = () => {
     let location = useLocation();
