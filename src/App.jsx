@@ -11,7 +11,7 @@ import { Author } from './pages/Author';
 import { BookMizantrop } from './pages/BookMizantrop';
 import { BookMultiverse } from './pages/BookMultiverse';
 import { BookUazdao } from './pages/BookUazdao';
-import { Context } from './component/Context';
+import { Context } from './components/Context';
 
 function App() {
     return (

@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { UazdaoContext } from '../component/Context';
+import { UazdaoContext } from '../components/Context';
 
 function Footer() {
     const { isFooterShowCar = false } = useContext(UazdaoContext);

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { SentenceItem } from '../component/SentenceItem.jsx';
+import { SentenceItem } from '../components/SentenceItem.jsx';
 import {
     getRandomSentence,
     getPreviousSentence,

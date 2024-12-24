@@ -50,7 +50,7 @@ Remove-Item — команда для удаления файлов и папо�
  Remove-Item -Recurse -Force ./src/assets/*
 New-Item -ItemType Directory -Name "./src/assets/image"
 New-Item -ItemType Directory -Name "./src/component"        
-New-Item -ItemType Directory -Name "./src/component/utils"                                             
+New-Item -ItemType Directory -Name "./src/components/utils"                                             
 New-Item -ItemType Directory -Name "./src/layout"
 New-Item -ItemType Directory -Name "./src/pages" 
 New-Item -ItemType Directory -Name "./src/services"
@@ -212,7 +212,7 @@ Remove-Item — команда для удаления файлов и папо�
  Remove-Item -Recurse -Force ./src/assets/*
 New-Item -ItemType Directory -Name "./src/assets/image"
 New-Item -ItemType Directory -Name "./src/component"        
-New-Item -ItemType Directory -Name "./src/component/utils"                                             
+New-Item -ItemType Directory -Name "./src/components/utils"                                             
 New-Item -ItemType Directory -Name "./src/layout"
 New-Item -ItemType Directory -Name "./src/pages" 
 New-Item -ItemType Directory -Name "./src/services"

@@ -1,5 +1,5 @@
 import { useEffect, useContext } from 'react';
-import { UazdaoContext } from '../component/Context';
+import { UazdaoContext } from '../components/Context';
 import { useHistory } from 'react-router-dom';
 
 function Welcome() {
