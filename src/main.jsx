@@ -15,7 +15,7 @@ import './styles/goodgrem.css';
 import './styles/parts.css';
 import './styles/arrow.css';
 
-import App from './App.jsx';
+import App from './components/App';
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>

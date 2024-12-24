@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { SentenceItem } from '../components/SentenceItem.jsx';
+import { SentenceItem } from '../components/SentenceItem';
 import {
     getRandomSentence,
     getPreviousSentence,
     getNextSentence,
-} from '../services/api.js';
+} from '../services/api';
 
 function Sentence() {
     let location = useLocation();

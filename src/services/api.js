@@ -1,4 +1,4 @@
-import { sentences } from './sentences.js';
+import { sentences } from './sentences';
 
 export const getPreviousSentence = (id = 0) => {
     return getSentenceById(id - 1);

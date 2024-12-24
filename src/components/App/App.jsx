@@ -1,17 +1,17 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { Header } from './layout/Header';
-import { Footer } from './layout/Footer';
-import { Main } from './layout/Main';
-import { Welcome } from './pages/Welcome';
-import { Home } from './pages/Home';
-import { Sentence } from './pages/Sentence';
+import { Header } from '../../layout/Header';
+import { Footer } from '../../layout/Footer';
+import { Main } from '../../layout/Main';
+import { Welcome } from '../../pages/Welcome';
+import { Home } from '../../pages/Home';
+import { Sentence } from '../../pages/Sentence';
 import './App.css';
-import { NotFound } from './pages/NotFound';
-import { Author } from './pages/Author';
-import { BookMizantrop } from './pages/BookMizantrop';
-import { BookMultiverse } from './pages/BookMultiverse';
-import { BookUazdao } from './pages/BookUazdao';
-import { Context } from './components/Context';
+import { NotFound } from '../../pages/NotFound';
+import { Author } from '../../pages/Author';
+import { BookMizantrop } from '../../pages/BookMizantrop';
+import { BookMultiverse } from '../../pages/BookMultiverse';
+import { BookUazdao } from '../../pages/BookUazdao';
+import { Context } from '../Context';
 
 function App() {
     return (

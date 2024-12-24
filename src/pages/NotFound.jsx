@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { SentenceItem } from '../components/SentenceItem.jsx';
+import { SentenceItem } from '../components/SentenceItem';
 
 const sentenceNotFound = {
     id: 0,

@@ -1,5 +1,5 @@
 import React from 'react';
-import { isPointInRectangle } from '../services/geometry';
+import { isPointInRectangle } from '../../services/geometry';
 
 function AbstractArrow({
     children,

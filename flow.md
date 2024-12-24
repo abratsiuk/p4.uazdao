@@ -59,16 +59,16 @@ New-Item -ItemType Directory -Name "./src/services"
 clear file manually:
 .\src\App.css
 .\src\index.css
-.\src\App.jsx
+.\src\App
 
 add:
 .\src\flow.md
 .\src\services\api.js
 config.js
-.\src\component\Preloader.jsx
-.\src\component\Search.jsx
-.\src\layout\Footer.jsx
-.\src\layout\Header.jsx
+.\src\component\Preloader
+.\src\component\Search
+.\src\layout\Footer
+.\src\layout\Header
 */
 
 /* paste:
@@ -221,16 +221,16 @@ New-Item -ItemType Directory -Name "./src/services"
 clear file manually:
 .\src\App.css
 .\src\index.css
-.\src\App.jsx
+.\src\App
 
 add:
 .\src\flow.md
 .\src\services\api.js
 config.js
-.\src\component\Preloader.jsx
-.\src\component\Search.jsx
-.\src\layout\Footer.jsx
-.\src\layout\Header.jsx
+.\src\component\Preloader
+.\src\component\Search
+.\src\layout\Footer
+.\src\layout\Header
 */
 
 /* paste:

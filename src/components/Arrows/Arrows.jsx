@@ -1,4 +1,4 @@
-import { AbstractArrow } from './AbstractArrow.jsx';
+import { AbstractArrow } from './AbstractArrow';
 
 function ArrowLeft({ children, className, onClick = Function.prototype }) {
     return (
