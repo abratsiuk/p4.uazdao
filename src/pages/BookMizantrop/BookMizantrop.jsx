@@ -1,4 +1,4 @@
-function BookMizantrop() {
+export const BookMizantrop = () => {
     return (
         <div className='book text-regular text-regular--article'>
             <h2>Павел Иевлев</h2>
@@ -749,5 +749,4 @@ function BookMizantrop() {
             <a href='#header'>Вверх</a>
         </div>
     );
-}
-export { BookMizantrop };
+};

@@ -1,4 +1,4 @@
-function Home() {
+export const Home = () => {
     return (
         <div className='home'>
             <img
@@ -25,6 +25,4 @@ function Home() {
             </div>
         </div>
     );
-}
-
-export { Home };
+};

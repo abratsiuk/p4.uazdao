@@ -13,7 +13,7 @@ import { BookMultiverse } from '../../pages/BookMultiverse';
 import { BookUazdao } from '../../pages/BookUazdao';
 import { Context } from '../Context';
 
-function App() {
+export const App = () => {
     return (
         <Context>
             <Router>
@@ -61,6 +61,4 @@ function App() {
             </Router>
         </Context>
     );
-}
-
-export default App;
+};

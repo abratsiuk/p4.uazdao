@@ -2,12 +2,12 @@ import React from 'react';
 import { isPointInRectangle } from '../../services';
 import './arrows.css';
 
-function AbstractArrow({
+export const AbstractArrow = ({
     children,
     className,
     direction,
     onClick = Function.prototype,
-}) {
+}) => {
     const classes = `${className} arrow arrow--${direction}`;
     const onHandleClick = (el) => {
         const targetClassNames = el.target.classList.value;
@@ -49,5 +49,4 @@ function AbstractArrow({
             {children}
         </div>
     );
-}
-export { AbstractArrow };
+};

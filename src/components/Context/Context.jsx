@@ -3,7 +3,7 @@ import { createContext, useState } from 'react';
 
 export const UazdaoContext = createContext();
 
-export function Context(props) {
+export const Context = (props) => {
     /* Writing any page in the address bar reloads the site, 
     causing the context to remount. 
     Therefore, true is needed as the default. */
@@ -19,4 +19,4 @@ export function Context(props) {
             {props.children}
         </UazdaoContext.Provider>
     );
-}
+};

@@ -1,4 +1,4 @@
-function BookUazdao() {
+export const BookUazdao = () => {
     return (
         <div className='book text-regular text-regular--article'>
             <h2>Павел Иевлев</h2>
@@ -398,5 +398,4 @@ function BookUazdao() {
             <a href='#header'>Вверх</a>
         </div>
     );
-}
-export { BookUazdao };
+};

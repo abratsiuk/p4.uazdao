@@ -1,4 +1,4 @@
-function Author() {
+export const Author = () => {
     return (
         <div className='author'>
             <img
@@ -22,5 +22,4 @@ function Author() {
             </div>
         </div>
     );
-}
-export { Author };
+};

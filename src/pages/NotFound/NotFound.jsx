@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { SentenceItem } from '../components/SentenceItem';
+import { SentenceItem } from '../../components/SentenceItem/SentenceItem';
 
 const sentenceNotFound = {
     id: 0,
@@ -7,7 +7,7 @@ const sentenceNotFound = {
     text: 'Не найдено.',
 };
 
-function NotFound() {
+export const NotFound = () => {
     const [sentence, setSentence] = useState(sentenceNotFound);
 
     useEffect(() => {
@@ -29,5 +29,4 @@ function NotFound() {
             text={sentence.text}
         />
     );
-}
-export { NotFound };
+};

@@ -1,6 +1,10 @@
 import { AbstractArrow } from './AbstractArrow';
 
-function ArrowLeft({ children, className, onClick = Function.prototype }) {
+export const ArrowLeft = ({
+    children,
+    className,
+    onClick = Function.prototype,
+}) => {
     return (
         <AbstractArrow
             className={className}
@@ -10,8 +14,12 @@ function ArrowLeft({ children, className, onClick = Function.prototype }) {
             {children}
         </AbstractArrow>
     );
-}
-function ArrowRight({ children, className, onClick = Function.prototype }) {
+};
+export const ArrowRight = ({
+    children,
+    className,
+    onClick = Function.prototype,
+}) => {
     return (
         <AbstractArrow
             className={className}
@@ -21,6 +29,4 @@ function ArrowRight({ children, className, onClick = Function.prototype }) {
             {children}
         </AbstractArrow>
     );
-}
-
-export { ArrowLeft, ArrowRight };
+};

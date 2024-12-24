@@ -1,13 +1,14 @@
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { SentenceItem } from '../components/SentenceItem';
+import { SentenceItem } from '../../components/SentenceItem';
 import {
     getRandomSentence,
     getPreviousSentence,
     getNextSentence,
-} from '../services';
+} from '../../services';
+import './sentence.css';
 
-function Sentence() {
+export const Sentence = () => {
     let location = useLocation();
     const [sentence, setSentence] = useState({ id: 0, imgPath: '', text: '' });
 
@@ -23,5 +24,4 @@ function Sentence() {
             onNext={() => setSentence(getNextSentence(sentence.id))}
         />
     );
-}
-export { Sentence };
+};

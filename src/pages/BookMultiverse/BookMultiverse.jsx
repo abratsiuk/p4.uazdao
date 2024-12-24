@@ -1,4 +1,4 @@
-function BookMultiverse() {
+export const BookMultiverse = () => {
     return (
         <div className='book text-regular text-regular--article'>
             <img
@@ -527,5 +527,4 @@ function BookMultiverse() {
             <a href='#header'>Вверх</a>
         </div>
     );
-}
-export { BookMultiverse };
+};

@@ -1,8 +1,8 @@
 import { useEffect, useContext } from 'react';
-import { UazdaoContext } from '../components/Context';
+import { UazdaoContext } from '../../components/Context/Context';
 import { useHistory } from 'react-router-dom';
 
-function Welcome() {
+export const Welcome = () => {
     const history = useHistory();
     const { setIsFooterShowCar = Function.prototype } =
         useContext(UazdaoContext);
@@ -21,6 +21,4 @@ function Welcome() {
             <div className='welcome__image welcome__image--quickly'></div>
         </div>
     );
-}
-
-export { Welcome };
+};
