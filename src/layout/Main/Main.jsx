@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom/cjs/react-router-dom.min';
-import './main.css';
+import './Main.scss';
 
 export const Main = ({ children }) => {
     const location = useLocation();

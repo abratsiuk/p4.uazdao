@@ -26,8 +26,30 @@ use command "…or create a new repository on the command line" from github
 yarn add react-router-dom@5.2.0
 yarn add stylelint
 yarn add sass --dev
-
+yarn add normalize.css
 ```
+### 3.1.change vite.config.js
+```
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import postcssNormalize from 'postcss-normalize';
+
+// https://vite.dev/config/
+export default defineConfig({
+    plugins: [react()],
+    server: {
+        historyApiFallback: true, // for React Router
+    },
+    css: {
+        postcss: {
+            plugins: [
+                postcssNormalize(), // for normalize.css
+            ],
+        },
+    },
+});
+```
+
 ### 4. no install
 
                             /*
@@ -387,7 +409,7 @@ https://www.youtube.com/watch?v=oYnyQ47BUSo&t=705s&ab_channel=%D0%9C%D0%B8%D1%85
 
 ========================================================================
 
-add scss:
+## add scss:
 
 ```
 https://vite.dev/guide/features.html#css-pre-processors
@@ -404,4 +426,36 @@ You can also use CSS modules combined with pre-processors by prepending .module 
 и выполнил команду:
 ```
 yarn add sass --dev
+```
+## CSS normalize for Vite:
+
+1) install normalize.css:
+```
+yarn add normalize.css
+```
+2) index.scss в начало:
+```
+@import 'normalize.css';
+```
+
+3) vite.config.js:
+```
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import postcssNormalize from 'postcss-normalize';
+
+// https://vite.dev/config/
+export default defineConfig({
+    plugins: [react()],
+    server: {
+        historyApiFallback: true, // for React Router
+    },
+    css: {
+        postcss: {
+            plugins: [
+                postcssNormalize(), // for normalize.css
+            ],
+        },
+    },
+});
 ```

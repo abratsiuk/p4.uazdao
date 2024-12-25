@@ -19,6 +19,7 @@ export const Author = () => {
                     </a>
                 </h1>
                 <h3>Когда палец показывает на небо, люди смотрят на палец.</h3>
+                <button>test</button>
             </div>
         </div>
     );

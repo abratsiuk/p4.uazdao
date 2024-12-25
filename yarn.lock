@@ -247,6 +247,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/normalize.css@npm:12.1.1":
+  version: 12.1.1
+  resolution: "@csstools/normalize.css@npm:12.1.1"
+  checksum: 10c0/28fbba6cfd9aa71252001800decfd0f2dc4116fe57b52a2adcbe40733ada36fffc676a768a67fd9865d7b5b17d3e8456de1e642c3c5c9e06526fa3fe8ab5fec4
+  languageName: node
+  linkType: hard
+
 "@csstools/selector-specificity@npm:^5.0.0":
   version: 5.0.0
   resolution: "@csstools/selector-specificity@npm:5.0.0"
@@ -4182,6 +4189,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"normalize.css@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "normalize.css@npm:8.0.1"
+  checksum: 10c0/4ddf56d1af5ca755fa5e692e718316d8758ecb792aa96e1ad206824b5810a043763d681d6f7697d46573515f5e9690038b4c91a95c1997567128815545fb8cd7
+  languageName: node
+  linkType: hard
+
 "npmlog@npm:^6.0.0":
   version: 6.0.2
   resolution: "npmlog@npm:6.0.2"
@@ -4357,6 +4371,8 @@ __metadata:
     eslint-plugin-react-refresh: "npm:^0.4.14"
     globals: "npm:^15.12.0"
     node-sass: "npm:^9.0.0"
+    normalize.css: "npm:^8.0.1"
+    postcss-normalize: "npm:^13.0.1"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     react-router-dom: "npm:^5.3.0"
@@ -4466,6 +4482,30 @@ __metadata:
   version: 1.0.0
   resolution: "possible-typed-array-names@npm:1.0.0"
   checksum: 10c0/d9aa22d31f4f7680e20269db76791b41c3a32c01a373e25f8a4813b4d45f7456bfc2b6d68f752dc4aab0e0bb0721cb3d76fb678c9101cb7a16316664bc2c73fd
+  languageName: node
+  linkType: hard
+
+"postcss-browser-comments@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "postcss-browser-comments@npm:6.0.1"
+  peerDependencies:
+    browserslist: ^4.23.1
+    postcss: ^8.4
+  checksum: 10c0/8dccbac615c39c89bfea7557b80412963d7ac18df0a36a9e9393cb0232462e925885874e03ddb7f044ef7c4ab494c0c530a8072756f1b76d3915281d47ebe233
+  languageName: node
+  linkType: hard
+
+"postcss-normalize@npm:^13.0.1":
+  version: 13.0.1
+  resolution: "postcss-normalize@npm:13.0.1"
+  dependencies:
+    "@csstools/normalize.css": "npm:12.1.1"
+    postcss-browser-comments: "npm:^6.0.1"
+    sanitize.css: "npm:13.0.0"
+  peerDependencies:
+    browserslist: ">= 4"
+    postcss: ">= 8"
+  checksum: 10c0/9d6fbd80e8162981240429c538f6319d0176e584e1283e06976a353bf280d5c4c657dc8f95a56bbd456dced378281d37b9768ddd80c94d331f717fe725b49688
   languageName: node
   linkType: hard
 
@@ -5001,6 +5041,13 @@ __metadata:
   version: 2.1.2
   resolution: "safer-buffer@npm:2.1.2"
   checksum: 10c0/7e3c8b2e88a1841c9671094bbaeebd94448111dd90a81a1f606f3f67708a6ec57763b3b47f06da09fc6054193e0e6709e77325415dc8422b04497a8070fa02d4
+  languageName: node
+  linkType: hard
+
+"sanitize.css@npm:13.0.0":
+  version: 13.0.0
+  resolution: "sanitize.css@npm:13.0.0"
+  checksum: 10c0/0c1eb61ff26d8f764593772c9f2af68ef5490cd9c7199ff387138412e8e658a0ee715bf176e0a2569872fc9c277f9342cf1235a9274da7a63aaaf0043747260d
   languageName: node
   linkType: hard
 
