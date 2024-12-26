@@ -33,6 +33,10 @@
     font-size:3.5rem;
 }
 .sentence__quote__text {
+    white-space: pre-line;
+}
+
+.sentence__quote__text:not([data-direct-speach="true"]) {
     text-indent:2rem;
 }
 .sentence__quote__header ~ .sentence__quote__text {
@@ -40,6 +44,13 @@
     padding-left:3rem;
     text-indent:2rem;
 }
+.sentence__quote__header ~ .sentence__quote__text::first-letter{
+    color:navy;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-size: 150%;
+}
+
 .sentence__quote__footer{
     text-align:right;
     color:grey;

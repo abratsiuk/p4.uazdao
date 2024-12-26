@@ -31,7 +31,10 @@ function SentenceItem({
                             {header}
                         </blockquote>
                     )}
-                    <blockquote className={styles.sentence__quote__text}>
+                    <blockquote
+                        className={styles.sentence__quote__text}
+                        data-direct-speach={text.trim().charAt(0) === '—'}
+                    >
                         {text}
                     </blockquote>
                     {footer && (
