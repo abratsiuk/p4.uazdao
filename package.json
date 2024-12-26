@@ -7,12 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "stylelint": "stylelint \"**/*.scss\"",
     "preview": "vite preview",
     "start": "yarn dev"
   },
   "dependencies": {
     "node-sass": "^9.0.0",
     "normalize.css": "^8.0.1",
+    "prop-types": "^15.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "^5.3.0",

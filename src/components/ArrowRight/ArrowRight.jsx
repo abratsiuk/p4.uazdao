@@ -1,5 +1,6 @@
 import { ArrowAbstract } from '../ArrowAbstract';
 import './ArrowRight.scss';
+import PropTypes from 'prop-types';
 
 export const ArrowRight = ({
     children,
@@ -15,4 +16,10 @@ export const ArrowRight = ({
             {children}
         </ArrowAbstract>
     );
+};
+
+ArrowRight.propTypes = {
+    children: PropTypes.node,
+    className: PropTypes.string,
+    onClick: PropTypes.func,
 };

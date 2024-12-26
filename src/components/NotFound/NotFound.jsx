@@ -9,7 +9,7 @@ export const NotFound = () => {
         setTimeout(() => {
             history.push('/sentence');
         }, 5000);
-    }, []);
+    });
 
     return (
         <div className={styles.notfound}>

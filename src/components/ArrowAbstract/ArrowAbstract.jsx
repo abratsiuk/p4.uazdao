@@ -1,6 +1,6 @@
-import React from 'react';
 import { isPointInLeftRight } from '../../services';
 import './ArrowAbstract.scss';
+import PropTypes from 'prop-types';
 
 export const ArrowAbstract = ({
     children,
@@ -25,7 +25,6 @@ export const ArrowAbstract = ({
             // ::after { right: 0;
             const right = 0;
             //::before, ::after { top: calc(50% - 20px);
-            const top = Math.round(rect.height / 2 - border);
 
             //coordinates of the rectangle
             const x1 =
@@ -38,6 +37,7 @@ export const ArrowAbstract = ({
             }
         }
     };
+
     return (
         <div
             className={classes}
@@ -46,4 +46,11 @@ export const ArrowAbstract = ({
             {children}
         </div>
     );
+};
+
+ArrowAbstract.propTypes = {
+    children: PropTypes.node,
+    className: PropTypes.string,
+    direction: PropTypes.oneOf(['left', 'right']).isRequired,
+    onClick: PropTypes.func,
 };

@@ -4373,6 +4373,7 @@ __metadata:
     node-sass: "npm:^9.0.0"
     normalize.css: "npm:^8.0.1"
     postcss-normalize: "npm:^13.0.1"
+    prop-types: "npm:^15.8.1"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     react-router-dom: "npm:^5.3.0"

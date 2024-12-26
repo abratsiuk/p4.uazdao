@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
 import { createContext, useState } from 'react';
+import PropTypes from 'prop-types';
 
 export const UazdaoContext = createContext();
 
@@ -19,4 +19,8 @@ export const Context = (props) => {
             {props.children}
         </UazdaoContext.Provider>
     );
+};
+
+Context.propTypes = {
+    children: PropTypes.node,
 };
