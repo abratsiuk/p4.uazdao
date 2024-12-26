@@ -512,3 +512,22 @@ rm -rf node_modules && npm install	yarn upgrade
 npm version major	yarn version --major
 npm version minor	yarn version --minor
 npm version patch	yarn version --patch
+
+=====================================================================
+https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
+Install the PostCSS syntax for the language you want to validate into your workspace, e.g. postcss-scss.
+yarn add postcss-scss  
+
+Configure Stylelint to use the syntax by providing the module name in the customSyntax option using overrides (or use the corresponding option in this extension's settings).
+
+Example Stylelint config:
+
+module.exports = {
+  overrides: [
+    {
+      files: ["**/*.scss"],
+      customSyntax: "postcss-scss"
+    }
+  ]
+};
+

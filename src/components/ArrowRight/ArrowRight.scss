@@ -1,9 +1,9 @@
-.arrow--right {
+.arrow-right {
     padding-right: 100px;
     position: relative;
 }
 
-.arrow--right::after {
+.arrow-right::after {
     content: '';
     position: absolute;
     top: calc(50% - 20px);
