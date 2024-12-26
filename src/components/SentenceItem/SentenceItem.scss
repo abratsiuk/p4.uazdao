@@ -5,13 +5,31 @@
 
 .sentence__quote {
     width: 50%;
-    max-width: 60rem;
+
     max-height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
     padding: 1rem 1rem;
+    position:relative;
 }
 
 .sentence__quote blockquote {
+    max-width: 63rem;
+    line-height: 4rem;
     margin: 0 auto;
+}
+.sentence__quote blockquote:first-child:last-child {
+    text-indent:2rem;
+}
+.sentence__quote blockquote:nth-child(2) {
+    max-width: 60rem;
+    padding-left:3rem;
+    text-indent:2rem;
+}
+
+.sentence__quote blockquote:first-child:not(:last-child) {
+    position: relative;
+    color:navy;
+    font-family: "Great Vibes", serif;
+    font-size:3.5rem;
 }

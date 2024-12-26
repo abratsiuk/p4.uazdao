@@ -30,7 +30,7 @@ const getSentenceById = (id) => {
     if (id >= sentences.length) {
         id = 0;
     }
-    const { img, text } = sentences[id];
+    const { img, header, text } = sentences[id];
     const imgPath = `/src/assets/image/book/${img}.webp`;
-    return { id: id, imgPath, text };
+    return { id: id, imgPath, header, text };
 };

@@ -4,6 +4,7 @@ import './SentenceItem.scss';
 
 function SentenceItem({
     imgPath,
+    header,
     text,
     onPrevious = Function.prototype,
     onNext = Function.prototype,
@@ -23,8 +24,13 @@ function SentenceItem({
                 className='sentence__quote'
                 onClick={() => onPrevious()}
             >
+                {header ? (
+                    <blockquote>
+                        <span>{header}</span>
+                    </blockquote>
+                ) : null}
                 <blockquote>
-                    <span className=''>{text}</span>
+                    <span>{text}</span>
                 </blockquote>
             </ArrowRight>
         </div>

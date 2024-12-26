@@ -15,7 +15,8 @@ export const NotFound = () => {
             setSentence({
                 id: 0,
                 imgPath: '/src/assets/image/book/p128.webp',
-                text: 'Ибо сказано: ● Любая дорога куда-нибудь, да приводит. Даже если никакой дороги там нет.',
+                header: 'Ибо сказано:',
+                text: 'Любая дорога куда-нибудь, да приводит. Даже если никакой дороги там нет.',
             });
             setTimeout(() => {
                 setSentence(sentenceNotFound);
@@ -26,6 +27,7 @@ export const NotFound = () => {
     return (
         <SentenceItem
             imgPath={sentence.imgPath}
+            header={sentence.header}
             text={sentence.text}
         />
     );

@@ -10,7 +10,12 @@ import './Sentence.scss';
 
 export const Sentence = () => {
     let location = useLocation();
-    const [sentence, setSentence] = useState({ id: 0, imgPath: '', text: '' });
+    const [sentence, setSentence] = useState({
+        id: 0,
+        imgPath: '',
+        header: '',
+        text: '',
+    });
 
     useEffect(() => {
         setSentence(getRandomSentence());
@@ -19,6 +24,7 @@ export const Sentence = () => {
     return (
         <SentenceItem
             imgPath={sentence.imgPath}
+            header={sentence.header}
             text={sentence.text}
             onPrevious={() => setSentence(getPreviousSentence(sentence.id))}
             onNext={() => setSentence(getNextSentence(sentence.id))}
