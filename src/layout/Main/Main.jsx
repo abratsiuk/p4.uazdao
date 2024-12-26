@@ -9,7 +9,7 @@ export const Main = ({ children }) => {
 
     useEffect(() => {
         if (location.pathname.indexOf('/book') !== -1) {
-            setClassName('main--min-height');
+            setClassName('main-min-height');
         } else {
             setClassName('main');
         }
