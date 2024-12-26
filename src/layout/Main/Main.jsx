@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom/cjs/react-router-dom.min';
 import './Main.scss';
@@ -15,4 +16,8 @@ export const Main = ({ children }) => {
     }, [location]);
 
     return <main className={className}>{children}</main>;
+};
+
+Main.propTypes = {
+    children: PropTypes.node,
 };

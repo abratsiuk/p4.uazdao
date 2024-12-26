@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { ArrowLeft } from '../ArrowLeft';
 import { ArrowRight } from '../ArrowRight';
 import styles from './SentenceItem.module.scss';
@@ -33,7 +34,7 @@ function SentenceItem({
                     )}
                     <blockquote
                         className={styles.sentence__quote__text}
-                        data-direct-speach={text.trim().charAt(0) === '—'}
+                        data-direct-speach={text.trim().charAt(0) === '-'}
                     >
                         {text}
                     </blockquote>
@@ -49,3 +50,12 @@ function SentenceItem({
 }
 
 export { SentenceItem };
+
+SentenceItem.propTypes = {
+    imgPath: PropTypes.string,
+    header: PropTypes.string,
+    footer: PropTypes.string,
+    text: PropTypes.string,
+    onPrevious: PropTypes.func,
+    onNext: PropTypes.func,
+};
