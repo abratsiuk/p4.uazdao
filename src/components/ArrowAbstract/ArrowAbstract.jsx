@@ -1,5 +1,5 @@
 import React from 'react';
-import { isPointInRectangle } from '../../services';
+import { isPointInLeftRight } from '../../services';
 import './ArrowAbstract.scss';
 
 export const ArrowAbstract = ({
@@ -16,7 +16,6 @@ export const ArrowAbstract = ({
 
             // coordinates of the click relative to the target
             const clickX = el.clientX - rect.x;
-            const clickY = el.clientY - rect.y;
 
             //settings for ::before, ::after
             //border: 20px;
@@ -33,10 +32,8 @@ export const ArrowAbstract = ({
                 direction === 'left' ? left : rect.width - right - 2 * border;
             const x2 =
                 direction === 'left' ? left + 2 * border : rect.width - right;
-            const y1 = top;
-            const y2 = top + 2 * border;
 
-            if (isPointInRectangle(clickX, clickY, x1, y1, x2, y2)) {
+            if (isPointInLeftRight(clickX, x1, x2)) {
                 onClick();
             }
         }

@@ -1,6 +1,6 @@
 import { ArrowLeft } from '../ArrowLeft';
 import { ArrowRight } from '../ArrowRight';
-import './SentenceItem.scss';
+import styles from './SentenceItem.module.scss';
 
 function SentenceItem({
     imgPath,
@@ -11,9 +11,9 @@ function SentenceItem({
     onNext = Function.prototype,
 }) {
     return (
-        <div className='sentence'>
+        <div className={styles.sentence}>
             <ArrowLeft
-                className='sentence__image'
+                className={styles.sentence__image}
                 onClick={() => onNext()}
             >
                 <img
@@ -22,24 +22,24 @@ function SentenceItem({
                 />
             </ArrowLeft>
             <ArrowRight
-                className='sentence__quote'
+                className={styles.sentence__quote}
                 onClick={() => onPrevious()}
             >
-                {/* <figure> */}
-                {header ? (
-                    <blockquote>
-                        <span>{header}</span>
+                <figure>
+                    {header && (
+                        <blockquote className={styles.sentence__quote__header}>
+                            {header}
+                        </blockquote>
+                    )}
+                    <blockquote className={styles.sentence__quote__text}>
+                        {text}
                     </blockquote>
-                ) : null}
-                <blockquote>
-                    <span>{text}</span>
-                </blockquote>
-                {/* {footer ? (
-                    <blockquote>
-                        <span>{footer}</span>
-                    </blockquote>
-                ) : null} */}
-                {/* </figure> */}
+                    {footer && (
+                        <figcaption className={styles.sentence__quote__footer}>
+                            {footer}
+                        </figcaption>
+                    )}
+                </figure>
             </ArrowRight>
         </div>
     );
