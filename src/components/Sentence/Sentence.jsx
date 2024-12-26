@@ -14,6 +14,7 @@ export const Sentence = () => {
         id: 0,
         imgPath: '',
         header: '',
+        footer: '',
         text: '',
     });
 
@@ -25,6 +26,7 @@ export const Sentence = () => {
         <SentenceItem
             imgPath={sentence.imgPath}
             header={sentence.header}
+            footer={sentence.footer}
             text={sentence.text}
             onPrevious={() => setSentence(getPreviousSentence(sentence.id))}
             onNext={() => setSentence(getNextSentence(sentence.id))}
