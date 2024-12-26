@@ -1,34 +1,21 @@
-import React, { useState, useEffect } from 'react';
-import { SentenceItem } from '../SentenceItem/SentenceItem';
-
-const sentenceNotFound = {
-    id: 0,
-    imgPath: '/src/assets/image/book/p62.webp',
-    text: 'Не найдено.',
-};
+import { useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
+import styles from './NotFound.module.scss';
 
 export const NotFound = () => {
-    const [sentence, setSentence] = useState(sentenceNotFound);
+    const history = useHistory();
 
     useEffect(() => {
         setTimeout(() => {
-            setSentence({
-                id: 0,
-                imgPath: '/src/assets/image/book/p128.webp',
-                header: 'Ибо сказано:',
-                text: 'Любая дорога куда-нибудь, да приводит. Даже если никакой дороги там нет.',
-            });
-            setTimeout(() => {
-                setSentence(sentenceNotFound);
-            }, 7000);
+            history.push('/sentence');
         }, 5000);
     }, []);
 
     return (
-        <SentenceItem
-            imgPath={sentence.imgPath}
-            header={sentence.header}
-            text={sentence.text}
-        />
+        <div className={styles.notfound}>
+            <div className={styles.notfound_image_mirror}></div>
+            <div className={styles.notfound_image}></div>
+            <div className={styles.notfound__text}>Не найдено</div>
+        </div>
     );
 };
