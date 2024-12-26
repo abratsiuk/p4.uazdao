@@ -1,0 +1,1 @@
+export { AppRouterSwitch } from './AppRouterSwitch';
