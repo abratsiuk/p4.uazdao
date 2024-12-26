@@ -28,7 +28,7 @@ export const Footer = () => {
                 </div>
             </div>
 
-            <div className='footer__repo'>
+            <div>
                 <a
                     href='https://github.com/abratsiuk/p4.uazdao'
                     target='_blank'
