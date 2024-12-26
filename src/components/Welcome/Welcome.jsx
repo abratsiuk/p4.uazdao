@@ -1,5 +1,5 @@
 import { useEffect, useContext } from 'react';
-import { UazdaoContext } from '../Context/Context';
+import { UazdaoContext } from '../Context';
 import { useHistory } from 'react-router-dom';
 import './Welcome.scss';
 

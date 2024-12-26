@@ -1,1 +1,2 @@
-export { Context, UazdaoContext } from './Context';
+export { Context } from './Context';
+export { UazdaoContext } from './UazdaoContext';

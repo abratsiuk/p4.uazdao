@@ -1,7 +1,6 @@
-import { createContext, useState } from 'react';
+import { useState } from 'react';
 import PropTypes from 'prop-types';
-
-export const UazdaoContext = createContext();
+import { UazdaoContext } from './UazdaoContext';
 
 export const Context = (props) => {
     /* Writing any page in the address bar reloads the site, 
