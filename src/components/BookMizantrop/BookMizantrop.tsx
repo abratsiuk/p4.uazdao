@@ -1,16 +1,25 @@
+import React from 'react';
 import styles from './BookMizantrop.module.scss';
 
-export const BookMizantrop = () => {
+export const BookMizantrop: React.FC = () => {
   return (
     <div className={styles.book}>
       <h2>Павел Иевлев</h2>
       <h1>
-        <a href="https://author.today/audiobook/269841" target="_blank">
+        <a
+          href="https://author.today/audiobook/269841"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Перейти на страницу аудиокниги 'УАЗдао. Кредо Мизантропа' Павла Иевлева на сайте Author.today"
+        >
           УАЗдао. Кредо Мизантропа
         </a>
       </h1>
 
-      <img src="/src/assets/image/bookmizantrop/title.jpg" alt="" />
+      <img
+        src="/src/assets/image/bookmizantrop/title.jpg"
+        alt="Обложка книги 'УАЗдао. Кредо Мизантропа'"
+      />
 
       <h3>Аннотация</h3>
       <ul>
@@ -650,7 +659,9 @@ export const BookMizantrop = () => {
       </p>
       <p>Это УАЗдао!</p>
       <br />
-      <a href="#header">Вверх</a>
+      <a href="#header" aria-label="Перейти к началу страницы">
+        Вверх
+      </a>
     </div>
   );
 };

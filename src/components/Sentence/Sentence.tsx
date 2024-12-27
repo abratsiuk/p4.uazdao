@@ -5,11 +5,12 @@ import {
   getRandomSentence,
   getPreviousSentence,
   getNextSentence,
+  SentenceItemData,
 } from '../../services';
 
 export const Sentence = () => {
   let location = useLocation();
-  const [sentence, setSentence] = useState({
+  const [sentence, setSentence] = useState<SentenceItemData>({
     id: 0,
     imgPath: '',
     header: '',

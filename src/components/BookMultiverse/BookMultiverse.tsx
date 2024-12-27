@@ -1,9 +1,13 @@
+import React from 'react';
 import styles from './BookMultiverse.module.scss';
 
-export const BookMultiverse = () => {
+export const BookMultiverse: React.FC = () => {
   return (
     <div className={styles.book}>
-      <img src="/src/assets/image/bookmultiverse/title.jpg" alt="" />
+      <img
+        src="/src/assets/image/bookmultiverse/title.jpg"
+        alt="Обложка книги 'Дело молодых' Павла Иевлева"
+      />
       <h2>Павел Иевлев</h2>
       <h1>Дело молодых</h1>
       <h3>Глава 1. Криспи</h3>
@@ -473,7 +477,9 @@ export const BookMultiverse = () => {
       <p>- И то верно, - не стал спорить я.</p>
       <p>И мы пошли по пиву.</p>
       <br />
-      <a href="#header">Вверх</a>
+      <a href="#header" aria-label="Перейти к началу страницы">
+        Вверх
+      </a>
     </div>
   );
 };

@@ -1,6 +1,7 @@
+import React from 'react';
 import styles from './BookUazdao.module.scss';
 
-export const BookUazdao = () => {
+export const BookUazdao: React.FC = () => {
   return (
     <div className={styles.book}>
       <h2>Павел Иевлев</h2>
@@ -10,12 +11,16 @@ export const BookUazdao = () => {
           href="https://www.rulit.me/books/uazdao-ili-dao-vyrazhennoe-rukami-download-445410.html"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Перейти на страницу книги 'УАЗДАО или ДАО, выраженное руками' на сайте Rulit.me"
         >
           УАЗДАО или ДАО, выраженное руками
         </a>
       </h1>
 
-      <img src="/src/assets/image/bookuazdao/title.jpg" alt="" />
+      <img
+        src="/src/assets/image/bookuazdao/title.jpg"
+        alt="Обложка книги 'УАЗДАО или ДАО, выраженное руками' Павла Иевлева"
+      />
       <h3>Аннотация</h3>
 
       <p>
@@ -368,7 +373,9 @@ export const BookUazdao = () => {
         начал выстраивать умеренно вежливый отказ, но человечек меня удивил.
       </p>
       <br />
-      <a href="#header">Вверх</a>
+      <a href="#header" aria-label="Перейти к началу страницы">
+        Вверх
+      </a>
     </div>
   );
 };

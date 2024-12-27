@@ -1,16 +1,16 @@
-import { sentences } from './sentences';
+import { sentences, SentenceItemData } from './sentences';
 
-export const getPreviousSentence = (id = 0) => {
+export const getPreviousSentence = (id: number = 0): SentenceItemData => {
   return getSentenceById(id - 1);
 };
-export const getNextSentence = (id = 0) => {
+export const getNextSentence = (id: number = 0): SentenceItemData => {
   return getSentenceById(id + 1);
 };
-export const getRandomSentence = () => {
+export const getRandomSentence = (): SentenceItemData => {
   return getSentenceById(getRandomId());
 };
 
-const getRandomId = () => {
+const getRandomId = (): number => {
   const now = new Date();
   const minutes = now.getMinutes();
   const seconds = now.getSeconds();
@@ -20,7 +20,7 @@ const getRandomId = () => {
   return randomId;
 };
 
-const getSentenceById = (id) => {
+const getSentenceById = (id: number = 0): SentenceItemData => {
   if (!id) {
     id = 0;
   }
@@ -30,7 +30,5 @@ const getSentenceById = (id) => {
   if (id >= sentences.length) {
     id = 0;
   }
-  const { img, header, footer, text } = sentences[id];
-  const imgPath = `/src/assets/image/book/${img}.webp`;
-  return { id: id, imgPath, header, footer, text };
+  return sentences[id];
 };
