@@ -1,4 +1,4 @@
-.author {
+.Author {
   height: 100%;
   width: 100%;
   background-image: url('/src/assets/image/ievlev/header.webp');
@@ -23,5 +23,15 @@
     align-self: flex-end;
     position: relative;
     bottom: 70px;
+  }
+  &__cartHeader {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+  }
+  &__cartText {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 1.8rem;
   }
 }

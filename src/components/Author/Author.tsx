@@ -3,14 +3,14 @@ import styles from './Author.module.scss';
 
 export const Author: React.FC = () => {
   return (
-    <div className={styles.author}>
+    <div className={styles.Author}>
       <img
-        className={styles.author__avatar}
+        className={styles.Author__avatar}
         src="/src/assets/image/ievlev/avatar.webp"
         alt="аватар П.С.Иевлева"
       />
-      <div className={styles.author__cart}>
-        <h1>
+      <div className={styles.Author__cart}>
+        <div className={styles.Author__cartHeader}>
           <a
             href="https://author.today/u/semiurg/works"
             target="_blank"
@@ -19,8 +19,10 @@ export const Author: React.FC = () => {
           >
             Павел Иевлев
           </a>
-        </h1>
-        <h3>Когда палец показывает на небо, люди смотрят на палец.</h3>
+        </div>
+        <div className={styles.Author__cartText}>
+          Когда палец показывает на небо, люди смотрят на палец.
+        </div>
       </div>
     </div>
   );
