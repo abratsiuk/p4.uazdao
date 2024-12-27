@@ -29,7 +29,7 @@
 
   &__header {
     position: relative;
-    color: navy;
+    color: $SentenceItem__header-color;
     font-family: 'Great Vibes', serif;
     font-size: 3.5rem;
   }
@@ -47,7 +47,7 @@
       padding-left: 3rem;
       text-indent: 2rem;
       &::first-letter {
-        color: navy;
+        color: $SentenceItem__header-color;
         font-family: 'Merriweather', serif;
         font-weight: bold;
         font-size: 150%;
