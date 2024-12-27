@@ -3,7 +3,7 @@ import styles from './BookUazdao.module.scss';
 
 export const BookUazdao: React.FC = () => {
   return (
-    <div className={styles.book}>
+    <div className={styles.BookUazdao}>
       <h2>Павел Иевлев</h2>
 
       <h1>

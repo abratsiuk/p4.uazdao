@@ -3,7 +3,7 @@ import styles from './BookMizantrop.module.scss';
 
 export const BookMizantrop: React.FC = () => {
   return (
-    <div className={styles.book}>
+    <div className={styles.BookMizantrop}>
       <h2>Павел Иевлев</h2>
       <h1>
         <a

@@ -3,7 +3,7 @@ import styles from './BookMultiverse.module.scss';
 
 export const BookMultiverse: React.FC = () => {
   return (
-    <div className={styles.book}>
+    <div className={styles.BookMultiverse}>
       <img
         src="/src/assets/image/bookmultiverse/title.jpg"
         alt="Обложка книги 'Дело молодых' Павла Иевлева"
