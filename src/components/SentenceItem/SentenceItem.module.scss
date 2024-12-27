@@ -1,4 +1,4 @@
-.sentence {
+.SentenceItem {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -6,13 +6,13 @@
   height: 100%;
   overflow: hidden;
 
-  &__image {
+  &__imageArrow {
     width: 50%;
     max-width: 100%;
     user-select: none;
   }
 
-  &__quote {
+  &__quoteArrow {
     width: 50%;
     max-height: 100%;
     overflow-y: auto;
@@ -20,11 +20,12 @@
     padding: 1rem 1rem;
     position: relative;
   }
-}
-.quote {
-  max-width: 63rem;
-  line-height: 4rem;
-  margin: 0 auto;
+
+  &__quote {
+    max-width: 63rem;
+    line-height: 4rem;
+    margin: 0 auto;
+  }
 
   &__header {
     position: relative;
@@ -34,21 +35,24 @@
   }
   &__text {
     white-space: pre-line;
-  }
-
-  &__text:not([data-direct-speech='true']) {
     text-indent: 2rem;
-  }
-  &__header ~ &__text {
-    max-width: 60rem;
-    padding-left: 3rem;
-    text-indent: 2rem;
-  }
-  &__header ~ &__text::first-letter {
-    color: navy;
-    font-family: 'Merriweather', serif;
-    font-weight: bold;
-    font-size: 150%;
+    &_speech {
+      text-indent: 0rem;
+    }
+    &_reflection {
+      text-indent: 0rem;
+    }
+    &_headered {
+      max-width: 60rem;
+      padding-left: 3rem;
+      text-indent: 2rem;
+      &::first-letter {
+        color: navy;
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        font-size: 150%;
+      }
+    }
   }
 
   &__footer {

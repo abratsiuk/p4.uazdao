@@ -6,21 +6,22 @@ import './Welcome.scss';
 
 export const Welcome: React.FC = () => {
   const history = useHistory();
-  const { setIsFooterShowCar = Function.prototype } = useContext(UazdaoContext);
+  const { setIsFooterShowCar } = useContext(UazdaoContext);
 
   useEffect(() => {
     setIsFooterShowCar(false);
-    setTimeout(() => {
+    const timer = setTimeout(() => {
       history.push('/home');
       setIsFooterShowCar(true);
     }, 5000);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+
+    return () => clearTimeout(timer);
+  }, [history]);
 
   return (
-    <div className="welcome">
-      <div className="welcome__text great-vibes-regular">Уаздао</div>
-      <div className="welcome__image welcome__image_smoothly"></div>
+    <div className="Welcome">
+      <div className="Welcome__text">Уаздао</div>
+      <div className="Welcome__image Welcome__image_smoothly"></div>
     </div>
   );
 };
