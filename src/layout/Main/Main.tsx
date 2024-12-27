@@ -13,7 +13,7 @@ export const Main: React.FC<MainProps> = ({ children }) => {
 
   useEffect(() => {
     if (location.pathname.indexOf('/book') !== -1) {
-      setClassName('main-min-height');
+      setClassName('main_scrollable');
     } else {
       setClassName('main');
     }

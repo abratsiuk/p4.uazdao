@@ -3,7 +3,7 @@
   background-color: $main-color;
 }
 
-.main-min-height {
+.main_scrollable {
   min-height: calc(100vh - $header-height - $footer-height);
   background-color: $main-color;
 }
