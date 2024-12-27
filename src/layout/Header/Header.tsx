@@ -1,5 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
 import { menu } from '../../configs';
+import { MenuItem } from '../../configs/MenuItem';
 import './Header.scss';
 
 export const Header = () => {
@@ -9,7 +10,7 @@ export const Header = () => {
         Уаздао
       </Link>
       <ul className="header__menu">
-        {menu.map((m) => {
+        {menu?.map((m: MenuItem) => {
           return (
             <li className="header__menu-item" key={m.to}>
               <NavLink

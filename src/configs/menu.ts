@@ -1,4 +1,6 @@
-export const menu = [
+import { MenuItem } from './MenuItem';
+
+export const menu: MenuItem[] = [
   { to: '/home', text: 'главная' },
   { to: '/sentence', text: 'изречение' },
   { to: '/author', text: 'Павел Иевлев' },
