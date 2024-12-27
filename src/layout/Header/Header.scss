@@ -1,27 +1,29 @@
 .header {
-    height: 7rem;
+    height: $header-height;
     background-color: $header-color;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     &__logo {
         font-family: 'Great Vibes', cursive;
-        font-size: 5rem;
+        font-size: $logo-font-size;
         text-decoration: none;
         color: $logo-color;
         padding: 0 2rem;
     }
+
     &__menu {
         padding: 0 2rem;
         display: flex;
         justify-content: flex-end;
-    }
 
-    &__menu li {
-        margin-right: 2rem;
-    }
+        &-item {
+            margin-right: 2rem;
 
-    &__menu li:last-of-type {
-        margin-right: 0rem;
+            &:last-of-type {
+                margin-right: 0rem;
+            }
+        }
     }
 }

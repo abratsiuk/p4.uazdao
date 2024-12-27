@@ -1,5 +1,5 @@
 .footer {
-    height: 5rem;
+    height: $footer-height;
 
     background-color: #c2c9c9;
     display: flex;
@@ -9,22 +9,24 @@
     padding: 0 1rem;
 }
 
-.footer__copyringht {    
+.footer__copyringht {
     position: relative;
     height: 5rem;
-    line-height: 2.5rem;}
+    line-height: 2.5rem;
+}
 
 .footer__image--gump {
     padding-left: 90px;
 }
 
 .footer__image--gump::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 0px;
     width: 80px;
     height: 5rem;
-    background: #DADDDD url('/src/assets/image/welcome_small_gump.gif') no-repeat;
+    background: #dadddd url('/src/assets/image/welcome_small_gump.gif')
+        no-repeat;
     background-position: center;
     background-size: 90%;
 }
