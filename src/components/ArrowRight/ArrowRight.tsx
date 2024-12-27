@@ -14,7 +14,11 @@ export const ArrowRight: React.FC<ArrowRightProps> = ({
   onClick = () => {},
 }) => {
   return (
-    <ArrowAbstract className={className} direction="right" onClick={onClick}>
+    <ArrowAbstract
+      className={`ArrowRight ${className}`}
+      direction="right"
+      onClick={onClick}
+    >
       {children}
     </ArrowAbstract>
   );

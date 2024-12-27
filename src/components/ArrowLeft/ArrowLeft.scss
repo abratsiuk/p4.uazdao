@@ -1,16 +1,19 @@
-.arrow-left {
+$ArrowLeftBeforeBorder: 20px;
+$ArrowLeftBeforeLeft: 20px;
+
+.ArrowLeft {
   padding-left: 80px;
   position: relative;
-}
-
-.arrow-left::before {
-  content: '';
-  position: absolute;
-  top: calc(50% - 20px);
-  left: 20px;
-  width: 0;
-  height: 0;
-  border: 20px solid navy;
-  border-color: transparent navy transparent transparent;
-  cursor: pointer;
+  &::before {
+    content: '';
+    position: absolute;
+    top: calc(50% - $ArrowLeftBeforeBorder);
+    left: $ArrowLeftBeforeLeft;
+    width: 0;
+    height: 0;
+    border: $ArrowLeftBeforeBorder solid $SentenceItem__header-color;
+    border-color: transparent $SentenceItem__header-color transparent
+      transparent;
+    cursor: pointer;
+  }
 }
