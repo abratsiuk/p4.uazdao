@@ -10,8 +10,8 @@ export const Footer = () => {
       <div
         className={
           isFooterShowCar
-            ? 'footer__copyringht footer__image--gump'
-            : 'footer__copyringht'
+            ? 'footer__copyright footer__image--gump'
+            : 'footer__copyright'
         }
       >
         <div className="footer__my">© 2024 abratsiuk</div>
