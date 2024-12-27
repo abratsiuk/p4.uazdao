@@ -10,7 +10,7 @@ export const Footer = () => {
       <div
         className={
           isFooterShowCar
-            ? 'footer__copyright footer__image--gump'
+            ? 'footer__copyright footer__image_bouncing'
             : 'footer__copyright'
         }
       >

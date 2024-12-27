@@ -15,15 +15,15 @@ $welcome-text-color: blue;
     grid-row: 2/3;
     border-radius: 40%;
 
-    &--quickly {
-      background: $main-color url('/src/assets/image/welcome_small_quickly.gif')
-        no-repeat;
+    &_smoothly {
+      background: $main-color
+        url('/src/assets/image/welcome_small_smoothly.gif') no-repeat;
       background-position: center;
     }
 
-    &--gump {
-      background: $main-color url('/src/assets/image/welcome_small_gump.gif')
-        no-repeat;
+    &_bouncing {
+      background: $main-color
+        url('/src/assets/image/welcome_small_bouncing.gif') no-repeat;
       background-position: center;
     }
   }
