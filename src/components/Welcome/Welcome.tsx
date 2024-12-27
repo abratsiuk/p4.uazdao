@@ -10,13 +10,14 @@ export const Welcome: React.FC = () => {
 
   useEffect(() => {
     setIsFooterShowCar(false);
+
     const timer = setTimeout(() => {
       history.push('/home');
       setIsFooterShowCar(true);
     }, 5000);
 
     return () => clearTimeout(timer);
-  }, [history]);
+  }, [history, setIsFooterShowCar]);
 
   return (
     <div className="Welcome">

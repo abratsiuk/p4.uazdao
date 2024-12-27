@@ -2,9 +2,10 @@ import React, { createContext } from 'react';
 
 export interface UazdaoContextValue {
   isFooterShowCar: boolean;
-  setIsFooterShowCar: React.Dispatch<React.SetStateAction<boolean>>;
+  setIsFooterShowCar: (show: boolean) => void;
 }
 
-export const UazdaoContext = createContext<UazdaoContextValue | undefined>(
-  undefined,
-);
+export const UazdaoContext = createContext<UazdaoContextValue>({
+  isFooterShowCar: true,
+  setIsFooterShowCar: () => {},
+});
