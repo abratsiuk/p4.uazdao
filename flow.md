@@ -486,32 +486,32 @@ yarn stylelint
 https://gist.github.com/jonlabelle/c082700c1c249d986faecbd5abf7d65b
 
 npm vs Yarn Command Translation Cheat Sheet
-npm	Yarn
-npm init	yarn init
-npm install	yarn install
-(N/A)	yarn install --flat
-(N/A)	yarn install --har
-(N/A)	yarn install --no-lockfile
-(N/A)	yarn install --pure-lockfile
-npm install [package]	(N/A)
-npm install --save [package]	yarn add [package]
-npm install --save-dev [package]	yarn add [package] --dev
-(N/A)	yarn add [package] --peer
-npm install --save-optional [package]	yarn add [package] --optional
-npm install --save-exact [package]	yarn add [package] --exact
-(N/A)	yarn add [package] --tilde
-npm install --global [package]	yarn global add [package]
-npm update --global	yarn global upgrade
-npm rebuild	yarn add --force
-npm uninstall [package]	(N/A)
-npm uninstall --save [package]	yarn remove [package]
-npm uninstall --save-dev [package]	yarn remove [package]
-npm uninstall --save-optional [package]	yarn remove [package]
-npm cache clean	yarn cache clean
-rm -rf node_modules && npm install	yarn upgrade
-npm version major	yarn version --major
-npm version minor	yarn version --minor
-npm version patch	yarn version --patch
+npm Yarn
+npm init yarn init
+npm install yarn install
+(N/A) yarn install --flat
+(N/A) yarn install --har
+(N/A) yarn install --no-lockfile
+(N/A) yarn install --pure-lockfile
+npm install [package] (N/A)
+npm install --save [package] yarn add [package]
+npm install --save-dev [package] yarn add [package] --dev
+(N/A) yarn add [package] --peer
+npm install --save-optional [package] yarn add [package] --optional
+npm install --save-exact [package] yarn add [package] --exact
+(N/A) yarn add [package] --tilde
+npm install --global [package] yarn global add [package]
+npm update --global yarn global upgrade
+npm rebuild yarn add --force
+npm uninstall [package] (N/A)
+npm uninstall --save [package] yarn remove [package]
+npm uninstall --save-dev [package] yarn remove [package]
+npm uninstall --save-optional [package] yarn remove [package]
+npm cache clean yarn cache clean
+rm -rf node_modules && npm install yarn upgrade
+npm version major yarn version --major
+npm version minor yarn version --minor
+npm version patch yarn version --patch
 
 =====================================================================
 https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
@@ -530,4 +530,53 @@ module.exports = {
     }
   ]
 };
+--- пока не получилось
+---------------------------------------
+проверка кода с Eslint
+```
+yarn lint
+```
+D:\R\p4.uazdao\src\components\BookMultiverse\BookMultiverse.jsx
+   68:29  error  Irregular whitespace not allowed  no-irregular-whitespace
+   84:40  error  Irregular whitespace not allowed  no-irregular-whitespace
+  132:57  error  Irregular whitespace not allowed  no-irregular-whitespace
+
+Искин:  
+Используйте автоматическую очистку кода:
+
+Настройте ESLint, чтобы он автоматически исправлял такие проблемы при сохранении. Добавьте в settings.json вашего VS Code:
+
+Добавить настройки в settings.json в Visual Studio Code можно следующим образом:
+
+Откройте настройки VS Code:
+
+Нажмите Ctrl+, (или Cmd+, на Mac).
+В правом верхнем углу окна нажмите на значок с изображением файла (Open Settings (JSON)).
+Откройте файл settings.json:
+
+Нажав на значок, вы откроете файл settings.json, где хранятся настройки редактора.
+Добавьте нужные настройки: Вставьте следующий блок в файл settings.json:
+
+json
+Копировать код
+"editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+}
+Сохраните файл:
+
+Нажмите Ctrl+S (или Cmd+S), чтобы сохранить изменения.
+---------------------------------------
+
+D:\R\p4.uazdao\src\components\BookMultiverse\BookMultiverse.jsx
+   68:29  error  Irregular whitespace not allowed  no-irregular-whitespace
+
+Искин:
+Найдите и удалите неправильные пробелы:
+
+В VS Code выполните поиск по регулярному выражению:
+css
+Копировать код
+[^\S\r\n\u0020]
+Это выделит все пробелы, отличные от стандартного.
+---------------------------------------------   
 
