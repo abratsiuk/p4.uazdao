@@ -8,7 +8,7 @@ export const ArrowAbstract = ({
     direction,
     onClick = Function.prototype,
 }) => {
-    const classes = `${className} arrow arrow--${direction}`;
+    const classes = `${className} arrow arrow-${direction}`;
     const onHandleClick = (el) => {
         const targetClassNames = el.target.classList.value;
         if (classes === targetClassNames) {
