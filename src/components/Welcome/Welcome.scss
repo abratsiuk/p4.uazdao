@@ -16,13 +16,13 @@ $welcome-text-color: blue;
     border-radius: 40%;
 
     &_smoothly {
-      background: $main-color
+      background: $Main-color
         url('/src/assets/image/welcome_small_smoothly.gif') no-repeat;
       background-position: center;
     }
 
     &_bouncing {
-      background: $main-color
+      background: $Main-color
         url('/src/assets/image/welcome_small_bouncing.gif') no-repeat;
       background-position: center;
     }

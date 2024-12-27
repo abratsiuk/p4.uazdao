@@ -2,15 +2,15 @@
   font-family: 'Merriweather', serif;
   font-size: 1.8rem;
   text-decoration: none;
-  color: $logo-color;
+  color: $Header__logo-color;
 
-  &-active {
+  &_active {
     font-weight: 700;
-    color: $link-active-color;
+    color: $link_active-color;
   }
 
-  &:not(.link-active):hover {
-    color: $link-active-color;
-    text-shadow: 0px 0px 1px $link-active-color;
+  &:not(.link_active):hover {
+    color: $link_active-color;
+    text-shadow: 0px 0px 1px $link_active-color;
   }
 }

@@ -13,9 +13,9 @@ export const Main: React.FC<MainProps> = ({ children }) => {
 
   useEffect(() => {
     if (location.pathname.indexOf('/book') !== -1) {
-      setClassName('main_scrollable');
+      setClassName('Main_scrollable');
     } else {
-      setClassName('main');
+      setClassName('Main');
     }
   }, [location]);
 

@@ -5,19 +5,19 @@ import './Header.scss';
 
 export const Header = () => {
   return (
-    <header id="header" className="header">
-      <Link to="/" className="header__logo">
+    <header id="header" className="Header">
+      <Link to="/" className="Header__logo">
         Уаздао
       </Link>
-      <ul className="header__menu">
+      <ul className="Header__menu">
         {menu?.map((m: MenuItem) => {
           return (
-            <li className="header__menu-item" key={m.to}>
+            <li className="Header__menuItem" key={m.to}>
               <NavLink
                 to={m.to}
                 className="link"
                 exact
-                activeClassName="link-active"
+                activeClassName="link_active"
               >
                 {m.text}
               </NavLink>
