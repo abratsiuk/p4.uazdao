@@ -3,28 +3,28 @@ import './Home.scss';
 
 export const Home: React.FC = () => {
   return (
-    <div className="home">
+    <div className="Home">
       <img
-        className="home__image"
+        className="Home__image"
         src="/src/assets/image/book/title.webp"
         alt="Обложка книги 'УАЗдао' или 'Дао, выраженное руками'"
       />
-      <div className="home__quotes">
+      <div className="Home__quotes">
         <blockquote
-          className="home__quote"
+          className="Home__quote"
           aria-label="Цитата из Дао Дэ Цзина: 'Дао, которое может быть выражено словами, не есть настоящее дао.'"
         >
-          <span className="home__quote__text">
+          <span className="Home__quoteText">
             Дао, которое может быть выражено словами, не есть настоящее дао.
           </span>
-          <cite className="text-decorate">Дао Дэ Цзин</cite>
+          <cite className="Home__quoteCite">Дао Дэ Цзин</cite>
         </blockquote>
 
-        <blockquote className="home__quote">
-          <span className="home__quote__text">
+        <blockquote className="Home__quote">
+          <span className="Home__quoteText">
             Дело Мастера боится, потому что Мастер знает много страшных слов.
           </span>
-          <cite className="text-decorate">УАЗдао</cite>
+          <cite className="Home__quoteCite">УАЗдао</cite>
         </blockquote>
       </div>
     </div>
