@@ -10,18 +10,18 @@
     align-items: center;
     position: relative;
     overflow: hidden;
-}
 
-.author__avatar {
-    display: block;
-    width: 300px;
-    border: 10px solid white;
-    position: relative;
-    top: 70px
-}
+    &__avatar {
+        display: block;
+        width: 300px;
+        border: 10px solid white;
+        position: relative;
+        top: 70px;
+    }
 
-.author_cart {
-    align-self: flex-end;
-    position: relative;
-    bottom: 70px
+    &__cart {
+        align-self: flex-end;
+        position: relative;
+        bottom: 70px;
+    }
 }

@@ -1,47 +1,27 @@
 .header {
     height: 7rem;
-    background-color: #c2c9c9;
+    background-color: $header-color;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    &__logo {
+        font-family: 'Great Vibes', cursive;
+        font-size: 5rem;
+        text-decoration: none;
+        color: $logo-color;
+        padding: 0 2rem;
+    }
+    &__menu {
+        padding: 0 2rem;
+        display: flex;
+        justify-content: flex-end;
+    }
 
-.header__logo {
-    font-family: "Great Vibes", cursive;
-    font-size: 5rem;
-    text-decoration: none;
-    color: #2626bf;
-    padding: 0 2rem;
-}
+    &__menu li {
+        margin-right: 2rem;
+    }
 
-.header__menu {
-    padding: 0 2rem;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.header__menu li {
-    margin-right: 2rem;
-}
-
-.header__menu li:last-of-type {
-    margin-right: 0rem;
-}
-
-
-.link {
-    font-family: "Merriweather", serif;
-    font-size: 1.8rem;
-    text-decoration: none;
-    color: #2626bf;
-}
-
-.link-active {
-    font-weight: 700;
-    color: #1f1f81;
-}
-
-.link:not(.link-active):hover {
-    color: #1f1f81;
-    text-shadow: 0px 0px 1px #1f1f81;
+    &__menu li:last-of-type {
+        margin-right: 0rem;
+    }
 }

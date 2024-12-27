@@ -3869,7 +3869,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.11, lodash@npm:^4.17.15, lodash@npm:^4.17.21":
+"lodash@npm:>=4.17.21, lodash@npm:^4.17.11, lodash@npm:^4.17.15, lodash@npm:^4.17.21":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: 10c0/d8cbea072bb08655bb4c989da418994b073a608dffa608b09ac04b43a791b12aeae7cd7ad919aa4c925f33b48490b5cfe6c1f71d827956071dae2e7bb3a6b74c
@@ -4680,6 +4680,7 @@ __metadata:
     sass: "npm:^1.83.0"
     stylelint: "npm:^16.12.0"
     stylelint-config-standard-scss: "npm:^14.0.0"
+    stylelint-selector-bem-pattern: "npm:^4.0.1"
     vite: "npm:^6.0.1"
   languageName: unknown
   linkType: soft
@@ -4787,6 +4788,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss-bem-linter@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "postcss-bem-linter@npm:4.0.1"
+  dependencies:
+    minimatch: "npm:^3.1.2"
+    postcss-resolve-nested-selector: "npm:^0.1.1"
+  peerDependencies:
+    postcss: ^8.4.21
+  checksum: 10c0/b0f18a83cea880861a7d47edad78741c301b426be1688842a82902db3e46aa9ae6d518f2b423eca5bc1064b1758896bdebd65e132ea23404cbcdee2a8e279994
+  languageName: node
+  linkType: hard
+
 "postcss-browser-comments@npm:^6.0.1":
   version: 6.0.1
   resolution: "postcss-browser-comments@npm:6.0.1"
@@ -4818,7 +4831,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-resolve-nested-selector@npm:^0.1.6":
+"postcss-resolve-nested-selector@npm:^0.1.1, postcss-resolve-nested-selector@npm:^0.1.6":
   version: 0.1.6
   resolution: "postcss-resolve-nested-selector@npm:0.1.6"
   checksum: 10c0/84213a2bccce481b1569c595a3c547b25c6ef1cca839fbd6c82c12ab407559966e968613c7454b573aa54f38cfd7e900c1fd603f0efc9f51939ab9f93f115455
@@ -4860,7 +4873,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.49":
+"postcss@npm:^8.4.24, postcss@npm:^8.4.49":
   version: 8.4.49
   resolution: "postcss@npm:8.4.49"
   dependencies:
@@ -5954,6 +5967,19 @@ __metadata:
   peerDependencies:
     stylelint: ^16.0.2
   checksum: 10c0/9086109bc36b46ea5e62aef5c1793debbd973aaecb28ba65cadaaf6761a295db1e52f94e1a6bae7ee884e440fc36463e9686941fc652a5ce79045ee58cae5308
+  languageName: node
+  linkType: hard
+
+"stylelint-selector-bem-pattern@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "stylelint-selector-bem-pattern@npm:4.0.1"
+  dependencies:
+    lodash: "npm:>=4.17.21"
+    postcss: "npm:^8.4.24"
+    postcss-bem-linter: "npm:^4.0.1"
+  peerDependencies:
+    stylelint: ^16.2.1
+  checksum: 10c0/28ed29d9cb439ec714a8d84a7cf77b0ec2a987dd4a77ec6554a40d5ad8ae71bb6e192d577470404a2367e13d0362b8cf830738bcf9506df99bf8b439776c972f
   languageName: node
   linkType: hard
 

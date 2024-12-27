@@ -25,6 +25,7 @@ use command "…or create a new repository on the command line" from github
 ```
 yarn add react-router-dom@5.2.0
 yarn add stylelint
+yarn add stylelint-selector-bem-pattern
 yarn add sass --dev
 yarn add normalize.css
 ```
@@ -580,3 +581,88 @@ css
 Это выделит все пробелы, отличные от стандартного.
 ---------------------------------------------   
 
+stylelint БЭМ
+
+https://www.npmjs.com/package/stylelint-selector-bem-pattern
+
+Искин:
+Установите пакет: Выполните установку через Yarn:
+
+bash
+Копировать код
+yarn add stylelint-selector-bem-pattern --dev
+Обновите ваш .stylelintrc.json: Внесите изменения в файл .stylelintrc.json, добавив настройки для плагина:
+
+json
+Копировать код
+{
+    "extends": "stylelint-config-standard-scss",
+    "plugins": [
+        "stylelint-selector-bem-pattern"
+    ],
+    "rules": {
+        "plugin/selector-bem-pattern": {
+            "preset": "bem",
+            "componentSelectors": {
+                "initial": "^\\.{component}(?:__[-\\w]+)?(?:--\\w+)?$",
+                "combined": "^\\.combined-{component}-[a-z]+$"
+            }
+        }
+    }
+}
+---------------------------------------------
+
+не срабатывает автоформатирование при сохранении scss.
+как настроить?
+
+Искин:
+Для настройки автоформатирования SCSS при сохранении в Visual Studio Code, выполните следующие шаги:
+
+1. Установите необходимые расширения
+Установите расширение Prettier - Code formatter:
+Откройте Extensions (Ctrl+Shift+X), найдите Prettier и установите.
+(Опционально) Установите stylelint и его интеграцию с VS Code, если хотите lint-ить SCSS.
+2. Настройте автоформатирование SCSS
+Откройте файл настроек VS Code (Ctrl+,) и перейдите в settings.json через значок файла в правом верхнем углу.
+Добавьте настройки для автоформатирования SCSS:
+json
+Копировать код
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "editor.formatOnSave": true
+}
+
+---------------------------------------------
+
+variables in scss:
+
+vite.config.js:
+```
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import postcssNormalize from 'postcss-normalize';
+
+// https://vite.dev/config/
+export default defineConfig({
+    plugins: [react()],
+    server: {
+        historyApiFallback: true, // for React Router
+    },
+    css: {
+        postcss: {
+            plugins: [
+                postcssNormalize(), // for normalize.css
+            ],
+        },
+        preprocessorOptions: {
+            scss: {
+                additionalData: `@use '/src/styles/variables.scss' as *;`,
+            },
+        },
+    },
+});
+```

@@ -8,7 +8,7 @@ export const Author = () => {
                 src='/src/assets/image/ievlev/avatar.webp'
                 alt=''
             />
-            <div className={styles.author_cart}>
+            <div className={styles.author__cart}>
                 <h1>
                     <a
                         href='https://author.today/u/semiurg/works'
@@ -19,7 +19,6 @@ export const Author = () => {
                     </a>
                 </h1>
                 <h3>Когда палец показывает на небо, люди смотрят на палец.</h3>
-                <button>test</button>
             </div>
         </div>
     );

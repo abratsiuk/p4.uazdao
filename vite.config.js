@@ -14,5 +14,10 @@ export default defineConfig({
                 postcssNormalize(), // for normalize.css
             ],
         },
+        preprocessorOptions: {
+            scss: {
+                additionalData: `@use '/src/styles/variables.scss' as *;`,
+            },
+        },
     },
 });
