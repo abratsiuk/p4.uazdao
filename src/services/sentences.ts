@@ -1,10 +1,5 @@
-export interface SentenceItemData {
-  id: number;
-  imgPath?: string;
-  header?: string;
-  footer?: string;
-  text?: string;
-}
+import { SentenceItemData } from './SentenceItemData';
+
 const sentencesData = [
   {
     imgPath: 'p69',

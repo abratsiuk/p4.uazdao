@@ -1,9 +1,10 @@
+import React from 'react';
 import { useEffect, useContext } from 'react';
 import { UazdaoContext } from '../Context';
 import { useHistory } from 'react-router-dom';
 import './Welcome.scss';
 
-export const Welcome = () => {
+export const Welcome: React.FC = () => {
   const history = useHistory();
   const { setIsFooterShowCar = Function.prototype } = useContext(UazdaoContext);
 

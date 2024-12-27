@@ -22,17 +22,25 @@ export const SentenceItem: React.FC<SentenceItemProps> = ({
 }) => {
   return (
     <div className={styles.sentence}>
-      <ArrowLeft className={styles.sentence__image} onClick={onNext}>
+      <ArrowLeft
+        className={styles.sentence__image}
+        onClick={onNext}
+        aria-label="Предыдущее изречение"
+      >
         <img src={imgPath} alt="sentence image" />
       </ArrowLeft>
-      <ArrowRight className={styles.sentence__quote} onClick={onPrevious}>
+      <ArrowRight
+        className={styles.sentence__quote}
+        onClick={onPrevious}
+        aria-label="Следующее изречение"
+      >
         <figure className={styles.quote}>
           {header && (
             <blockquote className={styles.quote__header}>{header}</blockquote>
           )}
           <blockquote
             className={styles.quote__text}
-            data-direct-speech={!!(text?.trim().charAt(0) === '-')}
+            data-direct-speech={!!(text?.trim()[0] === '-')}
           >
             {text}
           </blockquote>

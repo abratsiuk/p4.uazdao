@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { SentenceItem } from '../SentenceItem';
@@ -8,28 +9,24 @@ import {
   SentenceItemData,
 } from '../../services';
 
-export const Sentence = () => {
+export const Sentence: React.FC = () => {
   let location = useLocation();
-  const [sentence, setSentence] = useState<SentenceItemData>({
-    id: 0,
-    imgPath: '',
-    header: '',
-    footer: '',
-    text: '',
-  });
+  const [sentence, setSentence] = useState<SentenceItemData | null>(null);
 
   useEffect(() => {
     setSentence(getRandomSentence());
   }, [location]);
 
   return (
-    <SentenceItem
-      imgPath={sentence.imgPath}
-      header={sentence.header}
-      footer={sentence.footer}
-      text={sentence.text}
-      onPrevious={() => setSentence(getPreviousSentence(sentence.id))}
-      onNext={() => setSentence(getNextSentence(sentence.id))}
-    />
+    sentence && (
+      <SentenceItem
+        imgPath={sentence.imgPath}
+        header={sentence.header}
+        footer={sentence.footer}
+        text={sentence.text}
+        onPrevious={() => setSentence(getPreviousSentence(sentence.id))}
+        onNext={() => setSentence(getNextSentence(sentence.id))}
+      />
+    )
   );
 };

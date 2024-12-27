@@ -1,4 +1,5 @@
-import { sentences, SentenceItemData } from './sentences';
+import { sentences } from './sentences';
+import { SentenceItemData } from './SentenceItemData';
 
 export const getPreviousSentence = (id: number = 0): SentenceItemData => {
   return getSentenceById(id - 1);
