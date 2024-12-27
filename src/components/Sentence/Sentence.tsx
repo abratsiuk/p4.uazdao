@@ -2,11 +2,11 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { SentenceItem } from '../SentenceItem';
+import { SentenceItemData } from '../../services/SentenceItemData';
 import {
   getRandomSentence,
   getPreviousSentence,
   getNextSentence,
-  SentenceItemData,
 } from '../../services';
 
 export const Sentence: React.FC = () => {
