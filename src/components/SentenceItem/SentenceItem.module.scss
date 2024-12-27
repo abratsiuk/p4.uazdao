@@ -5,54 +5,54 @@
     align-items: center;
     height: 100%;
     overflow: hidden;
-}
 
-.sentence__image {
-    width: 50%;
-    max-width: 100%;
-    user-select: none;
-}
+    &__image {
+        width: 50%;
+        max-width: 100%;
+        user-select: none;
+    }
 
-.sentence__quote {
-    width: 50%;
-    max-height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: 1rem 1rem;
-    position:relative;
+    &__quote {
+        width: 50%;
+        max-height: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 1rem 1rem;
+        position: relative;
+    }
 }
-.sentence__quote figure {
+.quote {
     max-width: 63rem;
     line-height: 4rem;
     margin: 0 auto;
-}
 
-.sentence__quote__header {
-    position: relative;
-    color:navy;
-    font-family: "Great Vibes", serif;
-    font-size:3.5rem;
-}
-.sentence__quote__text {
-    white-space: pre-line;
-}
+    &__header {
+        position: relative;
+        color: navy;
+        font-family: 'Great Vibes', serif;
+        font-size: 3.5rem;
+    }
+    &__text {
+        white-space: pre-line;
+    }
 
-.sentence__quote__text:not([data-direct-speach="true"]) {
-    text-indent:2rem;
-}
-.sentence__quote__header ~ .sentence__quote__text {
-    max-width: 60rem;
-    padding-left:3rem;
-    text-indent:2rem;
-}
-.sentence__quote__header ~ .sentence__quote__text::first-letter{
-    color:navy;
-    font-family: "Merriweather", serif;
-    font-weight: bold;
-    font-size: 150%;
-}
+    &__text:not([data-direct-speach='true']) {
+        text-indent: 2rem;
+    }
+    &__header ~ &__text {
+        max-width: 60rem;
+        padding-left: 3rem;
+        text-indent: 2rem;
+    }
+    &__header ~ &__text::first-letter {
+        color: navy;
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        font-size: 150%;
+    }
 
-.sentence__quote__footer{
-    text-align:right;
-    color:grey;
+    &__footer {
+        text-align: right;
+        color: grey;
+    }
 }

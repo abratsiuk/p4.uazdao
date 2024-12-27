@@ -26,20 +26,20 @@ function SentenceItem({
                 className={styles.sentence__quote}
                 onClick={() => onPrevious()}
             >
-                <figure>
+                <figure className={styles.quote}>
                     {header && (
-                        <blockquote className={styles.sentence__quote__header}>
+                        <blockquote className={styles.quote__header}>
                             {header}
                         </blockquote>
                     )}
                     <blockquote
-                        className={styles.sentence__quote__text}
+                        className={styles.quote__text}
                         data-direct-speach={text.trim().charAt(0) === '-'}
                     >
                         {text}
                     </blockquote>
                     {footer && (
-                        <figcaption className={styles.sentence__quote__footer}>
+                        <figcaption className={styles.quote__footer}>
                             {footer}
                         </figcaption>
                     )}
