@@ -1,11 +1,15 @@
-import PropTypes from 'prop-types';
+import React, { ReactNode } from 'react';
 import { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom/cjs/react-router-dom.min';
+import { useLocation } from 'react-router-dom';
 import './Main.scss';
 
-export const Main = ({ children }) => {
+interface MainProps {
+  children?: ReactNode;
+}
+
+export const Main: React.FC<MainProps> = ({ children }) => {
   const location = useLocation();
-  const [className, setClassName] = useState('main');
+  const [className, setClassName] = useState<string>('main');
 
   useEffect(() => {
     if (location.pathname.indexOf('/book') !== -1) {
@@ -16,8 +20,4 @@ export const Main = ({ children }) => {
   }, [location]);
 
   return <main className={className}>{children}</main>;
-};
-
-Main.propTypes = {
-  children: PropTypes.node,
 };

@@ -1,12 +1,15 @@
-import { useState } from 'react';
-import PropTypes from 'prop-types';
+import React, { ReactNode, useState } from 'react';
 import { UazdaoContext } from './UazdaoContext';
 
-export const Context = (props) => {
+interface ContextProps {
+  children?: ReactNode;
+}
+
+export const Context: React.FC<ContextProps> = ({ children }) => {
   /* Writing any page in the address bar reloads the site, 
     causing the context to remount. 
     Therefore, true is needed as the default. */
-  const [isFooterShowCar, setIsFooterShowCar] = useState(true);
+  const [isFooterShowCar, setIsFooterShowCar] = useState<boolean>(true);
 
   const value = {
     isFooterShowCar,
@@ -14,12 +17,6 @@ export const Context = (props) => {
   };
 
   return (
-    <UazdaoContext.Provider value={value}>
-      {props.children}
-    </UazdaoContext.Provider>
+    <UazdaoContext.Provider value={value}>{children}</UazdaoContext.Provider>
   );
-};
-
-Context.propTypes = {
-  children: PropTypes.node,
 };

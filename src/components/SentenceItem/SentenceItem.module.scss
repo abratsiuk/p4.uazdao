@@ -36,7 +36,7 @@
     white-space: pre-line;
   }
 
-  &__text:not([data-direct-speach='true']) {
+  &__text:not([data-direct-speech='true']) {
     text-indent: 2rem;
   }
   &__header ~ &__text {

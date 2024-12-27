@@ -1,16 +1,25 @@
-import PropTypes from 'prop-types';
+import React from 'react';
 import { ArrowLeft } from '../ArrowLeft';
 import { ArrowRight } from '../ArrowRight';
 import styles from './SentenceItem.module.scss';
 
-function SentenceItem({
+interface SentenceItemProps {
+  imgPath?: string;
+  header?: string;
+  footer?: string;
+  text?: string;
+  onPrevious?: () => void;
+  onNext?: () => void;
+}
+
+export const SentenceItem: React.FC<SentenceItemProps> = ({
   imgPath,
   header = '',
   footer = '',
-  text,
-  onPrevious = Function.prototype,
-  onNext = Function.prototype,
-}) {
+  text = '',
+  onPrevious = () => {},
+  onNext = () => {},
+}) => {
   return (
     <div className={styles.sentence}>
       <ArrowLeft className={styles.sentence__image} onClick={() => onNext()}>
@@ -26,7 +35,7 @@ function SentenceItem({
           )}
           <blockquote
             className={styles.quote__text}
-            data-direct-speach={text.trim().charAt(0) === '-'}
+            data-direct-speech={text.trim().charAt(0) === '-'}
           >
             {text}
           </blockquote>
@@ -37,15 +46,4 @@ function SentenceItem({
       </ArrowRight>
     </div>
   );
-}
-
-export { SentenceItem };
-
-SentenceItem.propTypes = {
-  imgPath: PropTypes.string,
-  header: PropTypes.string,
-  footer: PropTypes.string,
-  text: PropTypes.string,
-  onPrevious: PropTypes.func,
-  onNext: PropTypes.func,
 };

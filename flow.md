@@ -775,3 +775,113 @@ bash
 Копировать код
 yarn add -D eslint-config-prettier eslint-plugin-prettier
 Теперь ваш ESLint настроен для работы с Prettier и TypeScript.
+
+
+----
+Remove-Item -Recurse -Force .\node_modules\.vite
+yarn dev
+---
+Перезапустите TypeScript сервер в VS Code Иногда проблемы вызваны кешированием. Чтобы перезапустить сервер TypeScript в VS Code:
+
+Нажмите Ctrl+Shift+P → Введите TypeScript: Restart TS Server.
+-------------------------
+
+
+Ошибка Parsing error: The keyword 'interface' is reserved возникает из-за конфликта конфигурации ESLint. В данном случае проблема, скорее всего, связана с тем, что ESLint настроен на работу с JavaScript, но не с TypeScript.
+
+Решение:
+Убедитесь, что ESLint поддерживает TypeScript Проверьте, что установлены необходимые зависимости:
+
+bash
+Копировать код
+yarn add -D @typescript-eslint/parser @typescript-eslint/eslint-plugin
+Обновите конфигурацию ESLint В файле eslint.config.js добавьте поддержку TypeScript. Вот пример:
+
+javascript
+Копировать код
+import js from '@eslint/js';
+import typescript from '@typescript-eslint/eslint-plugin';
+import typescriptParser from '@typescript-eslint/parser';
+import globals from 'globals';
+
+export default [
+  {
+    ignores: ['dist'],
+  },
+  {
+    files: ['**/*.{ts,tsx}'],
+    languageOptions: {
+      parser: typescriptParser,
+      ecmaVersion: 'latest',
+      sourceType: 'module',
+      globals: globals.browser,
+    },
+    plugins: {
+      '@typescript-eslint': typescript,
+    },
+    rules: {
+      ...js.configs.recommended.rules,
+      ...typescript.configs.recommended.rules,
+    },
+  },
+];
+Перезапустите ESLint После обновления конфигурации перезапустите ESLint, чтобы он применил новые настройки:
+
+bash
+Копировать код
+yarn eslint .
+Перезапустите сервер TypeScript В VS Code выполните команду:
+
+Нажмите Ctrl+Shift+P → Введите TypeScript: Restart TS Server.
+
+--------------
+
+Ошибка Cannot find module './SentenceItem.module.scss' возникает, потому что TypeScript не знает, как интерпретировать файлы .scss. Чтобы исправить это, необходимо создать декларацию типов для .scss файлов.
+
+
+Я добавлю декларацию для .scss модулей и внесу необходимые изменения в вашем проекте. Вот обновлённые файлы и настройки:
+
+1. Создание декларации для SCSS модулей
+Добавьте файл global.d.ts в папку src. Его содержимое:
+
+typescript
+Копировать код
+declare module '*.module.scss' {
+  const classes: { [key: string]: string };
+  export default classes;
+}
+
+declare module '*.scss' {
+  const content: { [key: string]: any };
+  export default content;
+}
+2. Обновление tsconfig.json
+Ваш файл tsconfig.json уже настроен почти корректно. Я просто убедился, что он поддерживает декларации типов. Вот исправленный файл:
+
+json
+Копировать код
+{
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types", "./src"],
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "strict": true,
+    "jsx": "react-jsx",
+    "target": "esnext",
+    "module": "esnext",
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
+3. Перезапуск TypeScript сервера
+Перезапустите TypeScript сервер в VS Code:
+
+Нажмите Ctrl+Shift+P → Введите TypeScript: Restart TS Server.
+
+------------------------
+проблема с дексларацией типов для React Router:
+
+yarn add -D @types/react-router-dom
+
+Когда вы устанавливаете @types/react-router-dom через yarn add -D, система автоматически подбирает версию типов, соответствующую установленной версии react-router-dom. 
