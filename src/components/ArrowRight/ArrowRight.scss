@@ -1,16 +1,16 @@
 .arrow-right {
-    padding-right: 100px;
-    position: relative;
+  padding-right: 100px;
+  position: relative;
 }
 
 .arrow-right::after {
-    content: '';
-    position: absolute;
-    top: calc(50% - 20px);
-    right: 0;
-    width: 0;
-    height: 0;
-    border: 20px solid navy;
-    border-color: transparent transparent transparent navy;
-    cursor: pointer;
+  content: '';
+  position: absolute;
+  top: calc(50% - 20px);
+  right: 0;
+  width: 0;
+  height: 0;
+  border: 20px solid navy;
+  border-color: transparent transparent transparent navy;
+  cursor: pointer;
 }

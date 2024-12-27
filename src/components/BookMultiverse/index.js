@@ -1,1 +1,0 @@
-export { BookMultiverse } from './BookMultiverse';

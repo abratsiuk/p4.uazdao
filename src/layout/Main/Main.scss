@@ -1,9 +1,9 @@
 .main {
-    height: calc(100vh - $header-height - $footer-height);
-    background-color: $main-color;
+  height: calc(100vh - $header-height - $footer-height);
+  background-color: $main-color;
 }
 
 .main-min-height {
-    min-height: calc(100vh - $header-height - $footer-height);
-    background-color: $main-color;
+  min-height: calc(100vh - $header-height - $footer-height);
+  background-color: $main-color;
 }

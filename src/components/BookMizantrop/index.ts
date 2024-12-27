@@ -1,0 +1,1 @@
+export { BookMizantrop } from './BookMizantrop';

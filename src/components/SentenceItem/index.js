@@ -1,1 +1,0 @@
-export { SentenceItem } from './SentenceItem';

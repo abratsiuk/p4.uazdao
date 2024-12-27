@@ -1,9 +1,9 @@
-
 # flow
 
 ## initial
 
 ========================================================================
+
 ### 1.install React template
 
 ```
@@ -18,6 +18,7 @@ yarn dev
 ```
 
 ### 2.assign to git
+
 use command "…or create a new repository on the command line" from github
 
 ### 3.install other
@@ -29,7 +30,9 @@ yarn add stylelint-selector-bem-pattern
 yarn add sass --dev
 yarn add normalize.css
 ```
+
 ### 3.1.change vite.config.js
+
 ```
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
@@ -63,24 +66,24 @@ export default defineConfig({
 
 ### 5.clear the template
 
-/*
-Remove-Item -Recurse -Force .yarn, .pnp.* , node_modules
+/_
+Remove-Item -Recurse -Force .yarn, .pnp._ , node_modules
 
 Remove-Item — команда для удаления файлов и папок.
 -Recurse — рекурсивное удаление всех вложенных файлов и папок.
 -Force — принудительное удаление, даже если файлы скрыты или защищены.
-*/
+\*/
 
- Remove-Item -Recurse -Force ./public/*
- Remove-Item -Recurse -Force ./src/assets/*
+Remove-Item -Recurse -Force ./public/_
+Remove-Item -Recurse -Force ./src/assets/_
 New-Item -ItemType Directory -Name "./src/assets/image"
-New-Item -ItemType Directory -Name "./src/component"        
-New-Item -ItemType Directory -Name "./src/components/utils"                                             
+New-Item -ItemType Directory -Name "./src/component"  
+New-Item -ItemType Directory -Name "./src/components/utils"  
 New-Item -ItemType Directory -Name "./src/layout"
-New-Item -ItemType Directory -Name "./src/pages" 
+New-Item -ItemType Directory -Name "./src/pages"
 New-Item -ItemType Directory -Name "./src/services"
 
-/*
+/\*
 clear file manually:
 .\src\App.css
 .\src\index.css
@@ -94,44 +97,42 @@ config.js
 .\src\component\Search
 .\src\layout\Footer
 .\src\layout\Header
-*/
+\*/
 
-/* paste:
+/\* paste:
 
 function App() {
-    return <div>Hi</div>;
+return <div>Hi</div>;
 }
 
 export default App;
 
 function Preloader() {
-    return <div>Preloader</div>;
+return <div>Preloader</div>;
 }
 
 export {Preloader};
 
 function Search() {
-    return <div>Search</div>;
+return <div>Search</div>;
 }
 
 export {Search}
 
 function Footer() {
-    return <div>Footer</div>;
+return <div>Footer</div>;
 }
 
 export {Footer};
 
 function Header() {
-    return <div>Header</div>;
+return <div>Header</div>;
 }
 
 export {Header};
-*/
-
+\*/
 
 yarn dev
-
 
 ### 6. push
 
@@ -144,25 +145,23 @@ git push
 gif uaz
 https://dribbble.com/shots/2606920-UAZ-469
 
-
 ========================================================================
 
 Кодировка UTF-16LE не поддерживается корректно Vite и большинством современных инструментов для веб-разработки, так как они ожидают UTF-8. Это объясняет, почему стили не применялись, даже если файл был технически верным.
 
 я делал очистку через терминал используя команду и файлы оказались UTF 16LE
- echo "" > .\src\index.css
+echo "" > .\src\index.css
 
 и даже если использовать
 Set-Content -Path .\src\index.css -Value @""@ -Encoding UTF8
 то создается UTF8 with BOM
 
-по-этому файлы нужно создавать вручную и очищать вручную
-========================================================================
+# по-этому файлы нужно создавать вручную и очищать вручную
 
 ico files
 https://icon-icons.com/search/icons/?filtro=car&page=3
 
----------------------
+---
 
 https://fontawesome.com/
 
@@ -171,9 +170,10 @@ https://fontawesome.com/
 ![](_md_img/flow_images/flow%202024-12-15-19-08-23.png)
 [3.1] 10 25:35
 
------------------
+---
 
 ## for start in new note
+
 ```
     npm install --global yarn
 
@@ -191,6 +191,7 @@ https://fontawesome.com/
 ## initial
 
 ========================================================================
+
 ### 1.install React template
 
 ```
@@ -205,6 +206,7 @@ yarn dev
 ```
 
 ### 2.assign to git
+
 use command "…or create a new repository on the command line" from github
 
 ### 3.install other
@@ -213,6 +215,7 @@ use command "…or create a new repository on the command line" from github
 yarn add react-router-dom@5.2.0
 yarn add stylelint
 ```
+
 ### 4. no install
 
                             /*
@@ -225,24 +228,24 @@ yarn add stylelint
 
 ### 5.clear the template
 
-/*
-Remove-Item -Recurse -Force .yarn, .pnp.* , node_modules
+/_
+Remove-Item -Recurse -Force .yarn, .pnp._ , node_modules
 
 Remove-Item — команда для удаления файлов и папок.
 -Recurse — рекурсивное удаление всех вложенных файлов и папок.
 -Force — принудительное удаление, даже если файлы скрыты или защищены.
-*/
+\*/
 
- Remove-Item -Recurse -Force ./public/*
- Remove-Item -Recurse -Force ./src/assets/*
+Remove-Item -Recurse -Force ./public/_
+Remove-Item -Recurse -Force ./src/assets/_
 New-Item -ItemType Directory -Name "./src/assets/image"
-New-Item -ItemType Directory -Name "./src/component"        
-New-Item -ItemType Directory -Name "./src/components/utils"                                             
+New-Item -ItemType Directory -Name "./src/component"  
+New-Item -ItemType Directory -Name "./src/components/utils"  
 New-Item -ItemType Directory -Name "./src/layout"
-New-Item -ItemType Directory -Name "./src/pages" 
+New-Item -ItemType Directory -Name "./src/pages"
 New-Item -ItemType Directory -Name "./src/services"
 
-/*
+/\*
 clear file manually:
 .\src\App.css
 .\src\index.css
@@ -256,44 +259,42 @@ config.js
 .\src\component\Search
 .\src\layout\Footer
 .\src\layout\Header
-*/
+\*/
 
-/* paste:
+/\* paste:
 
 function App() {
-    return <div>Hi</div>;
+return <div>Hi</div>;
 }
 
 export default App;
 
 function Preloader() {
-    return <div>Preloader</div>;
+return <div>Preloader</div>;
 }
 
 export {Preloader};
 
 function Search() {
-    return <div>Search</div>;
+return <div>Search</div>;
 }
 
 export {Search}
 
 function Footer() {
-    return <div>Footer</div>;
+return <div>Footer</div>;
 }
 
 export {Footer};
 
 function Header() {
-    return <div>Header</div>;
+return <div>Header</div>;
 }
 
 export {Header};
-*/
-
+\*/
 
 yarn dev
-
 
 ### 6. push
 
@@ -306,20 +307,18 @@ git push
 gif uaz
 https://dribbble.com/shots/2606920-UAZ-469
 
-
 ========================================================================
 
 Кодировка UTF-16LE не поддерживается корректно Vite и большинством современных инструментов для веб-разработки, так как они ожидают UTF-8. Это объясняет, почему стили не применялись, даже если файл был технически верным.
 
 я делал очистку через терминал используя команду и файлы оказались UTF 16LE
- echo "" > .\src\index.css
+echo "" > .\src\index.css
 
 и даже если использовать
 Set-Content -Path .\src\index.css -Value @""@ -Encoding UTF8
 то создается UTF8 with BOM
 
-по-этому файлы нужно создавать вручную и очищать вручную
-========================================================================
+# по-этому файлы нужно создавать вручную и очищать вручную
 
 ico files
 https://icon-icons.com/search/icons/?filtro=car&page=3
@@ -351,7 +350,7 @@ header (18-96px) 24px заголовки, bold, extra-bold
 
 используйте только 2 шрифта, тогда будет гармонично
 
----------------------
+---
 
 fix error with Link in React Router in Vite:
 
@@ -377,10 +376,10 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [react()],
-    server: {
-        historyApiFallback: true, // Включает поддержку маршрутов React
-    },
+plugins: [react()],
+server: {
+historyApiFallback: true, // Включает поддержку маршрутов React
+},
 });
 После изменений:
 Сохраните файл vite.config.js.
@@ -424,22 +423,29 @@ That said, Vite does provide built-in support for .scss, .sass, .less, .styl and
 You can also use CSS modules combined with pre-processors by prepending .module to the file extension, for example style.module.scss.
 
 ```
+
 и выполнил команду:
+
 ```
 yarn add sass --dev
 ```
+
 ## CSS normalize for Vite:
 
-1) install normalize.css:
+1. install normalize.css:
+
 ```
 yarn add normalize.css
 ```
-2) index.scss в начало:
+
+2. index.scss в начало:
+
 ```
 @import 'normalize.css';
 ```
 
-3) vite.config.js:
+3. vite.config.js:
+
 ```
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
@@ -465,7 +471,7 @@ export default defineConfig({
 
 https://classic.yarnpkg.com/en/package/stylelint
 
-yarn add stylelint  --dev
+yarn add stylelint --dev
 
 https://github.com/stylelint/stylelint/blob/main/docs/user-guide/get-started.md
 
@@ -473,13 +479,14 @@ yarn add stylelint stylelint-config-standard-scss --dev
 
 Create a .stylelintrc.json configuration file in the root of your project with the following content:
 {
-  "extends": "stylelint-config-standard-scss"
+"extends": "stylelint-config-standard-scss"
 }
 
 add to package.json in scripts:
+
 ```json
  "stylelint": "stylelint \"**/*.scss\"",
- ```
+```
 
 yarn stylelint
 
@@ -517,30 +524,34 @@ npm version patch yarn version --patch
 =====================================================================
 https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
 Install the PostCSS syntax for the language you want to validate into your workspace, e.g. postcss-scss.
-yarn add postcss-scss  
+yarn add postcss-scss
 
 Configure Stylelint to use the syntax by providing the module name in the customSyntax option using overrides (or use the corresponding option in this extension's settings).
 
 Example Stylelint config:
 
 module.exports = {
-  overrides: [
-    {
-      files: ["**/*.scss"],
-      customSyntax: "postcss-scss"
-    }
-  ]
+overrides: [
+{
+files: ["**/*.scss"],
+customSyntax: "postcss-scss"
+}
+]
 };
 --- пока не получилось
----------------------------------------
+
+---
+
 проверка кода с Eslint
+
 ```
 yarn lint
 ```
+
 D:\R\p4.uazdao\src\components\BookMultiverse\BookMultiverse.jsx
-   68:29  error  Irregular whitespace not allowed  no-irregular-whitespace
-   84:40  error  Irregular whitespace not allowed  no-irregular-whitespace
-  132:57  error  Irregular whitespace not allowed  no-irregular-whitespace
+68:29 error Irregular whitespace not allowed no-irregular-whitespace
+84:40 error Irregular whitespace not allowed no-irregular-whitespace
+132:57 error Irregular whitespace not allowed no-irregular-whitespace
 
 Искин:  
 Используйте автоматическую очистку кода:
@@ -561,15 +572,14 @@ D:\R\p4.uazdao\src\components\BookMultiverse\BookMultiverse.jsx
 json
 Копировать код
 "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+"source.fixAll.eslint": true
 }
 Сохраните файл:
 
-Нажмите Ctrl+S (или Cmd+S), чтобы сохранить изменения.
----------------------------------------
+## Нажмите Ctrl+S (или Cmd+S), чтобы сохранить изменения.
 
 D:\R\p4.uazdao\src\components\BookMultiverse\BookMultiverse.jsx
-   68:29  error  Irregular whitespace not allowed  no-irregular-whitespace
+68:29 error Irregular whitespace not allowed no-irregular-whitespace
 
 Искин:
 Найдите и удалите неправильные пробелы:
@@ -579,7 +589,8 @@ css
 Копировать код
 [^\S\r\n\u0020]
 Это выделит все пробелы, отличные от стандартного.
----------------------------------------------   
+
+---
 
 stylelint БЭМ
 
@@ -596,21 +607,22 @@ yarn add stylelint-selector-bem-pattern --dev
 json
 Копировать код
 {
-    "extends": "stylelint-config-standard-scss",
-    "plugins": [
-        "stylelint-selector-bem-pattern"
-    ],
-    "rules": {
-        "plugin/selector-bem-pattern": {
-            "preset": "bem",
-            "componentSelectors": {
-                "initial": "^\\.{component}(?:__[-\\w]+)?(?:--\\w+)?$",
+"extends": "stylelint-config-standard-scss",
+"plugins": [
+"stylelint-selector-bem-pattern"
+],
+"rules": {
+"plugin/selector-bem-pattern": {
+"preset": "bem",
+"componentSelectors": {
+"initial": "^\\.{component}(?:\_\_[-\\w]+)?(?:--\\w+)?$",
                 "combined": "^\\.combined-{component}-[a-z]+$"
-            }
-        }
-    }
 }
----------------------------------------------
+}
+}
+}
+
+---
 
 не срабатывает автоформатирование при сохранении scss.
 как настроить?
@@ -619,28 +631,29 @@ json
 Для настройки автоформатирования SCSS при сохранении в Visual Studio Code, выполните следующие шаги:
 
 1. Установите необходимые расширения
-Установите расширение Prettier - Code formatter:
-Откройте Extensions (Ctrl+Shift+X), найдите Prettier и установите.
-(Опционально) Установите stylelint и его интеграцию с VS Code, если хотите lint-ить SCSS.
+   Установите расширение Prettier - Code formatter:
+   Откройте Extensions (Ctrl+Shift+X), найдите Prettier и установите.
+   (Опционально) Установите stylelint и его интеграцию с VS Code, если хотите lint-ить SCSS.
 2. Настройте автоформатирование SCSS
-Откройте файл настроек VS Code (Ctrl+,) и перейдите в settings.json через значок файла в правом верхнем углу.
-Добавьте настройки для автоформатирования SCSS:
-json
-Копировать код
-{
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[scss]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-    "editor.formatOnSave": true
-}
+   Откройте файл настроек VS Code (Ctrl+,) и перейдите в settings.json через значок файла в правом верхнем углу.
+   Добавьте настройки для автоформатирования SCSS:
+   json
+   Копировать код
+   {
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "[scss]": {
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "editor.formatOnSave": true
+   },
+   "editor.formatOnSave": true
+   }
 
----------------------------------------------
+---
 
 variables in scss:
 
 vite.config.js:
+
 ```
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
@@ -666,3 +679,99 @@ export default defineConfig({
     },
 });
 ```
+
+---
+
+перевести на typescript
+
+https://ru.legacy.reactjs.org/docs/static-type-checking.html
+
+Искин:
+yarn add -D typescript @types/react @types/react-dom
+
+Отредактируйте tsconfig.json, добавив минимальные настройки для React:
+
+json
+Копировать код
+{
+"compilerOptions": {
+"strict": true,
+"jsx": "react-jsx",
+"moduleResolution": "node",
+"target": "esnext",
+"module": "esnext",
+"esModuleInterop": true
+},
+"include": ["src"],
+"exclude": ["node_modules"]
+}
+
+---
+
+yarn add -D prettier @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-prettier eslint-config-prettier
+
+Вот обновлённый файл eslint.config.js с интеграцией Prettier:
+
+javascript
+Копировать код
+import js from '@eslint/js';
+import globals from 'globals';
+import react from 'eslint-plugin-react';
+import reactHooks from 'eslint-plugin-react-hooks';
+import reactRefresh from 'eslint-plugin-react-refresh';
+import prettier from 'eslint-config-prettier';
+import prettierPlugin from 'eslint-plugin-prettier';
+
+export default [
+{ ignores: ['dist'] },
+{
+files: ['**/*.{js,jsx,ts,tsx}'],
+languageOptions: {
+ecmaVersion: 2020,
+globals: globals.browser,
+parserOptions: {
+ecmaVersion: 'latest',
+ecmaFeatures: { jsx: true },
+sourceType: 'module',
+},
+},
+settings: { react: { version: '18.3' } },
+plugins: {
+react,
+'react-hooks': reactHooks,
+'react-refresh': reactRefresh,
+prettier: prettierPlugin,
+},
+rules: {
+...js.configs.recommended.rules,
+...react.configs.recommended.rules,
+...react.configs['jsx-runtime'].rules,
+...reactHooks.configs.recommended.rules,
+...prettier.rules, // Отключение конфликтующих правил ESLint
+'prettier/prettier': 'error', // Включение проверки Prettier как ошибки
+'react/jsx-no-target-blank': 'off',
+'react-refresh/only-export-components': [
+'warn',
+{ allowConstantExport: true },
+],
+},
+},
+];
+
+Изменения:
+Добавлены Prettier конфигурации:
+
+eslint-config-prettier отключает конфликтующие правила ESLint.
+eslint-plugin-prettier добавляет проверку Prettier.
+Обновлены files:
+
+Теперь ESLint проверяет .ts и .tsx файлы.
+Правило prettier/prettier:
+
+Добавляет проверку форматирования Prettier как правило ESLint.
+Установка новых зависимостей: Выполните команду для установки зависимостей:
+
+bash
+Копировать код
+yarn add -D eslint-config-prettier eslint-plugin-prettier
+Теперь ваш ESLint настроен для работы с Prettier и TypeScript.
