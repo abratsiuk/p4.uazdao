@@ -776,16 +776,16 @@ bash
 yarn add -D eslint-config-prettier eslint-plugin-prettier
 Теперь ваш ESLint настроен для работы с Prettier и TypeScript.
 
+---
 
-----
 Remove-Item -Recurse -Force .\node_modules\.vite
 yarn dev
+
 ---
+
 Перезапустите TypeScript сервер в VS Code Иногда проблемы вызваны кешированием. Чтобы перезапустить сервер TypeScript в VS Code:
 
-Нажмите Ctrl+Shift+P → Введите TypeScript: Restart TS Server.
--------------------------
-
+## Нажмите Ctrl+Shift+P → Введите TypeScript: Restart TS Server.
 
 Ошибка Parsing error: The keyword 'interface' is reserved возникает из-за конфликта конфигурации ESLint. В данном случае проблема, скорее всего, связана с тем, что ESLint настроен на работу с JavaScript, но не с TypeScript.
 
@@ -805,25 +805,25 @@ import typescriptParser from '@typescript-eslint/parser';
 import globals from 'globals';
 
 export default [
-  {
-    ignores: ['dist'],
-  },
-  {
-    files: ['**/*.{ts,tsx}'],
-    languageOptions: {
-      parser: typescriptParser,
-      ecmaVersion: 'latest',
-      sourceType: 'module',
-      globals: globals.browser,
-    },
-    plugins: {
-      '@typescript-eslint': typescript,
-    },
-    rules: {
-      ...js.configs.recommended.rules,
-      ...typescript.configs.recommended.rules,
-    },
-  },
+{
+ignores: ['dist'],
+},
+{
+files: ['**/*.{ts,tsx}'],
+languageOptions: {
+parser: typescriptParser,
+ecmaVersion: 'latest',
+sourceType: 'module',
+globals: globals.browser,
+},
+plugins: {
+'@typescript-eslint': typescript,
+},
+rules: {
+...js.configs.recommended.rules,
+...typescript.configs.recommended.rules,
+},
+},
 ];
 Перезапустите ESLint После обновления конфигурации перезапустите ESLint, чтобы он применил новые настройки:
 
@@ -834,75 +834,74 @@ yarn eslint .
 
 Нажмите Ctrl+Shift+P → Введите TypeScript: Restart TS Server.
 
---------------
+---
 
 Ошибка Cannot find module './SentenceItem.module.scss' возникает, потому что TypeScript не знает, как интерпретировать файлы .scss. Чтобы исправить это, необходимо создать декларацию типов для .scss файлов.
-
 
 Я добавлю декларацию для .scss модулей и внесу необходимые изменения в вашем проекте. Вот обновлённые файлы и настройки:
 
 1. Создание декларации для SCSS модулей
-Добавьте файл global.d.ts в папку src. Его содержимое:
+   Добавьте файл global.d.ts в папку src. Его содержимое:
 
 typescript
 Копировать код
-declare module '*.module.scss' {
-  const classes: { [key: string]: string };
-  export default classes;
+declare module '\*.module.scss' {
+const classes: { [key: string]: string };
+export default classes;
 }
 
-declare module '*.scss' {
-  const content: { [key: string]: any };
-  export default content;
-}
-2. Обновление tsconfig.json
+declare module '\*.scss' {
+const content: { [key: string]: any };
+export default content;
+} 2. Обновление tsconfig.json
 Ваш файл tsconfig.json уже настроен почти корректно. Я просто убедился, что он поддерживает декларации типов. Вот исправленный файл:
 
 json
 Копировать код
 {
-  "compilerOptions": {
-    "typeRoots": ["./node_modules/@types", "./src"],
-    "moduleResolution": "node",
-    "baseUrl": "./src",
-    "strict": true,
-    "jsx": "react-jsx",
-    "target": "esnext",
-    "module": "esnext",
-    "esModuleInterop": true
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
-}
-3. Перезапуск TypeScript сервера
+"compilerOptions": {
+"typeRoots": ["./node_modules/@types", "./src"],
+"moduleResolution": "node",
+"baseUrl": "./src",
+"strict": true,
+"jsx": "react-jsx",
+"target": "esnext",
+"module": "esnext",
+"esModuleInterop": true
+},
+"include": ["src/**/*"],
+"exclude": ["node_modules"]
+} 3. Перезапуск TypeScript сервера
 Перезапустите TypeScript сервер в VS Code:
 
 Нажмите Ctrl+Shift+P → Введите TypeScript: Restart TS Server.
 
-------------------------
+---
+
 проблема с дексларацией типов для React Router:
 
 yarn add -D @types/react-router-dom
 
-Когда вы устанавливаете @types/react-router-dom через yarn add -D, система автоматически подбирает версию типов, соответствующую установленной версии react-router-dom. 
+Когда вы устанавливаете @types/react-router-dom через yarn add -D, система автоматически подбирает версию типов, соответствующую установленной версии react-router-dom.
 
---------------------------------
+---
+
 2. Как выглядит aria-label
-Атрибут aria-label используется для описания назначения интерактивного элемента (например, ссылки) для пользователей, использующих вспомогательные технологии (экранные дикторы).
+   Атрибут aria-label используется для описания назначения интерактивного элемента (например, ссылки) для пользователей, использующих вспомогательные технологии (экранные дикторы).
 
 Ваш пример:
 
 tsx
 Копировать код
 <a
-  href="https://author.today/u/semiurg/works"
-  target="_blank"
-  rel="noopener noreferrer"
-  aria-label="Перейти на страницу автора Павла Иевлева на сайте Author.today"
->
-  Павел Иевлев
-</a>
-Визуально для обычных пользователей:
+href="https://author.today/u/semiurg/works"
+target="\_blank"
+rel="noopener noreferrer"
+aria-label="Перейти на страницу автора Павла Иевлева на сайте Author.today"
+
+> Павел Иевлев
+> </a>
+> Визуально для обычных пользователей:
 
 Текст ссылки "Павел Иевлев" будет виден на странице.
 aria-label не отображается визуально, но экранные дикторы прочитают его вместо содержимого ссылки, что делает навигацию более понятной для людей с ограниченными возможностями.
@@ -916,7 +915,8 @@ Lighthouse в Google Chrome.
 Экранный диктор в Windows (NVDA) или VoiceOver на macOS.
 Итог: aria-label значительно улучшает доступность вашего приложения, делая интерфейс понятным для всех пользователей.
 
--------------------
+---
+
 ![](_md_img/flow_images/flow%202024-12-27-15-25-54.png)
 На изображении видно, что Prettier/Eslint выдает предупреждение о лишнем символе переноса строки (CR, Carriage Return). Это может произойти, если файл использует неподходящий формат окончания строк.
 Искин:
@@ -927,7 +927,7 @@ Lighthouse в Google Chrome.
 json
 Копировать код
 {
-  "endOfLine": "lf"
+"endOfLine": "lf"
 }
 Сохраните файл. Prettier автоматически преобразует окончания строк в LF.
 Исправление вручную в VSCode:
@@ -935,9 +935,10 @@ json
 В нижнем правом углу VSCode найдите статус окончания строк (обычно CRLF).
 Нажмите на него и выберите LF.
 Сохраните файл.
-----
- так я пишу на виндовс и все так и должно быть
+
+---
+
+так я пишу на виндовс и все так и должно быть
 Искин:
 Вы правы, Windows по умолчанию использует CRLF (Carriage Return и Line Feed) для окончания строк, и это нормально. Однако в большинстве современных проектов, особенно если они ориентированы на совместимость с Unix-системами (например, Linux-серверами или macOS), часто используется формат LF (только Line Feed). Проблема возникает, потому что Prettier или ESLint настроены на ожидание LF, а ваш файл использует CRLF.
 =========================================
-
