@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './BookUazdao.module.scss';
 import { Image } from '../Image';
+import { ExternalLink } from '../ExternalLink';
 
 export const BookUazdao: React.FC = () => {
   return (
@@ -8,14 +9,10 @@ export const BookUazdao: React.FC = () => {
       <h2>Павел Иевлев</h2>
 
       <h1>
-        <a
+        <ExternalLink
           href="https://www.rulit.me/books/uazdao-ili-dao-vyrazhennoe-rukami-download-445410.html"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Перейти на страницу книги 'УАЗДАО или ДАО, выраженное руками' на сайте Rulit.me"
-        >
-          УАЗДАО или ДАО, выраженное руками
-        </a>
+          text="УАЗДАО или ДАО, выраженное руками"
+        />
       </h1>
 
       <Image

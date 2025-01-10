@@ -3,7 +3,7 @@ import './ExternalLink.scss';
 import { IExternalLinkProps } from '../../interfaces/IExternalLinkProps';
 
 export const ExternalLink: React.FC<IExternalLinkProps> = ({
-  parentClassName,
+  parentClassName = '',
   href,
   text,
   parentClassName_disabled = '',

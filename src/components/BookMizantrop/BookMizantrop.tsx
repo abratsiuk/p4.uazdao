@@ -1,20 +1,17 @@
 import React from 'react';
 import styles from './BookMizantrop.module.scss';
 import { Image } from '../Image';
+import { ExternalLink } from '../ExternalLink';
 
 export const BookMizantrop: React.FC = () => {
   return (
     <div className={styles.BookMizantrop}>
       <h2>Павел Иевлев</h2>
       <h1>
-        <a
+        <ExternalLink
           href="https://author.today/audiobook/269841"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Перейти на страницу аудиокниги 'УАЗдао. Кредо Мизантропа' Павла Иевлева на сайте Author.today"
-        >
-          УАЗдао. Кредо Мизантропа
-        </a>
+          text="УАЗдао. Кредо Мизантропа"
+        />
       </h1>
 
       <Image

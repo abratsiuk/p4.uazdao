@@ -1,5 +1,5 @@
 export interface IExternalLinkProps {
-  parentClassName: string;
+  parentClassName?: string;
   href: string;
   text: string;
   parentClassName_disabled?: string;
