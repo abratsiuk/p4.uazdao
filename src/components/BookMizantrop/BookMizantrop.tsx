@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './BookMizantrop.module.scss';
 import { Image } from '../Image';
-import { ExternalLink } from '../ExternalLink';
 
 export const BookMizantrop: React.FC = () => {
   return (
@@ -19,7 +18,7 @@ export const BookMizantrop: React.FC = () => {
       </h1>
 
       <Image
-        src={`${import.meta.env.BASE_URL}images/bookmizantrop/title.jpg`}
+        src="images/bookmizantrop/title.jpg"
         alt="Обложка книги 'УАЗдао. Кредо Мизантропа'"
       />
 
@@ -44,7 +43,7 @@ export const BookMizantrop: React.FC = () => {
       </ul>
 
       <h3>Дисклеймер</h3>
-      <Image src="/src/assets/images/bookmizantrop/d.jpg" alt="" />
+      <Image src="images/bookmizantrop/d.jpg" alt="" />
       <h2>УАЗдао. Кредо Мизантропа</h2>
       <h3>Нероман ниачом</h3>
 
@@ -54,7 +53,7 @@ export const BookMizantrop: React.FC = () => {
       <p>Нахер ты сюда полез?</p>
 
       <h3>Глава 1. Вынос мозга</h3>
-      <Image src="/src/assets/images/bookmizantrop/g1.jpg" alt="" />
+      <Image src="images/bookmizantrop/g1.jpg" alt="" />
       <p>УАЗдао – путь без цели, процесс без результата, </p>
       <p>старт без финиша, хер без соли и жопа без ручки.</p>
 
@@ -96,7 +95,7 @@ export const BookMizantrop: React.FC = () => {
         Процесс! Вы, правда, стремитесь к результату? Ну, вот этим датам на
         камне? Так они от нас в любом случае никуда не денутся.
       </p>
-      <Image src="/src/assets/images/bookmizantrop/g1_1.jpg" alt="" />
+      <Image src="images/bookmizantrop/g1_1.jpg" alt="" />
       <p>
         Поэтому <strong>УАЗ — это философия и дао</strong>, а не машина. Он
         меняет взгляд на мир и сдвигает точку зрения, будучи квинтэссенцией
@@ -138,7 +137,7 @@ export const BookMizantrop: React.FC = () => {
         пренебрежимыми. Не заморачивайтесь, наслаждайтесь <b>процессом</b>.
       </p>
       <p>«Ох, бля, он же едет! Реально едет!»</p>
-      <Image src="/src/assets/images/bookmizantrop/g1_2.jpg" alt="" />
+      <Image src="images/bookmizantrop/g1_2.jpg" alt="" />
       <p>
         Зачем мне был нужен УАЗ — не спрашивайте. У меня и сейчас нет ответа на
         этот вопрос. Возможно, его привело ко мне вращение Колес Сансары (4х4,
@@ -176,7 +175,7 @@ export const BookMizantrop: React.FC = () => {
         перитонита вы сдохнете в полном комфорте.
       </p>
 
-      <Image src="/src/assets/images/bookmizantrop/g1_3.jpg" alt="" />
+      <Image src="images/bookmizantrop/g1_3.jpg" alt="" />
 
       <p>
         На вопрос{' '}
@@ -256,7 +255,7 @@ export const BookMizantrop: React.FC = () => {
         сторону при каждом торможении. Потому что{' '}
         <b>УАЗдао — путь приключений</b>.
       </p>
-      <Image src="/src/assets/images/bookmizantrop/g1_4.jpg" alt="" />
+      <Image src="images/bookmizantrop/g1_4.jpg" alt="" />
 
       <p>
         В общем, вернулись мы с ним во Гаражища Великия на тех же транзитах, что
@@ -298,7 +297,7 @@ export const BookMizantrop: React.FC = () => {
         выпирающий из штанов кошелек.
       </p>
 
-      <Image src="/src/assets/images/bookmizantrop/g1_5.jpg" alt="" />
+      <Image src="images/bookmizantrop/g1_5.jpg" alt="" />
       <p>
         И знаете — работало! Стихи были говно, на гитаре я играл как хуем по
         струнам, голос имел отвратительный — но барышням и этого хватало.
@@ -311,7 +310,7 @@ export const BookMizantrop: React.FC = () => {
       </p>
       <p>Но сына я все-таки играть на гитаре научу.</p>
 
-      <Image src="/src/assets/images/bookmizantrop/g1_6.jpg" alt="" />
+      <Image src="images/bookmizantrop/g1_6.jpg" alt="" />
       <h4>
         ГИТАРА – инструмент в форме женщины, используемый для приманивания
         оных.#СловарьМизантропа
@@ -341,7 +340,7 @@ export const BookMizantrop: React.FC = () => {
         коллективного «клоуна у пидарасов», сферическим эталоном которого в
         интеллектуальном вакууме является телевидение.
       </p>
-      <Image src="/src/assets/images/bookmizantrop/g1_7.jpg" alt="" />
+      <Image src="images/bookmizantrop/g1_7.jpg" alt="" />
 
       <p>
         Если нет возможности побыть одному в тишине — мышлению пиздец. Это
@@ -364,7 +363,7 @@ export const BookMizantrop: React.FC = () => {
         тоже могу понять.
       </p>
 
-      <Image src="/src/assets/images/bookmizantrop/g1_8.jpg" alt="" />
+      <Image src="images/bookmizantrop/g1_8.jpg" alt="" />
 
       <p>Книжки я пишу просто потому, что пишу.</p>
       <p>
@@ -421,7 +420,7 @@ export const BookMizantrop: React.FC = () => {
       </p>
       <p>То есть, абсолютное большинство интернет-пользователей.</p>
 
-      <Image src="/src/assets/images/bookmizantrop/g1_9.jpg" alt="" />
+      <Image src="images/bookmizantrop/g1_9.jpg" alt="" />
 
       <h4>
         АГРЕССИЯ – нормальная реакция индивидуума на
@@ -441,7 +440,7 @@ export const BookMizantrop: React.FC = () => {
         буквы падают с таким всплеском, что говно выплескивается. Вот вам и
         «плеснуло».
       </p>
-      <Image src="/src/assets/images/bookmizantrop/g1_10.jpg" alt="" />
+      <Image src="images/bookmizantrop/g1_10.jpg" alt="" />
       <h4>
         «Ханжа» — человек, имеющий вместо головы жопу, и гордящийся этим
         фактом.#Словарь Мизантропа
@@ -461,7 +460,7 @@ export const BookMizantrop: React.FC = () => {
       <hr />
 
       <h3>Мастер и Ханжи</h3>
-      <Image src="/src/assets/images/bookmizantrop/g1_11.jpg" alt="" />
+      <Image src="images/bookmizantrop/g1_11.jpg" alt="" />
       <p>
         <i>
           Однажды к Мастеру в гараж зашли Ханжи. Сморщив носы и оглядевшись, они
@@ -637,7 +636,7 @@ export const BookMizantrop: React.FC = () => {
       </p>
 
       <h3>Глава 2. Экономика мышления</h3>
-      <Image src="/src/assets/images/bookmizantrop/g2.jpg" alt="" />
+      <Image src="images/bookmizantrop/g2.jpg" alt="" />
       <h4>«А хули?» – главный вопрос Жизни, Вселенной и всего остального.</h4>
 
       <h3>Дневник наблюдения за природой</h3>

@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { SentenceItem } from '../SentenceItem';
-import { SentenceItemData } from '../../interfaces/ISentenceItemData';
+import { ISentenceItemData } from '../../interfaces/ISentenceItemData';
 import {
   getRandomSentence,
   getPreviousSentence,
@@ -11,7 +11,7 @@ import {
 
 export const Sentence: React.FC = () => {
   let location = useLocation();
-  const [sentence, setSentence] = useState<SentenceItemData | null>(null);
+  const [sentence, setSentence] = useState<ISentenceItemData | null>(null);
 
   useEffect(() => {
     setSentence(getRandomSentence());

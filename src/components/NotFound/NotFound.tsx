@@ -1,14 +1,14 @@
 import React from 'react';
 import { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import styles from './NotFound.module.scss';
 
 export const NotFound: React.FC = () => {
-  const history = useHistory();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      history.push('/sentence');
+      navigate('/home');
     }, 10000);
 
     return () => clearTimeout(timer);

@@ -9,7 +9,7 @@ export const Image: React.FC<IImageProps> = ({
 }) => {
   return (
     <>
-      <Image
+      <img
         className={`${parentClassName} Image`}
         src={`${import.meta.env.BASE_URL}${src}`}
         alt={alt}

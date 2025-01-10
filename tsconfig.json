@@ -1,15 +1,7 @@
 {
-  "compilerOptions": {
-    "typeRoots": ["./node_modules/@types", "./src"],
-    "moduleResolution": "node",
-    "baseUrl": "./src",
-    "strict": true,
-    "jsx": "react-jsx",
-    "target": "es6",
-    "module": "esnext",
-    "esModuleInterop": true
-    /* Visit https://aka.ms/tsconfig to read more about this file */
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
 }

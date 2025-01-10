@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './BookUazdao.module.scss';
 import { Image } from '../Image';
-import { ExternalLink } from '../ExternalLink';
 
 export const BookUazdao: React.FC = () => {
   return (
@@ -20,7 +19,7 @@ export const BookUazdao: React.FC = () => {
       </h1>
 
       <Image
-        src="/src/assets/images/bookuazdao/title.jpg"
+        src="images/bookuazdao/title.jpg"
         alt="Обложка книги 'УАЗДАО или ДАО, выраженное руками' Павла Иевлева"
       />
       <h3>Аннотация</h3>

@@ -1,15 +1,10 @@
 import React from 'react';
 import styles from './BookMultiverse.module.scss';
 import { Image } from '../Image';
-import { ExternalLink } from '../ExternalLink';
 
 export const BookMultiverse: React.FC = () => {
   return (
     <div className={styles.BookMultiverse}>
-      {/* <Image
-        src="/src/assets/images/bookmultiverse/title.jpg"
-        alt="Обложка книги 'Дело молодых' Павла Иевлева"
-      /> */}
       <Image src="images/bookmultiverse/title.jpg" alt="аватар П.С.Иевлева" />
       <h2>Павел Иевлев</h2>
       <h1>Дело молодых</h1>
@@ -179,7 +174,7 @@ export const BookMultiverse: React.FC = () => {
         никакой мистики. В общем, не придал я тогда значения этой нелепой
         встрече, а зря. С неё-то всё и началось.
       </p>
-      <Image src="/src/assets/images/bookmultiverse/g1_1.jpg" alt="" />
+      <Image src="images/bookmultiverse/g1_1.jpg" alt="" />
       <p>
         Гаражище Великое было усеяно мелкими, совсем мелкими и мельчайшими
         автосервисами. Влился в их число и я со своим гаражиком. Человеку, если

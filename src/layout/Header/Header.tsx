@@ -15,9 +15,9 @@ export const Header = () => {
             <li className="Header__menuItem" key={m.to}>
               <NavLink
                 to={m.to}
-                className="link"
-                exact
-                activeClassName="link_active"
+                className={({ isActive }) =>
+                  isActive ? 'link link_active' : 'link'
+                }
               >
                 {m.text}
               </NavLink>

@@ -5,15 +5,15 @@ import { Main } from '../../layout/Main';
 
 import { Context } from '../Context';
 import './App.scss';
-import { AppRouterSwitch } from '../AppRouterSwitch';
+import { AppRouterRoutes } from '../AppRouterRoutes';
 
 export const App = () => {
   return (
     <Context>
-      <Router basename="/p4.uazdao">
+      <Router basename="/p4.uazdao" future={{ v7_relativeSplatPath: false }}>
         <Header />
         <Main>
-          <AppRouterSwitch />
+          <AppRouterRoutes />
         </Main>
         <Footer />
       </Router>

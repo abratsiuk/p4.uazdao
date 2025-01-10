@@ -1,18 +1,18 @@
 import React from 'react';
 import { useEffect, useContext } from 'react';
 import { UazdaoContext } from '../Context';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './Welcome.scss';
 
 export const Welcome: React.FC = () => {
-  const history = useHistory();
+  const navigate = useNavigate();
   const { setIsFooterShowCar } = useContext(UazdaoContext);
 
   useEffect(() => {
     setIsFooterShowCar(false);
 
     const timer = setTimeout(() => {
-      history.push('/home');
+      navigate('/home');
       setIsFooterShowCar(true);
     }, 5000);
 
