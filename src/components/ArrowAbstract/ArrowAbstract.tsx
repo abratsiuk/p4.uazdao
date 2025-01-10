@@ -1,15 +1,9 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 import { isPointInLeftRight } from '../../services';
 import './ArrowAbstract.scss';
+import { IArrowAbstractProps } from '../../interfaces/IArrowAbstractProps';
 
-interface ArrowAbstractProps {
-  children?: ReactNode;
-  className?: string;
-  direction: 'left' | 'right';
-  onClick?: () => void;
-}
-
-export const ArrowAbstract: React.FC<ArrowAbstractProps> = ({
+export const ArrowAbstract: React.FC<IArrowAbstractProps> = ({
   children,
   className = '',
   direction,

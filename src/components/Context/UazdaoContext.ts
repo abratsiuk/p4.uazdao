@@ -1,11 +1,7 @@
 import React, { createContext } from 'react';
+import { IUazdaoContextValue } from '../../interfaces/IUazdaoContextValue';
 
-export interface UazdaoContextValue {
-  isFooterShowCar: boolean;
-  setIsFooterShowCar: (show: boolean) => void;
-}
-
-export const UazdaoContext = createContext<UazdaoContextValue>({
+export const UazdaoContext = createContext<IUazdaoContextValue>({
   isFooterShowCar: true,
   setIsFooterShowCar: () => {},
 });

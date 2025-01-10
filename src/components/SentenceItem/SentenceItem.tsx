@@ -2,17 +2,9 @@ import React from 'react';
 import { ArrowLeft } from '../ArrowLeft';
 import { ArrowRight } from '../ArrowRight';
 import styles from './SentenceItem.module.scss';
+import { ISentenceItemProps } from '../../interfaces/ISentenceItemProps';
 
-interface SentenceItemProps {
-  imgPath?: string;
-  header?: string;
-  footer?: string;
-  text?: string;
-  onPrevious?: () => void;
-  onNext?: () => void;
-}
-
-export const SentenceItem: React.FC<SentenceItemProps> = ({
+export const SentenceItem: React.FC<ISentenceItemProps> = ({
   imgPath = '',
   header = '',
   footer = '',

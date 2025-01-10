@@ -1,14 +1,9 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 import { ArrowAbstract } from '../ArrowAbstract';
 import './ArrowRight.scss';
+import { IArrowRightProps } from '../../interfaces/IArrowRightProps';
 
-interface ArrowRightProps {
-  children?: ReactNode;
-  className?: string;
-  onClick?: () => void;
-}
-
-export const ArrowRight: React.FC<ArrowRightProps> = ({
+export const ArrowRight: React.FC<IArrowRightProps> = ({
   children,
   className,
   onClick = () => {},

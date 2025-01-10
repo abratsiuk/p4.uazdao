@@ -20,6 +20,7 @@ export const Author: React.FC = () => {
             Павел Иевлев
           </a>
         </div>
+        {/* TO DO add link to https://semiurg.ru */}
         <div className={styles.Author__cartText}>
           Когда палец показывает на небо, люди смотрят на палец.
         </div>
