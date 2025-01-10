@@ -8,7 +8,6 @@ export default defineConfig({
   base: '/p4.uazdao/',
   server: {
     open: '/p4.uazdao/',
-    historyApiFallback: true, // for React Router
   },
   css: {
     postcss: {
@@ -18,7 +17,9 @@ export default defineConfig({
     },
     preprocessorOptions: {
       scss: {
-        additionalData: `@use '/src/styles/variables.scss' as *;`,
+        additionalData: `
+        $base-path: '/p4.uazdao/';
+        @use '/src/styles/variables.scss' as *;`,
       },
     },
   },
