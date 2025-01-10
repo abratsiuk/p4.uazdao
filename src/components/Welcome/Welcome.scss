@@ -14,13 +14,13 @@
 
     &_smoothly {
       background: $Main-color
-        url('/src/assets/image/welcome_small_smoothly.gif') no-repeat;
+        url('/src/assets/images/welcome_small_smoothly.gif') no-repeat;
       background-position: center;
     }
 
     &_bouncing {
       background: $Main-color
-        url('/src/assets/image/welcome_small_bouncing.gif') no-repeat;
+        url('/src/assets/images/welcome_small_bouncing.gif') no-repeat;
       background-position: center;
     }
   }

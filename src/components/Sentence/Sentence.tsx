@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { SentenceItem } from '../SentenceItem';
-import { SentenceItemData } from '../../services/SentenceItemData';
+import { SentenceItemData } from '../../interfaces/ISentenceItemData';
 import {
   getRandomSentence,
   getPreviousSentence,

@@ -1,12 +1,14 @@
 import React from 'react';
 import './Home.scss';
+import { Image } from '../Image';
+import { ExternalLink } from '../ExternalLink';
 
 export const Home: React.FC = () => {
   return (
     <div className="Home">
-      <img
+      <Image
         className="Home__image"
-        src="/src/assets/image/book/title.webp"
+        src="/src/assets/images/book/title.webp"
         alt="Обложка книги 'УАЗдао' или 'Дао, выраженное руками'"
       />
       <div className="Home__quotes">

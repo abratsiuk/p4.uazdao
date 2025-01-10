@@ -3,6 +3,7 @@ import { ArrowLeft } from '../ArrowLeft';
 import { ArrowRight } from '../ArrowRight';
 import styles from './SentenceItem.module.scss';
 import { ISentenceItemProps } from '../../interfaces/ISentenceItemProps';
+import { Image } from '../Image';
 
 export const SentenceItem: React.FC<ISentenceItemProps> = ({
   imgPath = '',
@@ -23,7 +24,7 @@ export const SentenceItem: React.FC<ISentenceItemProps> = ({
         onClick={onNext}
         aria-label="Предыдущее изречение"
       >
-        <img src={imgPath} alt="sentence image" />
+        <Image src={imgPath} alt="sentence image" />
       </ArrowLeft>
       <ArrowRight
         className={styles.SentenceItem__quoteArrow}

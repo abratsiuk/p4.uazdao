@@ -1,4 +1,4 @@
-import { SentenceItemData } from './SentenceItemData';
+import { ISentenceItemData } from '../interfaces/ISentenceItemData';
 
 const sentencesData = [
   {
@@ -266,10 +266,10 @@ const sentencesData = [
   },
 ];
 
-export const sentences: SentenceItemData[] = sentencesData.map(
+export const sentences: ISentenceItemData[] = sentencesData.map(
   (item, index) => ({
     id: index,
-    imgPath: `/src/assets/image/book/${item.imgPath}.webp`,
+    imgPath: `images/book/${item.imgPath}.webp`,
     header: item.header,
     footer: item.footer,
     text: item.text,

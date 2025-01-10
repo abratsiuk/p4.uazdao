@@ -10,7 +10,7 @@ import { AppRouterSwitch } from '../AppRouterSwitch';
 export const App = () => {
   return (
     <Context>
-      <Router>
+      <Router basename="/p4.uazdao">
         <Header />
         <Main>
           <AppRouterSwitch />

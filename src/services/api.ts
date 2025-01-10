@@ -1,13 +1,13 @@
 import { sentences } from './sentences';
-import { SentenceItemData } from './SentenceItemData';
+import { ISentenceItemData } from '../interfaces/ISentenceItemData';
 
-export const getPreviousSentence = (id: number = 0): SentenceItemData => {
+export const getPreviousSentence = (id: number = 0): ISentenceItemData => {
   return getSentenceById(id - 1);
 };
-export const getNextSentence = (id: number = 0): SentenceItemData => {
+export const getNextSentence = (id: number = 0): ISentenceItemData => {
   return getSentenceById(id + 1);
 };
-export const getRandomSentence = (): SentenceItemData => {
+export const getRandomSentence = (): ISentenceItemData => {
   return getSentenceById(getRandomId());
 };
 
@@ -21,7 +21,7 @@ const getRandomId = (): number => {
   return randomId;
 };
 
-const getSentenceById = (id: number = 0): SentenceItemData => {
+const getSentenceById = (id: number = 0): ISentenceItemData => {
   if (!id) {
     id = 0;
   }

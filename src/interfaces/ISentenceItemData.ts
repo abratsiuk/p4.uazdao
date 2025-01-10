@@ -1,4 +1,4 @@
-export interface SentenceItemData {
+export interface ISentenceItemData {
   id: number;
   imgPath?: string;
   header?: string;

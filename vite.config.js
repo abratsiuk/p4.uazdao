@@ -5,7 +5,9 @@ import postcssNormalize from 'postcss-normalize';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/p4.uazdao/',
   server: {
+    open: '/p4.uazdao/',
     historyApiFallback: true, // for React Router
   },
   css: {

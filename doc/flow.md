@@ -76,7 +76,7 @@ Remove-Item — команда для удаления файлов и папо�
 
 Remove-Item -Recurse -Force ./public/_
 Remove-Item -Recurse -Force ./src/assets/_
-New-Item -ItemType Directory -Name "./src/assets/image"
+New-Item -ItemType Directory -Name "./src/assets/images"
 New-Item -ItemType Directory -Name "./src/component"  
 New-Item -ItemType Directory -Name "./src/components/utils"  
 New-Item -ItemType Directory -Name "./src/layout"
@@ -238,7 +238,7 @@ Remove-Item — команда для удаления файлов и папо�
 
 Remove-Item -Recurse -Force ./public/_
 Remove-Item -Recurse -Force ./src/assets/_
-New-Item -ItemType Directory -Name "./src/assets/image"
+New-Item -ItemType Directory -Name "./src/assets/images"
 New-Item -ItemType Directory -Name "./src/component"  
 New-Item -ItemType Directory -Name "./src/components/utils"  
 New-Item -ItemType Directory -Name "./src/layout"
