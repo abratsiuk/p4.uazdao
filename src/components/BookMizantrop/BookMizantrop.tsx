@@ -6,659 +6,725 @@ import { ExternalLink } from '../ExternalLink';
 export const BookMizantrop: React.FC = () => {
   return (
     <div className={styles.BookMizantrop}>
-      <h2>Павел Иевлев</h2>
+      <h2>Pavel Ievlev</h2>
       <h1>
-        <ExternalLink
-          href="https://author.today/audiobook/269841"
-          text="УАЗдао. Кредо Мизантропа"
-        />
+        <ExternalLink href="#" text="UAZdao. The Misanthrope’s Creed" />
       </h1>
 
       <Image
+        parentClassName="book_title"
         src="images/bookmizantrop/title.jpg"
-        alt="Обложка книги 'УАЗдао. Кредо Мизантропа'"
+        alt="Cover of the book 'UAZdao. The Misanthrope’s Creed'"
       />
 
-      <h3>Аннотация</h3>
+      <h3>Annotation</h3>
+
       <ul>
-        <li>Единственная причина появления этой книги – мне так захотелось.</li>
         <li>
-          Чтение данного текста может привести к потере ментальной
-          девственности.
+          The only reason this book exists is because I felt like writing it.
         </li>
-        <li>Это чистая правда – кроме тех мест, где я всё выдумал.</li>
-        <li>Книга написана словами, которыми на самом деле говорят люди.</li>
-        <li>В ней нет сюжета, героев и приключений.</li>
-        <li>Она не про любовь.</li>
-        <li>Это нероман ниачом.</li>
+        <li>Reading this text may result in loss of mental virginity.</li>
+        <li>It’s all true — except for the parts I made up.</li>
+        <li>The book is written in the words that people really use.</li>
+        <li>There is no plot, no heroes, no adventures.</li>
+        <li>It’s not about love.</li>
+        <li>This is a non-novel about nothing.</li>
         <li>
-          Возможно, книга заставит вас вынуть голову из жопы, где так тепло и
-          комфортно.
+          The book might make you pull your head out of your ass — where it’s
+          warm and cozy.
         </li>
-        <li>Но ничему не научит.</li>
-        <li>Потому что нет никакого способа «жить правильно».</li>
+        <li>But it won’t teach you anything.</li>
+        <li>Because there is no such thing as “the right way to live.”</li>
       </ul>
 
-      <h3>Дисклеймер</h3>
+      <h3>Disclaimer</h3>
       <Image src="images/bookmizantrop/d.jpg" alt="" />
-      <h2>УАЗдао. Кредо Мизантропа</h2>
-      <h3>Нероман ниачом</h3>
+      <h2>UAZdao. The Misanthrope’s Creed</h2>
+      <h3>A non-novel about nothing</h3>
 
-      <p>Пёр УАЗик тёмным лесом</p>
-      <p>За каким-то интересом. </p>
-      <p>Инти-инти-интерес,</p>
-      <p>Нахер ты сюда полез?</p>
+      <p>The UAZ drove through a dark forest</p>
+      <p>Looking for something interesting.</p>
+      <p>Inter-inter-interest...</p>
+      <p>Why the hell did you come in here?</p>
 
-      <h3>Глава 1. Вынос мозга</h3>
+      <h3>Chapter 1. Mind Blown</h3>
       <Image src="images/bookmizantrop/g1.jpg" alt="" />
-      <p>УАЗдао – путь без цели, процесс без результата, </p>
-      <p>старт без финиша, хер без соли и жопа без ручки.</p>
+
+      <p>UAZdao is a path with no goal, a process with no result,</p>
+      <p>
+        a start with no finish, a dick with no salt, and an ass with no handle.
+      </p>
 
       <p>
-        Все началось с УАЗа. Железной банки с проблемами, которая выдает себя за
-        автомобиль.
+        It all began with the UAZ. A metal can full of problems pretending to be
+        a car.
       </p>
       <p>
-        Автомобиль — это средство доставки жопы из пункта А в пункт Б.{' '}
-        <strong>УАЗ — средство доставки жопы в еще большую жопу</strong>, где
-        эта телега либо застрянет, либо поломается, либо сделает и то и другое,
-        превратив вашу жизнь в увлекательное приключение. Нечто вроде перелета
-        через Ла-Манш на связке надутых пердежом гондонов. То есть оригинально и
-        ярко, но без гарантий.
+        A car is a way to move your butt from point A to point B.
+        <strong>
+          The UAZ is a way to move your butt into an even bigger mess
+        </strong>
+        , where the cart will either get stuck, break down, or both — turning
+        your life into a wild adventure. Like flying across the English Channel
+        with a bunch of balloons filled with fart gas. Creative and exciting —
+        but no guarantees.
       </p>
       <p>
-        Любой, называющий УАЗ автомобилем, просто никогда не пытался на нем
-        куда-нибудь доехать. Не «ехать», а «доехать». Это чертовски
-        принципиально.
+        Anyone who calls the UAZ a car has clearly never tried to actually reach
+        somewhere in it. Not just “ride,” but “get there.” That difference is
+        huge.
       </p>
-      <p>УАЗдао — это не результат, а процесс.</p>
+      <p>UAZdao is not about the result — it’s about the process.</p>
       <p>
-        Ехать он может, говно вопрос. И даже достигнуть точки назначения — если
-        вам повезло, или ветер попутный, или уклон в нужную сторону, или Марс в
-        Козероге, или что там еще нужно, чтобы отжать у Судьбы немножко удачи и
-        свалить раньше, чем она спохватилась. Но, даже достигнув своего «пункта
-        бе», вы будете скорее озадачены, чем обрадованы. «Как, уже все
-        кончилось?» — спросите вы у Мироздания. Потому что:
+        Sure, it can move — no problem. It may even reach the destination — if
+        you’re lucky, or have a tailwind, or a slope in your favor, or Mars is
+        in Capricorn, or whatever else it takes to squeeze some luck out of Fate
+        and run before it notices. But even if you reach point B, you’ll feel
+        confused, not happy. “What, it’s over already?” you’ll ask the Universe.
+        Because:
       </p>
-      <p>Процесс самоценен, результат ничтожен.</p>
+      <p>The process has value. The result — is worthless.</p>
+
       <p>
-        «Нацеленность на результат», которую социум закачивает нам клизмой в
-        церебральный тухес, просто хитрая наебка. Способ сделать нас несчастными
-        нашими же руками. Единственный <strong>результат</strong>, который можно
-        обрести в жизни, — камень с датами над кормом для червей. Фасон этого
-        камня нам будет глубоко похуй, потому что никаких «нас» в этот момент
-        уже не будет. Все остальное, вы не поверите — <strong>процесс</strong>.
-        А нам ссут в уши, что он не важен. Жизнь — это процесс, дорогие мои!
-        Процесс! Вы, правда, стремитесь к результату? Ну, вот этим датам на
-        камне? Так они от нас в любом случае никуда не денутся.
+        “Focus on results,” which society pumps into our brains like an enema,
+        is just a clever trick. A way to make us miserable with our own hands.
+        The only real <strong>result</strong> we will ever get in life is a
+        stone with dates above worm food. And we won’t care what the stone looks
+        like, because there will be no “us” anymore. Everything else — believe
+        it or not — is a <strong>process</strong>. And they tell us it doesn’t
+        matter. Life is a process, my friends! A process! Are you really chasing
+        a result? You mean those dates on the stone? They’re coming no matter
+        what.
       </p>
-      <Image src="images/bookmizantrop/g1_1.jpg" alt="" />
+
+      <Image
+        parentClassName="book_title"
+        src="images/bookmizantrop/g1_1.jpg"
+        alt=""
+      />
+
       <p>
-        Поэтому <strong>УАЗ — это философия и дао</strong>, а не машина. Он
-        меняет взгляд на мир и сдвигает точку зрения, будучи квинтэссенцией
-        процессов-ради-процессов. Едущий на УАЗе просто едет на УАЗе. Куда и
-        зачем — это вообще вторично на фоне рулежки без гидрача, двойного выжима
-        сцепления и размышлений, в какую сторону его кинет, если придется резко
-        затормозить.
+        That’s why <strong>UAZ is a philosophy and a dao</strong>, not a
+        vehicle. It changes how you see the world. It shifts your perspective,
+        because it is the pure essence of process-for-the-sake-of-process. The
+        person driving a UAZ is simply driving a UAZ. Where and why — those are
+        small details compared to driving without power steering, double
+        clutching the gears, and thinking which direction the thing will jump if
+        you brake hard.
       </p>
+
       <p>***</p>
+
       <p>
-        Когда я обрел УАЗ, тормозов на нем вообще не было, но разве меня это
-        остановило? Он отлично тормозил двигателем. Это вообще лучшее, что он
-        делал двигателем. А на крайний случай - кенгурятник. По мысли военных
-        конструкторов он должен им замедляться о броню впередиидущего танка. Все
-        остальные методы торможения опциональны.
+        When I got my UAZ, it didn’t have brakes at all — but that didn’t stop
+        me. It slowed down fine using the engine. That was the best thing the
+        engine could do. And in emergencies — the metal bumper. The army
+        engineers designed it to stop by hitting the armor of the tank in front
+        of you. All other ways to stop were optional.
       </p>
+
       <p>
-        Заодно не выключалась печка, рулевой люфт составлял примерно
-        пол-оборота, и периодически отваливалась тяга с дроссельной заслонки. Ах
-        да, на финише он не прошёл в гараж по высоте, демонстрируя
-        приверженность <i>процессу-но-не-результату</i> и подчеркивая мою
-        фирменную предусмотрительность и склонность к стратегическому
-        планированию.
+        The heater didn’t turn off, the steering had half a turn of free play,
+        and sometimes the throttle linkage fell off. And at the end — the UAZ
+        didn’t even fit into the garage in height, showing true commitment to
+        the <i>process-not-result</i> idea, and highlighting my signature
+        planning and foresight.
       </p>
-      <p>Я тот еще распиздяй, и это тоже есть УАЗдао.</p>
+
+      <p>I’m a total screw-up — and that, too, is part of UAZdao.</p>
+
       <p>
-        УАЗдао как <i>«процесс-но-не-результат»</i> — это ремонт, который
-        никогда не заканчивается. УАЗ не может быть «исправным». Это понятие к
-        нему неприменимо так же, как «динамика разгона» или «управляемость».
-        Требовать от него «исправности» — как добиваться вертикального взлета от
-        стиральной машинки.
+        UAZdao as a <i>“process-not-result”</i> means repairs that never end. A
+        UAZ cannot be “fully fixed.” That word just doesn’t apply — same as
+        “acceleration” or “handling.” Expecting “working condition” from it is
+        like expecting vertical takeoff from a washing machine.
       </p>
-      <p>Наверное, можно, но зачем?</p>
+
+      <p>Maybe it’s possible. But why would you want to?</p>
+
       <p>
-        УАЗ, передвигающийся без посредства гужевой тяги, считается пригодным к
-        эксплуатации, какова бы ни была скорость его передвижения. Расход
-        топлива, дымность выхлопа, посторонние звуки, наличие световых приборов
-        и способность реагировать на вращение руля считаются в этой концепции
-        пренебрежимыми. Не заморачивайтесь, наслаждайтесь <b>процессом</b>.
+        A UAZ that moves without the help of horses is considered ready for use,
+        no matter how fast it moves. Fuel consumption, smoke, strange noises,
+        working lights, and its ability to respond to the steering wheel — all
+        these things are seen as unimportant in this philosophy. Don’t worry —
+        enjoy the <b>process</b>.
       </p>
-      <p>«Ох, бля, он же едет! Реально едет!»</p>
+
+      <p>“Oh shit, it’s actually moving! It really moves!”</p>
+
       <Image src="images/bookmizantrop/g1_2.jpg" alt="" />
+
       <p>
-        Зачем мне был нужен УАЗ — не спрашивайте. У меня и сейчас нет ответа на
-        этот вопрос. Возможно, его привело ко мне вращение Колес Сансары (4х4,
-        подключаемый, блокировка). В наказание за автомобильное рукоблудие, или
-        в награду за мизантропию, или как компенсация коммуникативной
-        инвалидности.
+        Don’t ask me why I needed a UAZ. I still don’t have an answer. Maybe the
+        Wheels of Samsara (4x4, manual switch, with lock) brought it to me. As
+        punishment for my automotive sins, or reward for my misanthropy, or
+        maybe compensation for my social disability.
       </p>
+
       <p>
-        Инвалидам войны выдавали «Запорожцы» с ручным управлением, инвалидам
-        современного социума надо выдавать УАЗ. Он дает все то же, что мы
-        получаем от общества — боль, обиду, унижение, чувство собственной
-        неполноценности, опасность доверия и весь спектр разнообразных
-        разочарований. Зато его можно пиздить кувалдой, а людей почему-то нет.
+        War veterans were given special cars with hand controls. People damaged
+        by modern society should be given a UAZ. It gives you the same things as
+        society does: pain, shame, frustration, a feeling of being broken,
+        danger in trusting others, and a full rainbow of disappointments. But
+        unlike people — you can hit it with a sledgehammer. For some reason, you
+        can’t do that to people.
       </p>
+
       <p>
-        УЕБАТЬ – простой, но эффективный способ донесения своей позиции до
-        собеседника.#СловарьМизантропа
+        SMACKING — a simple but effective way to show your opinion in a
+        conversation. #MisanthropeDictionary
       </p>
+
       <p>
-        Это, знаете ли, очень поправляет — если кувалдой. Смотришь потом на
-        человека, улыбаешься и думаешь: «Сейчас бы кувалдой, кувалдой, КУВАЛДОЙ
-        ТЕБЯ, СУКУ, БЛЯДЬ, НННА!»
+        It really helps — with a sledgehammer. You look at someone, smile, and
+        think: “If only I could hit you. With a sledgehammer. Again. And again.
+        YOU, DAMN, ASS—!!”
       </p>
-      <p>Отличная замена психотерапии.</p>
+
+      <p>Great replacement for therapy.</p>
+
       <p>
-        Психотерапия вообще переоценена. Не потому даже, что там на одного
-        специалиста приходится сотня выпускников заочных курсов при Тамбовском
-        гештальтостроительном ПТУ, а потому, что ее все чаще применяют не тем
-        концом не к тому месту.
+        Therapy is overrated. Not just because there are 100 online-course
+        graduates for every real specialist, but because people often use it the
+        wrong way — in the wrong place.
       </p>
+
       <p>
-        Нет, я не говорю, что терапия не эффективна. Наоборот, меня пугает то,
-        что она иногда внезапно срабатывает. Но убирает не проблемы, а страдания
-        от них. Это как лечить аппендицит опиатами — боль пройдет, и от
-        перитонита вы сдохнете в полном комфорте.
+        No, I’m not saying therapy doesn’t work. It scares me that sometimes it
+        does. But it doesn’t fix problems — it only hides the pain. Like
+        treating appendicitis with opioids — the pain goes away, and you die
+        from peritonitis feeling nice and cozy.
       </p>
 
       <Image src="images/bookmizantrop/g1_3.jpg" alt="" />
 
       <p>
-        На вопрос{' '}
-        <i>«чот я какое-то унылое говно, и мне от этого как-то хуйово»</i>,
-        психотерапия зачастую отвечает «прими это в себе и наслаждайся» вместо
-        «а слабо перестать быть унылым говном». Нет, есть те, кому реально
-        слабо. Имя им легион.
+        To the question
+        <i>“I feel like a piece of shit, and that makes me feel even worse”</i>,
+        therapy often says “Accept it and enjoy it” instead of “Why don’t you
+        stop being a piece of shit?” Of course, some people really can’t change.
+        Their name is Legion.
       </p>
-      <p>«Легион УГ» — собирательное название постмиллениалов.</p>
+
       <p>
-        Но у некоторых был бы шанс, если бы вместо «принятия себя» им отвесили
-        волшебный пендель по ленивой жопе. Тогда они ушли бы от психотерапевта в
-        нормальную жизнь и не вернулись. А что он кушать будет?
+        “Legion of LPS” — the general name for post-millennials. (LPS = Low
+        Power Shit)
       </p>
+
       <p>
-        В общем, если вы задумались о посещении психотерапевта, купите лучше
-        УАЗ. Оно и дешевле на круг выйдет, и не так позорно выглядит.
-        Мужик-на-УАЗе — это брутально, мужик-на-кушетке — жалкое зрелище. В
-        жизни мужика должно быть два медицинских случая — призывная комиссия и
-        патологоанатом.
+        But some people might have a chance — if instead of “accepting
+        themselves,” someone gave them a magic kick in the lazy butt. Then they
+        would leave the therapist and go live a normal life — and never come
+        back. But what would the therapist eat then?
       </p>
-      <p>Между ними медицине делать нечего.</p>
+
+      <p>
+        So, if you're thinking about going to a therapist — better buy a UAZ.
+        It’ll cost less in the long run, and it won’t look so shameful. A man in
+        a UAZ — that’s strong. A man on a therapy couch — that’s just sad. In a
+        man's life, there should be only two medical cases: the draft board and
+        the coroner.
+      </p>
+
+      <p>In between — medicine has no business.</p>
+
       <p>* * *</p>
+
       <p>
-        Мы с УАЗом идеально подошли друг другу. У нас даже год рождения почти
-        совпал. И я старый хрен, и ему до черта лет, нынешние машины столько не
-        живут. Род специфического автомобильного бессмертия, когда от
-        первоначальной машины остается рама и техпаспорт, но это все равно все
-        тот же УАЗ. Регистрационным отделом ГИБДД клянусь!
-      </p>
-      <p>
-        Отделом, в котором меня немедля послали. Прям как был, на транзитных
-        номерах. <i>Процесс-но-не-результат</i> – это УАЗдао!
+        Me and the UAZ — we were a perfect match. We were almost the same age.
+        I’m an old fart, and it’s ancient too. Modern cars don’t live that long.
+        It’s a kind of automotive immortality — when only the frame and
+        registration paper are left from the original car, but it’s still the
+        same UAZ. I swear on the Registration Department of the State Traffic
+        Inspectorate!
       </p>
 
       <p>
-        <i>— Какого хуя номера кузова нет? — скучал гибэдедешный смотритель.</i>
-      </p>
-      <p>
-        <i>— Потому что это старый, как говно мамонта, УАЗ.</i>
-      </p>
-      <p>
-        <i>— Какого хуя номера рамы нет?</i>
-      </p>
-      <p>
-        <i>— По вышеизложенной причине.</i>
-      </p>
-      <p>
-        <i>— Почему мотор хуй пойми от чего?</i>
-      </p>
-      <p>
-        <i>
-          — А я ебу? Что выросло — то выросло. Оно вон и в документах написано —
-          безномерной агрегат.
-        </i>
-      </p>
-      <p>
-        <i>
-          — И как я пойму, что за УАЗ я на учет поставил? Этот или другой какой?
-        </i>
-      </p>
-      <p>
-        <i>
-          — А тебе не похуй? УАЗ — он и в Африке УАЗ. Я сам видел — негры со
-          ржавыми калашами на них друг друга по кустам гоняют.
-        </i>
-      </p>
-      <p>
-        <i>— Ну и пиздуй с ним в Африку, умник.</i>
+        The department that immediately told me to get lost — just like that,
+        while I was still on temporary license plates.
+        <i>Process-not-result</i> — that’s UAZdao!
       </p>
 
       <p>
-        Да-да, именно так и выглядит движение по Пути УАЗдао. Что ни шаг — то в
-        говно, только брызги летят. Зато по дороге в ГИБДД и обратно он успел
-        закипеть, потерять на ходу кардан и объявить коричневый уровень
-        опасности для соседей по транспортному потоку, прыгая на полметра в
-        сторону при каждом торможении. Потому что{' '}
-        <b>УАЗдао — путь приключений</b>.
+        <i>
+          “Why the hell is there no body number?” — asked the bored inspector.
+        </i>
       </p>
+      <p>
+        <i>“Because it’s an old UAZ — older than mammoth crap.”</i>
+      </p>
+      <p>
+        <i>“Why the hell is there no frame number?”</i>
+      </p>
+      <p>
+        <i>“For the same reason I just said.”</i>
+      </p>
+      <p>
+        <i>“Why the hell is the engine from who-knows-what?”</i>
+      </p>
+      <p>
+        <i>
+          “— How the hell should I know? What grew — grew. Look, the papers say
+          it right there — unnumbered part.”
+        </i>
+      </p>
+      <p>
+        <i>
+          “— And how do I know which UAZ I’m registering? This one or some
+          other?”
+        </i>
+      </p>
+      <p>
+        <i>
+          “— Why do you care? A UAZ is a UAZ — even in Africa. I saw it myself —
+          guys with rusty AKs chasing each other through bushes on them.”
+        </i>
+      </p>
+      <p>
+        <i>“— Then take your damn UAZ to Africa, genius.”</i>
+      </p>
+
+      <p>
+        Yep, that’s exactly what walking the Path of UAZdao looks like. Every
+        step — straight into the shit, and it splashes high. On the way to the
+        traffic office and back, it managed to overheat, lose its driveshaft
+        mid-road, and hit “brown alert” for the cars nearby — jumping half a
+        meter sideways every time I braked. Because{' '}
+        <b>UAZdao is the path of adventure</b>.
+      </p>
+
       <Image src="images/bookmizantrop/g1_4.jpg" alt="" />
 
       <p>
-        В общем, вернулись мы с ним во Гаражища Великия на тех же транзитах, что
-        и уезжали. Прибегнув к могучему колдунству «болгарка-сварка-свалка»,
-        поднял перекладину ворот, и он занял свое место в моей жизни. Так мы с
-        УАЗом обрушились во Гаражище Великое и застряли там надолго, врастая в
-        его странную бессобытийность.
+        So we returned to the Great Garage on the same temporary plates we left
+        with. With the powerful magic of “grinder-welder-junkyard,” I raised the
+        gate bar and gave it its place in my life. That’s how we, me and the
+        UAZ, landed in the Great Garage and got stuck there for a long time,
+        becoming part of its strange, uneventful reality.
       </p>
+
       <p>
-        «Вот заехал тот УАЗик,
+        “So that UAZ rolled inside,
         <br />
-        Встал на твердь двумя осями
+        Parked its wheels side by side,
         <br />
-        В гараже среди железок,
+        In the garage among the scrap,
         <br />
-        Что над ямой над слесарной.
+        Above the pit where wrenches nap.
         <br />
         <br />
-        Дни проходят и недели,
+        Days and weeks keep drifting by,
         <br />
-        Эта тварь торчит как жопа,
+        That beast just stands there like a lie,
         <br />
-        В гараже среди железок,
+        In the garage among the scrap,
         <br />
-        Что над ямой над слесарной...»
+        Above the pit where wrenches nap...”
       </p>
-      <p>— написал я тогда после долгого-долгого перерыва стихами.</p>
+
+      <p>I wrote that — after a very, very long break — in verse.</p>
+
       <p>
-        В размере «Калевалы», как Лемминкяйнен-глядь-на-лыжах. Если вы не читали
-        этот чудовищный карело-финский эпос, то вам не понять глубины и
-        выстраданности моего дзена. Но на то оно и УАЗдао.
+        In the meter of the “Kalevala,” like Lemminkäinen on skis. If you’ve
+        never read that monstrous Karelian-Finnish epic, you won’t understand
+        the full depth of my Zen. But that’s UAZdao for you.
       </p>
+
       <p>
-        Да, я тоже когда-то писал хуевые стихи. Не горжусь этим, но и стыдно мне
-        умеренно. Это возрастное, как онанизм. Добрачные ритуалы высших
-        приматов. Аналог горлового курлыканья и пестрых перьев на жопе у птиц —
-        должно привлекать самок к тем особям, у которых пока недостаточно
-        выражен первичный признак половой зрелости homo sapiens — эротично
-        выпирающий из штанов кошелек.
+        Yes, I once wrote shitty poetry too. I’m not proud of it — but not too
+        ashamed either. It’s an age thing, like masturbation. Pre-mating rituals
+        of higher primates. Like birds’ throat songs or colorful ass feathers —
+        meant to attract females when the male doesn’t yet have the main sign of
+        sexual maturity in homo sapiens — a wallet bulging erotically from his
+        pants.
       </p>
 
       <Image src="images/bookmizantrop/g1_5.jpg" alt="" />
       <p>
-        И знаете — работало! Стихи были говно, на гитаре я играл как хуем по
-        струнам, голос имел отвратительный — но барышням и этого хватало.
-        Непритязательны и доверчивы барышни в возрасте первичного поиска
-        счастья.
+        And you know what — it worked! The poems were crap, I played guitar like
+        I was strumming it with my dick, and my voice was terrible — but for the
+        girls, it was enough. Young ladies in the “search-for-happiness” phase
+        are not picky and very trusting.
       </p>
       <p>
-        Великое Мироздание, не переводи грехи моей молодости на моих дочерей,
-        пожалуйста!
+        Great Universe, please don’t make my daughters pay for the sins of my
+        youth!
       </p>
-      <p>Но сына я все-таки играть на гитаре научу.</p>
+      <p>But I’ll still teach my son to play guitar.</p>
 
       <Image src="images/bookmizantrop/g1_6.jpg" alt="" />
       <h4>
-        ГИТАРА – инструмент в форме женщины, используемый для приманивания
-        оных.#СловарьМизантропа
+        GUITAR — an object shaped like a woman, used to attract women.
+        #MisanthropeDictionary
       </h4>
 
       <p>
-        Жизнь наедине с железом формирует единственно правильный способ
-        мышления. Я бы назвал его «ментальной автономией УАЗдао». В
-        доинформационную эпоху он был основным. Хочешь подумать – побудь один в
-        тишине. С тишиной и одиночеством и тогда было не все гладко, поэтому
-        люди, чтобы хорошенько подумать, удалялись в скиты и затворы, запирались
-        в кельи и уходили в пустыни. Там они работали руками, одновременно думая
-        головой. Это было их УАЗдао.
+        Living alone with metal teaches you the only right way to think. I would
+        call it “the mental autonomy of UAZdao.” In the pre-information age, it
+        was the main way to think. Want to think? — be alone in silence. And
+        even back then, silence wasn’t easy to find, so people would go to
+        monasteries, hide in small rooms, or walk into the desert. They worked
+        with their hands and thought with their heads. That was their UAZdao.
       </p>
+
       <p>
-        Принято считать, что «человек — существо социальное». Но это штамп, а
-        все штампы – пиздеж, или, как минимум, критическое упрощение. Так же,
-        как афоризмы – короткие, ритмически выстроенные фразы, отключающие
-        критичность восприятия и через то обретающие иллюзорные смыслы. Приматы
-        — существа социальные, да. Стайные даже. Но все, что в человеке не от
-        шимпанзе, работает ровно наоборот. Стоит нам собраться более трех, как
-        средний IQ падает до уровня самого тупого, поделенного на количество
-        собравшихся. Толпе можно втереть что угодно, если достаточно громко
-        орать. Созидательный труд сложнее совместного переноса бревна тем менее
-        эффективен, чем больше народу им занято – все уходит в менеджмент
-        трудовых ресурсов. Творчество, став социальной функцией, вырождается в
-        коллективного «клоуна у пидарасов», сферическим эталоном которого в
-        интеллектуальном вакууме является телевидение.
+        People say “man is a social being.” But that’s a cliché — and clichés
+        are bullshit. Or at least dangerously oversimplified. Just like
+        aphorisms — short, rhythmic phrases that turn off your brain and seem
+        meaningful when they’re not. Primates are social, sure. Herd animals,
+        even. But everything in humans that is not from chimpanzees works in the
+        opposite way. When more than three of us gather, the average IQ drops to
+        the level of the dumbest person — divided by how many are present. A
+        crowd will believe anything if it’s shouted loud enough. Real work
+        becomes less effective the more people do it — most of the time goes
+        into “managing labor resources.” And creativity, once it becomes social,
+        turns into a kind of “clown show for degenerates.” The gold standard of
+        this, in a vacuum of intellect, is TV.
       </p>
+
       <Image src="images/bookmizantrop/g1_7.jpg" alt="" />
 
       <p>
-        Если нет возможности побыть одному в тишине — мышлению пиздец. Это
-        становится все менее достижимым в зашкаливающем шумовом фоне современной
-        цивилизации, но у нас все еще есть Гаражище Великое – место для УАЗдао.
+        If you can’t find a way to be alone in silence — your thinking is
+        screwed. And silence is getting harder to find in today’s noisy
+        civilization. But we still have the Great Garage — the place of UAZdao.
       </p>
+
       <p>
-        Все наши так называемые «достижения цивилизации» — плоды того, что от
-        кого-то вдруг отъебались и дали спокойно подумать. Если бы это не было
-        таким редким явлением, мы бы уже черт знает чего достигли. Ну, или
-        уничтожили бы друг друга кхуям, тоже вариант. Вот так посидишь-посидишь,
-        подумаешь-подумаешь, а потом выйдешь из гаража — а там люди. Посмотришь
-        на них, вернешься, да и изобретешь атомную бомбу.
+        All our so-called “civilizational achievements” were born when someone
+        finally got left alone and could think clearly. If that happened more
+        often, we’d already have reached god-knows-what. Or we’d have wiped each
+        other out — also possible. You sit, you think… And then you walk out of
+        the garage — and there are people. You look at them, turn around, and
+        invent the atomic bomb.
       </p>
-      <p>Потому что, сука, никаких нервов же на них не хватает.</p>
+
+      <p>Because, damn it, no one has the nerves for those people.</p>
+
       <p>
-        Лично мне гаражный период принес всего лишь несколько написанных книжек,
-        которые, в принципе, никому особо не нужны, но, если бы их не было,
-        жизнь моя стала бы куда скучнее. Впрочем, изобретателя атомной бомбы я
-        тоже могу понять.
+        For me, this garage period gave me a few books. They’re probably not
+        important to anyone, but if they didn’t exist, my life would be much
+        more boring. Still, I can understand the guy who invented the bomb.
       </p>
 
       <Image src="images/bookmizantrop/g1_8.jpg" alt="" />
 
-      <p>Книжки я пишу просто потому, что пишу.</p>
+      <p>I write books simply because I write them.</p>
+
       <p>
-        Слыхал, что люди пишут ради денег, славы или чтобы сказать Человечеству
-        что-то пиздец важное, без чего оно ну никак не обойдется. Странная
-        позиция. Человек, настолько тупой, чтобы надеяться заработать и
-        прославиться книжками, вряд ли осилит что-то написать. Разве что
-        печатными буквами на стене сортира слово «ХУЙ».
+        I’ve heard that people write for money, for fame, or to tell Humanity
+        something super important it can’t live without. Weird idea. A person
+        dumb enough to think they’ll get rich and famous from writing books
+        probably can’t write anything at all. Except maybe the word “DICK” in
+        big letters on a toilet wall.
       </p>
+
       <p>
-        Нет, есть знаменитые и богатые писатели. Их даже несколько. Но, если
-        соотнести их число с ордой попытавшихся, то, чисто математически,
-        выиграть миллион в лотерею шансов больше. Заодно и прославишься — по
-        телевизору покажут, как минимум. Чтобы те, кто отжимает у лохов шальные
-        бабки, знали тебя в лицо. Но даже это больше, чем то, на что может
-        рассчитывать писатель.
+        Sure, there are rich and famous writers. A few. But if you compare that
+        number to how many tried… Mathematically, you have better chances of
+        winning the lottery. And that will get you on TV, at least. So the
+        scammers who take dumb people’s money know your face. And even that’s
+        more than a writer can usually expect.
       </p>
+
       <h4>
-        ПИСАТЕЛЬ – человек, работа которого принесет деньги всем, кроме
-        него.#СловарьМизантропа
+        WRITER — a person whose work makes money for everyone except him.
+        #MisanthropeDictionary
       </h4>
       <p>
-        Что же касается Человечества, то нет таких слов, которые оно еще не
-        слышало за свою историю, и хер ему что-то новое скажешь. Писательство
-        тоже процесс-но-не-результат.
+        As for Humanity — there are no words it hasn’t heard already. You won’t
+        tell it anything new. Writing is also a process-not-result.
       </p>
-      <p>Писать просто чтобы писать – это и есть УАЗдао.</p>
+
+      <p>Writing just to write — that’s what UAZdao is.</p>
+
       <p>
-        Поэтому я пишу вот эту херню, которую вы сейчас читаете. Мне нравится
-        процесс. Кнопки клац-клац, буковки в рядочек, слова одно за другое
-        цепляются. Успокаивает. Моторика конечностей сложным образом связана с
-        мышлением. Если сесть на стул, сложить руки на коленях и уставиться в
-        стену – ничего не надумаешь, хоть как башку напрягай. А если при этом
-        гайки крутить, железо варить, провода соединять или хотя бы кнопки
-        топтать – другое дело. Может, и выйдет что-то занятное. Но это не точно.
+        That’s why I’m writing this nonsense you’re reading right now. I enjoy
+        the process. Keys go click-click, letters line up, one word grabs the
+        next — it’s calming. Hand movement is strangely connected to thinking.
+        Sit on a chair, put your hands on your knees, stare at the wall — you
+        won’t think of anything, no matter how hard you try. But if you’re
+        tightening bolts, welding metal, connecting wires, or even just tapping
+        keys — it’s different. Maybe something interesting will come out. Maybe.
+        No promises.
       </p>
+
       <p>
-        А то, что результат никому не понравится – так и хуй с ним. Результат не
-        важен.
+        And if no one likes the result — well, screw it. The result doesn’t
+        matter.
       </p>
+
       <p>
-        Когда интернет был молод, а я глуп, то позволял себе иногда постить в
-        бложик что-то кроме котиков. Тогда слово «блогер» еще не означало
-        «мутный мудак без определенных занятий», даже приличные люди среди них
-        попадались (не я). Так что мне не стыдно, не надейтесь. (Мне так за
-        многое стыдно в этой жизни, что на всякие мелочи стыда не хватает).
+        When the internet was young, and I was stupid, I sometimes posted things
+        other than cat pictures on my blog. Back then, the word “blogger” didn’t
+        mean “some weird loser with no job.” Even decent people could be
+        bloggers (not me). So no, I’m not ashamed. Don’t hope for that. (I
+        already have enough shame in life — there’s not much left for small
+        stuff.)
       </p>
+
       <p>
-        Тогда-то я и уяснил универсальное правило — нет ни одного
-        неоскорбительного текста. Любой осмысленный набор слов кого-нибудь
-        всерьез, до глубины пылающей жопы, обидит. Хотя бы потому, что сам факт
-        выражения мысли словами глубочайше триггерит тех, кто может только
-        невнятно мычать, пускать носом пузыри и постить чужие мемы.
+        That’s when I learned a universal rule: there is no such thing as a
+        non-offensive text. Any meaningful group of words will offend someone
+        deeply — down to their burning, aching ass. Just because the act of
+        expressing a thought with words deeply triggers those who can only
+        mumble, blow snot bubbles, and post other people’s memes.
       </p>
-      <p>То есть, абсолютное большинство интернет-пользователей.</p>
+
+      <p>In other words — the majority of internet users.</p>
 
       <Image src="images/bookmizantrop/g1_9.jpg" alt="" />
 
       <h4>
-        АГРЕССИЯ – нормальная реакция индивидуума на
-        окружающих.#СловарьМизантропа
+        AGGRESSION — the natural reaction of an individual to others.
+        #MisanthropeDictionary
       </h4>
+
       <p>
-        Непременно набегают люди, на полном лютом серьезе полагающие, что есть
-        слова, которые хуже других. Слова, блядь! То есть, если буквы составить
-        в одном порядке, то ничего, а в другом — сразу пиздец-пиздец. Это люди,
-        которые устранили бы хуй как явление, но за неимением такой возможности
-        пытаются убрать хотя бы слово. Надеются, что он тогда исчезнет сам.
+        Some people always show up — totally serious — believing that some words
+        are worse than others. Words, for fuck’s sake! So if you put letters in
+        one order — it’s fine. But if the order changes — boom! Pure disaster.
+        These are people who would erase the dick from existence if they could.
+        But since they can’t, they try to at least remove the word. They think
+        it’ll disappear on its own after that.
       </p>
+
       <p>
-        У них даже есть такое специальное выражение: «Как будто грязью плеснуло»
-        или что-то в этом роде. Просто у этих ебанатов в голове говно и дырка в
-        форме слова «хуй». Остальные слова в дырку не пролезают, но эти три
-        буквы падают с таким всплеском, что говно выплескивается. Вот вам и
-        «плеснуло».
+        They even have a phrase: “It feels like someone splashed me with filth.”
+        That’s because these morons have shit in their heads — and a hole shaped
+        like the word “dick.” Other words don’t fit into the hole. But those
+        three letters drop in with such a splash that the shit flies out. That’s
+        your “splash.”
       </p>
+
       <Image src="images/bookmizantrop/g1_10.jpg" alt="" />
+
       <h4>
-        «Ханжа» — человек, имеющий вместо головы жопу, и гордящийся этим
-        фактом.#Словарь Мизантропа
+        “Prude” — a person who has an ass instead of a head — and is proud of
+        it. #MisanthropeDictionary
       </h4>
       <p>
-        На жопе набито модное тату: «Все в говне, а я один в белом пальто стою
-        красивый». Но таким сложным шрифтом, что с первого взгляда читается как
-        «Я осуждаю вас с высоты своей морали». В принципе, одно и тоже, но
-        некоторые путаются в контекстах. Отличить их от искренних недоумков,
-        которые пытаются сделать из людей кого-то другого, несложно.
+        On their ass is a trendy tattoo: “Everyone's in shit, but I stand here
+        in a white coat, looking good.” But written in such a fancy font that at
+        first glance it reads: “I judge you from my moral high ground.” Which is
+        basically the same, but some people get confused. It's easy to tell them
+        apart from the honest fools who just want to “make people better.”
       </p>
       <p>
-        Мотивация ханжи состоит в удовольствии от осуждения, а не в изменении
-        ситуации.
+        A prude’s motivation is not to change anything — it's the joy of judging
+        others.
       </p>
 
       <hr />
 
-      <h3>Мастер и Ханжи</h3>
+      <h3>The Master and the Prudes</h3>
       <Image src="images/bookmizantrop/g1_11.jpg" alt="" />
+
       <p>
         <i>
-          Однажды к Мастеру в гараж зашли Ханжи. Сморщив носы и оглядевшись, они
-          сказали:
+          One day, some Prudes came into the Master’s garage. Wrinkling their
+          noses and looking around, they said:
         </i>
       </p>
       <p>
-        <i>— Здравствуйте. Мы ханжи. Мы пришли вас осуждать.</i>
+        <i>“Hello. We are prudes. We came to judge you.”</i>
       </p>
       <p>
-        <i>— Но за что? — удивился Мастер.</i>
+        <i>“But why?” the Master asked, surprised.</i>
       </p>
       <p>
-        <i>Ханжи переглянулись и удовлетворенно кивнули.</i>
-      </p>
-      <p>
-        <i>
-          — Мы слышали, вы употребили слово на букву «б», а также «ё». Не
-          отпирайтесь, мы полдня под воротами ждали, чтобы их услышать.
-        </i>
+        <i>The Prudes looked at each other and nodded in satisfaction.</i>
       </p>
       <p>
         <i>
-          — Но, понимаете, ключ соскочил... гайка... грани... резьба проёб…
-          Ой.... — засмущался Мастер.
+          “We heard you used the ‘b’ word, and even the ‘yo’ word. Don’t deny it
+          — we waited half a day outside your gate to catch it.”
         </i>
       </p>
       <p>
         <i>
-          — Нецензурщина — это отвратительно! — сказал самый старый Ханжа. — Как
-          грязью плеснуло! Мы вас осуждаем!{' '}
+          “Well, you see... the wrench slipped... the nut... the thread... got
+          messed u— oh…” the Master mumbled in embarrassment.
         </i>
       </p>
       <p>
         <i>
-          — Просто осуждаем? — спросил самый маленький Ханжонок с блокнотиком.
-        </i>
-      </p>
-      <p>
-        <i>— Решительно осуждаем!</i>
-      </p>
-      <p>
-        <i>— Ага... Решительно... — заскрипел карандашиком тот.</i>
-      </p>
-      <p>
-        <i>— А еще у вас грязно! — брезгливо сказали Ханжи.</i>
-      </p>
-      <p>
-        <i>
-          — Но это же... Отработка! Ветошь... Масло... — Мастер попытался
-          загородить собой самую большую кучу хлама. — Рабочая обстановка, вот!{' '}
+          “Swearing is disgusting!” said the oldest Prude. “Like getting
+          splashed with filth! We judge you!”
         </i>
       </p>
       <p>
         <i>
-          — Нам неприятно на это смотреть! — сказали Ханжи. — Мы категорически
-          вас осуждаем!
+          “Just judge?” asked the smallest Prude, taking notes in his notebook.
         </i>
       </p>
       <p>
-        <i>— Угу... Категорически... — бубнил над блокнотиком Ханжонок.</i>
+        <i>“We strongly judge!”</i>
+      </p>
+      <p>
+        <i>“Strongly... got it,” he scribbled.</i>
+      </p>
+      <p>
+        <i>“Also, your place is filthy!” the Prudes said with disgust.</i>
       </p>
       <p>
         <i>
-          — Так может, вам и не смотреть? — осторожно поинтересовался Мастер. —
-          Это же вы ко мне пришли, не я к вам...
-        </i>
-      </p>
-      <p>
-        <i>
-          — Кстати о вас, — сказала скрипучим, как ножовка по металлу, голосом
-          Ханжица, — вы неопрятны. Мне не нравится, как вы выглядите. Борода
-          эта... У вас грязь под ногтями! Почему бы вам не сделать маникюр?
-          Сходить в барбершоп?
-        </i>
-      </p>
-      <p>
-        <i>— Но... Я же работаю! Как можно работать с маникюром?</i>
-      </p>
-      <p>
-        <i>
-          — Я не знаю. Меня это не волнует. Мне неприятно это видеть. Я вас
-          публично осуждаю.
-        </i>
-      </p>
-      <p>
-        <i>— ...публично... — записал в блокнотик Ханжонок.</i>
-      </p>
-      <p>
-        <i>— Но я же не заставляю вас на меня смотреть! — смутился Мастер.</i>
-      </p>
-      <p>
-        <i>— Вы чините машины — они портят воздух и сбивают людей.</i>
-      </p>
-      <p>
-        <i>— Но...</i>
-      </p>
-      <p>
-        <i>— Осуждаем!</i>
-      </p>
-      <p>
-        <i>
-          — Вы курите, это отвратительно! Почему мы должны нюхать ваш смрад?
-        </i>
-      </p>
-      <p>
-        <i>— Но я же только тут... Вы сами пришли...</i>
-      </p>
-      <p>
-        <i>— Осуждаем!</i>
-      </p>
-      <p>
-        <i>— Вы выпиваете! Мы видели рюмку!</i>
-      </p>
-      <p>
-        <i>— Но кому какое дело...</i>
-      </p>
-      <p>
-        <i>
-          — Это отвратительно, какой пример вы подаете детям?! — рефлекторно
-          почесал сизый нос главный Ханжа.
-        </i>
-      </p>
-      <p>
-        <i>— Каким детям?</i>
-      </p>
-      <p>
-        <i>
-          — Вот! — он, дыша в сторону, указал на строчащего в блокнот Ханжонка.
-        </i>
-      </p>
-      <p>
-        <i>— Но это же вы его привели!</i>
-      </p>
-      <p>
-        <i>
-          — Осуждаем! Осуждаем! Осуждаем! — наперебой закричали Ханжи, не давая
-          Мастеру вставить слово.
-        </i>
-      </p>
-      <p>
-        <i>И только Ханжица неожиданно сказала: «Уй, блядь!» И все замолкли.</i>
-      </p>
-      <p>
-        <i>
-          — Ну ёб вашу мать, что за херня? — она смотрела на пятно отработки на
-          дорогих туфлях. — Это же просто пиздец какой-то!
-        </i>
-      </p>
-      <p>
-        <i>Ханжица вытащила из сумочки сигареты и нервно закурила.</i>
-      </p>
-      <p>
-        <i>
-          — Мы ее осуждаем? — растерянно и тихо спросил Ханжонок, кося глазом в
-          блокнот.
+          “But it’s just... rags... oil... scrap. A working garage, see?” the
+          Master said, trying to block the biggest pile of junk with his body.
         </i>
       </p>
       <p>
         <i>
-          — Ты что, дебил? — злобно рявкнул на него Главный Ханжа, отхлебнув из
-          карманной фляжки. — Пошли отсюда. Тут неподалеку нудистский пляж, надо
-          осудить публичную наготу. Он, правда, за трехметровым забором, но,
-          если влезть на сосну и взять бинокль...
+          “It’s unpleasant to look at!” said the Prudes. “We totally judge you!”
+        </i>
+      </p>
+      <p>
+        <i>“Totally...” mumbled the note-taker.</i>
+      </p>
+      <p>
+        <i>
+          “Maybe... you don’t have to look?” the Master asked carefully. “You
+          came here — I didn’t come to you...”
+        </i>
+      </p>
+      <p>
+        <i>
+          “By the way,” said the Lady Prude, her voice sharp like a hacksaw,
+          “you look messy. That beard… dirt under your nails! Why not get a
+          manicure? Visit a barber shop?”
+        </i>
+      </p>
+      <p>
+        <i>“But... I work with my hands! How can I do that with a manicure?”</i>
+      </p>
+      <p>
+        <i>“I don’t care. I don’t want to see it. I judge you. Publicly.”</i>
+      </p>
+      <p>
+        <i>“...publicly...” the small Prude wrote down.</i>
+      </p>
+      <p>
+        <i>
+          “But I’m not making you look at me!” the Master said, embarrassed.
+        </i>
+      </p>
+      <p>
+        <i>“You fix cars — they pollute and kill people.”</i>
+      </p>
+      <p>
+        <i>“But...”</i>
+      </p>
+      <p>
+        <i>“We judge you!”</i>
+      </p>
+      <p>
+        <i>“You smoke! That’s disgusting! Why should we smell your stink?”</i>
+      </p>
+      <p>
+        <i>“But I’m just here... You came to me...”</i>
+      </p>
+      <p>
+        <i>“We judge you!”</i>
+      </p>
+      <p>
+        <i>“You drink! We saw a shot glass!”</i>
+      </p>
+      <p>
+        <i>“What does it matter to anyone...”</i>
+      </p>
+      <p>
+        <i>
+          “That’s awful — what kind of example are you giving to children?!”
+          said the Head Prude, scratching his purple nose.
+        </i>
+      </p>
+      <p>
+        <i>“What children?”</i>
+      </p>
+      <p>
+        <i>“Him!” he pointed toward the little Prude with the notebook.</i>
+      </p>
+      <p>
+        <i>“But you brought him with you!”</i>
+      </p>
+      <p>
+        <i>
+          “We judge! We judge! We judge!” the Prudes all shouted at once, not
+          letting the Master speak.
+        </i>
+      </p>
+      <p>
+        <i>
+          And then the Lady Prude suddenly said: “Shit, fuck!” And everyone went
+          silent.
+        </i>
+      </p>
+      <p>
+        <i>
+          “What the hell is this crap?” she said, looking at the oil stain on
+          her expensive shoes. “This is just bullshit!”
+        </i>
+      </p>
+      <p>
+        <i>The Lady Prude pulled out a cigarette and nervously lit it.</i>
+      </p>
+      <p>
+        <i>
+          “Should we judge her?” the little Prude asked quietly, glancing at his
+          notebook.
+        </i>
+      </p>
+      <p>
+        <i>
+          “Are you stupid?” the Head Prude snapped, taking a swig from a hip
+          flask. “Let’s go. There’s a nudist beach nearby — we need to go judge
+          public indecency. It’s behind a three-meter fence, but if we climb a
+          pine tree and bring binoculars…”
         </i>
       </p>
       <br />
       <p>
         <i>
-          Мастер смотрел им вслед, задумчиво вычищая грязь из-под ногтей
-          отверткой.
+          The Master watched them leave, thoughtfully cleaning his fingernails
+          with a screwdriver.
         </i>
       </p>
-
-      <h3>Глава 2. Экономика мышления</h3>
+      <h3>Chapter 2. The Economy of Thinking</h3>
       <Image src="images/bookmizantrop/g2.jpg" alt="" />
-      <h4>«А хули?» – главный вопрос Жизни, Вселенной и всего остального.</h4>
+      <h4>
+        “Why the fuck not?” — the main question of Life, the Universe, and
+        Everything.
+      </h4>
 
-      <h3>Дневник наблюдения за природой</h3>
+      <h3>Nature Observation Diary</h3>
       <p>
-        Если вас послали регистраторы в ГАИ — это не последняя ступень боли и
-        унижения. Есть еще экспертиза. Там специально обученные люди тоже будут
-        смотреть на вас как на говно — но инструментальным методом.
+        If the traffic police registration office told you to get lost — that's
+        not the final level of pain and humiliation. There’s still the expert
+        inspection. There, specially trained people will also look at you like
+        you’re crap — but using instruments.
       </p>
+
       <p>
-        С утра я созерцал выстраивающуюся за мной очередь. Это была очередь в
-        моё чертово будущее — старые злые дедуганы на УАЗах. В каждом склочном
-        седом старикашке, сплевывающем сквозь зубы, матерящемся и греющем
-        геморрой на теплом капоте, я видел себя через годы — и, оглядываясь
-        назад, убеждаюсь, что не ошибся. Типичный владелец УАЗа — это
-        классический Старый Хрен. Мастер синей изоленты и дендрофекального*
-        тюнинга, никогда не выбрасывающий старые запчасти и не слыхавший слова
-        «автосервис». Даже если вы видите в салонном зеркале кого-то другого, не
-        отчаивайтесь — все еще впереди. Седая борода, смотанные пластырем очки,
-        теплый капот и скверный характер ждут вас потом, а геморрой начнется
-        сразу.
+        In the morning, I watched a line forming behind me. It was a line into
+        my damn future — old, grumpy men with UAZes. In each grumbling,
+        spitting, swearing old fart warming his hemorrhoids on a hot hood, I saw
+        my future self. Looking back, I can confirm — I wasn’t wrong.
       </p>
-      <p>Это УАЗдао!</p>
+
+      <p>
+        A typical UAZ owner is a classic Old Fart. Master of blue duct tape and
+        tree-shit-based* tuning, never throws away old parts, and has never
+        heard the word “auto repair shop.” Even if the mirror shows someone
+        different right now — don’t worry. Your time will come. Grey beard,
+        taped-up glasses, warm hood, and a bad temper await you. Hemorrhoids
+        start right away.
+      </p>
+
+      <p>This is UAZdao!</p>
+
       <br />
-      <a href="#header" aria-label="Перейти к началу страницы">
-        Вверх
+      <a href="#header" aria-label="Go to the top of the page">
+        Up
       </a>
     </div>
   );

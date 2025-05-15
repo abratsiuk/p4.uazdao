@@ -9,17 +9,17 @@ export const Author: React.FC = () => {
       <Image
         parentClassName={styles.Author__avatar}
         src="images/ievlev/avatar.webp"
-        alt="аватар П.С.Иевлева"
+        alt="avatar of P.S. Ievlev"
       />
       <div className={styles.Author__cart}>
         <ExternalLink
           parentClassName={styles.Author__cartHeader}
-          href="https://author.today/u/semiurg/works"
-          text="Павел Иевлев"
+          href="#"
+          text="Pavel Ievlev"
         />
         {/* TO DO add link to https://semiurg.ru */}
         <div className={styles.Author__cartText}>
-          Когда палец показывает на небо, люди смотрят на палец.
+          When a finger points at the sky, people look at the finger.
         </div>
       </div>
     </div>

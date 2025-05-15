@@ -6,373 +6,364 @@ import { ExternalLink } from '../ExternalLink';
 export const BookUazdao: React.FC = () => {
   return (
     <div className={styles.BookUazdao}>
-      <h2>Павел Иевлев</h2>
+      <h2>Pavel Ievlev</h2>
 
       <h1>
-        <ExternalLink
-          href="https://www.rulit.me/books/uazdao-ili-dao-vyrazhennoe-rukami-download-445410.html"
-          text="УАЗДАО или ДАО, выраженное руками"
-        />
+        <ExternalLink href="#" text="UAZDAO or the DAO Expressed by Hands" />
       </h1>
 
       <Image
+        parentClassName="book_title"
         src="images/bookuazdao/title.jpg"
-        alt="Обложка книги 'УАЗДАО или ДАО, выраженное руками' Павла Иевлева"
+        alt="Cover of the book 'UAZDAO or the DAO Expressed by Hands' by Pavel Ievlev"
       />
-      <h3>Аннотация</h3>
+      <h3>Annotation</h3>
 
       <p>
-        Читатель, перед тобой – «УАЗдао». Это книга особого, гаражного дао, где
-        в искрах болгарки, сиянии сварочной дуги и брызгах горячего масла
-        зарождается то, что многие ошибочно принимают за мудрость. Это книга
-        здравого смысла.
+        Reader, in front of you is "UAZdao". It is a book about a special,
+        garage Dao, where sparks from an angle grinder, welding light, and hot
+        oil splashes create something that many people mistakenly call wisdom.
+        This is a book of common sense.
       </p>
       <p>
-        В этой книге много умных слов, много правильных слов, много матерных
-        слов. Чего в ней нет – так это ни одного серьёзного слова.
+        This book has many smart words, many correct words, and many swear
+        words. What it doesn’t have is a single serious word.
       </p>
       <p>
-        Да убережет вас мироздание от слишком серьёзного прочтения всего, что
-        тут написано!
-      </p>
-
-      <h3>Пролог — рукопись, найденная в солидоле</h3>
-
-      <p>
-        На раскопках одного древнего гаражища, в плотно запечатанной жестяной
-        амфоре с солидолом, обнаружена рукопись с великим сакральным текстом,
-        который считался утерянным. Речь идёт о первых списках так называемого
-        «УАЗдао» — священной книге древних автомехаников. До сих пор она была
-        известна только по кратчайшим отрывкам, сохранившимся в изустной
-        традиции.
+        May the universe protect you from reading any of this too seriously!
       </p>
 
+      <h3>Prologue — a manuscript found in grease</h3>
+
       <p>
-        Рукопись написана на архаичном протоязыке автомехаников, и потому
-        некоторые термины и идиоматические выражения в тексте остались
-        непереведёнными. Это, как правило, те священные, исполненные тайной
-        магической силы заклинания, которые до сих пор, без понимания утерянного
-        смысла, передаются из уст в уста среди потомков тех, первых,
-        автомехаников. Обычно их произносят, ударив себя молотком по пальцу…
+        During excavations of an ancient garage site, a tightly sealed tin
+        amphora filled with grease was found. Inside was a manuscript of a great
+        sacred text that was thought to be lost forever. It contains the
+        earliest copies of what is known as "UAZdao" — the holy book of ancient
+        car mechanics. Until now, it was only known from short fragments passed
+        down by word of mouth.
       </p>
 
       <p>
-        Рукопись выполнена в традиционной технологии — отвёрткой по дерматину, и
-        расшифровка её ещё продолжается.
+        The manuscript is written in the old proto-language of car mechanics, so
+        some terms and idiomatic expressions remain untranslated. These are
+        usually the sacred, magic words that, even without their original
+        meaning, are still passed down from master to student. Normally, they
+        are spoken after hitting one’s finger with a hammer...
       </p>
 
-      <h3>Схождение в УАЗ</h3>
+      <p>
+        The manuscript was created using traditional technology — a screwdriver
+        on leatherette — and its decoding is still in progress.
+      </p>
+
+      <h3>Descent into the UAZ</h3>
       <ul>
         <li>
-          Да пребудут с тобой вечные Болгарка, Сварка и Свалка, ибо путь их — и
-          есть путь УАЗдао.
+          May the eternal Angle Grinder, Welder, and Junkyard be with you, for
+          their path is the path of UAZdao.
         </li>
-        <li>И Монтировка с Кувалдой, предвестники их.</li>
-        <li>И Зубилом не пренебрегай отнюдь.</li>
+        <li>And also the Crowbar and the Sledgehammer — their messengers.</li>
+        <li>And never ignore the Chisel.</li>
         <li>
-          Не брезгуй в гордыне своей рожковым ключом, оттого, что есть торцевой.
-          Ибо путь УАЗДао — есть путь простоты. И что ты будешь делать, проебав
-          торцевой?
+          Do not be proud and refuse the open-end wrench, just because you have
+          a socket one. The path of UAZdao is the path of simplicity. And what
+          will you do if you lose the socket one?
         </li>
       </ul>
 
       <p>
-        На тернистом и полном бесконечного просветления пути УАЗдао я оказался
-        отчасти случайно. Впрочем, каждый человек может сказать про себя это в
-        любых жизненных обстоятельствах — поскольку сама жизнь наша есть лишь
-        Большая Случайность. Некоторые вещи просто приходят в твою жизнь,
-        взявшись вроде бы ниоткуда и низачем, но с комфортом устраиваясь посреди
-        жизненных обстоятельств, врастая в них и пуская корни. Глядь — а они уже
-        как будто были всегда, и представить себя без них невозможно.
+        I found myself on the thorny and endlessly enlightening path of UAZdao
+        partly by accident. But really, every person can say this about any
+        situation in life — because life itself is just a Big Coincidence. Some
+        things simply appear in your life from nowhere, for no reason, and
+        suddenly fit in perfectly. They grow into your daily routine and take
+        root. And one day, you feel they have always been there — and you can’t
+        imagine life without them.
       </p>
 
       <p>
-        Так в мою жизнь вошёл УАЗ. Он просто случился со мной, и это изменило
-        мою жизнь — ну, насколько эта странная материя, жизнь, вообще подвержена
-        изменению.
+        That’s how the UAZ came into my life. It just happened to me — and it
+        changed my life. Well, at least as much as life — this strange thing —
+        can be changed at all.
       </p>
 
       <p>
-        Это был самый что ни на есть посконный УАЗ-469 первых лет выпуска
-        «колхозник». Раздельное стекло, дворники сверху, карбовый мотор под 80-й
-        бензин, в салоне табуреточные сидушки, самодельный жёсткий верх.
+        It was a very basic UAZ-469 from the early years, the “kolkhoz version.”
+        Split windshield, wipers on top, carburetor engine for 80-octane fuel,
+        stool-like seats inside, and a homemade hardtop.
       </p>
 
       <p>
-        Никакой романтики, рабочий сельского труда, труженик деревенской
-        логистики.
+        No romance. Just a working car for rural tasks, a helper in village
+        logistics.
       </p>
 
-      <p>Зачем? — спросите вы.</p>
+      <p>Why? — you may ask.</p>
 
       <p>
-        Мой школьный учитель физики — человек по-своему незаурядный — когда его
-        спрашивали, почему электроны крутятся по орбитам, или почему
-        электрический ток течёт именно от плюса к минусу, а не наоборот,
-        устраивал целое представление. Он раскрывал широко глаза, делал
-        удивлённое (с оттенком возмущения нашей тупостью) лицо, вставал в полный
-        рост перед классом и говорил: «Как? Вы не знаете ЭТОГО? Сей же час
-        достали ручки и тетрадки! Пишите, да большими буквами, чтобы запомнить
-        на всю жизнь! Приготовились? Пишем: «ТАК УСТРОЕН МИР!». С этих самых пор
-        в голове моей отложилось, что найти причины всего, что происходит
-        вокруг, невозможно, да и не нужно. Ток течёт, электроны крутятся по
-        своим орбитам, а мир сложен и не всегда понятен. И это есть так, потому
-        что не иначе. Почти всегда можно объяснить «как?», почти никогда
-        «почему?», а вопрос «зачем?» вообще не имеет смысла.
-      </p>
-
-      <p>К примеру — зачем мне УАЗик? Неправильный вопрос. А сам я зачем?</p>
-
-      <p>
-        Человеку необходим некоторый способ взаимодействия с миром, помогающий
-        регулярно выходить за пределы утилитарности бытия. УАЗик — мой
-        собственный способ делать ненужное, не лучше и не хуже других. Вообще,
-        умение делать ненужное — неочевидный, но важный системообразующий навык.
+        My school physics teacher — a very unique man — used to put on a real
+        show when someone asked why electrons move in orbits, or why electric
+        current goes from plus to minus and not the other way. He would open his
+        eyes wide, make a shocked face (like we were very stupid), stand up
+        straight in front of the class and say: “What? You don’t know THIS? Take
+        your pens and notebooks RIGHT NOW! Write this down in big letters so you
+        remember it for life! Ready? Write: ‘THIS IS HOW THE WORLD WORKS!’” From
+        that time, I understood: we can’t always know why things happen — and we
+        don’t need to. Current flows, electrons spin, and the world is complex
+        and not always clear. It is like this, because it is not another way. We
+        can often explain “how?”, almost never “why?”, and the question “what
+        for?” often makes no sense at all.
       </p>
 
       <p>
-        Большую часть своей жизни мы производим исключительно себя.
-        Перерабатываем ресурсы окружающего мира в своё существование. Это
-        утилитарность, от которой никуда не деться, и всякая живая тварь занята
-        этим. Деланием нужного во всех его формах. Между тем, у человека есть
-        специальное слово «работа» и многие не понимают его важности. Понятие
-        «работы» выделяет утилитарную деятельность в отдельную категорию бытия,
-        то есть, утверждая факт, что кроме неё есть что-то ещё. Не работа. Этим
-        чем-то отнюдь не является отдых. Отдых — это составная часть
-        производственной деятельности. Восполнение ресурсов тела для продолжения
-        труда. А вот делание ненужного — это то, что обозначает нас людьми, а не
-        установками по переработке удобрения в корм и обратно.
+        For example — why do I need a UAZ? Wrong question. Why do I need myself?
       </p>
 
       <p>
-        Делание ненужного — это не прихоть. Это самодекларация. Построить дом —
-        делание нужного, украсить резьбой наличники — делание ненужного.
-        Посадить картошку — её можно съесть, посадить клумбу — зачем? Но это
-        ненужное меняет мир вокруг нас, превращая его в творение наших рук, а
-        самое главное — меняет нас.
+        A person needs some way to connect with the world — something that helps
+        go beyond the everyday useful life. The UAZ is my personal way to do
+        something useless — not better, not worse than other ways. In fact, the
+        ability to do useless things is an important skill, though people don’t
+        always see it.
       </p>
 
       <p>
-        Охота на мамонта — делание нужного, рисование этой охоты на стене пещеры
-        — делание ненужного. (Что вы там сказали? Обряды? Колдовство? Ритуал? —
-        Да бросьте! Надо же было художнику как-то отмазываться от соплеменников,
-        которые задавали ему вот этот же дурацкий вопрос «Нафига?». Если большую
-        часть вашего словарного запаса составляют угрожающие жесты сучковатой
-        дубиной, то сложные объяснения абстрактных понятий не всегда успевают
-        дойти до собеседника.) Вроде бы ерунда — охрой по стене повозить — а
-        поди ж ты, череп пошёл вверх, челюсть вперёд, надбровные дуги втянулись,
-        а лобные доли выросли. Не успели оглянуться — а вокруг вместо мамонтов
-        уже асфальт, интернет и хипстеры. Иной раз даже подумаешь, что зря тому,
-        с охрой, дубиной-то не прилетело вовремя…
+        Most of the time, we are just producing ourselves. Turning resources
+        from the world into our own life. That’s utility — and every living
+        being does that. Doing useful things, in all forms. But humans have a
+        special word — “work” — and many don’t understand how important it is.
+        This word separates useful actions into their own category, which means:
+        there is also something else. Not work. And that “something else” is not
+        rest. Rest is just a part of the working process — to restore energy.
+        But doing something useless — that is what makes us human. Not just
+        machines that turn food into fertilizer and back.
       </p>
 
       <p>
-        Не всякая техника имеет своё собственное Дао. Но УАЗ в корне отличается
-        от всех прочих машин, которых через мои руки прошло множество. Я поясню
-        это сразу, чтобы потом к вопросу не возвращаться: УАЗ — вообще не
-        автомобиль. Это не транспортное средство. Доставка индивидуума из точки
-        А в точку Б — лишь случайное его свойство, недокументированная
-        возможность. Практически любая машина справится с этим гораздо лучше.
+        Doing useless things is not silly. It is a self-statement. Building a
+        house — that’s useful. Carving patterns on window frames — that’s
+        useless. Planting potatoes — you can eat them. Planting flowers — why?
+        But this useless thing changes the world around us, makes it our
+        creation. And most of all — it changes us.
       </p>
 
       <p>
-        УАЗ — это приключение. Любая поездка на нём — это как полёт в космос,
-        как экспедиция в Антарктиду, как переплыть океан на плоту из пивных
-        банок или перелететь Ла-Манш на тысяче надутых водородом гондонов.
-      </p>
-
-      <p>Это прыжок в неизведанное, и результат непредсказуем.</p>
-
-      <p>
-        Я всё понял сразу, когда перегонял свежеобретенный УАЗ из дальней
-        деревни на новое место обитания — во Гаражища Великие. Например, я
-        осознал мудрость конструкторов, предусмотревших штатный кенгурятник.
-        Знаете, для чего он? — Для торможения о броню впередиидущего танка,
-        поскольку иных средств замедления предусмотрено не было. Руль в этой
-        машине — чтобы держаться за него на ухабах, поскольку на направление
-        движения автомобиля вращение массивного колеса практически никак не
-        влияло. Ах, да — ещё в нём не выключалась печка, что в 42 градуса жары
-        добавляло особой пикантности ощущениям.
+        Hunting a mammoth — that’s a useful thing. Drawing this hunt on a cave
+        wall — that’s a useless thing. (What did you say? Ritual? Magic?
+        Ceremony? — Oh, come on! The artist just needed a way to explain himself
+        to the other tribe members when they asked the same stupid question:
+        “Why are you doing this?” When most of your communication is hitting
+        with a heavy stick, it’s hard to explain abstract ideas.) It seems like
+        nothing — just painting with ochre on a wall — but then the skull grew
+        bigger, the jaw moved forward, eyebrows went in, and the brain got
+        smarter. Suddenly — no more mammoths. There’s asphalt, internet, and
+        hipsters everywhere. Sometimes you think: maybe the one with ochre
+        should’ve been hit with that stick after all…
       </p>
 
       <p>
-        Машина отказывалась ехать на передаче выше третьей — не хватало тяги. Но
-        это, учитывая отсутствие тормозов, было даже и к лучшему… До гаража не
-        дотянул буквально пару километров — рассыпался на мелкие детальки привод
-        дроссельной заслонки. Зато счастливый бывший владелец отвалил столько
-        запчастей, что для сборки ещё одного УАЗа не хватало только рамы…
+        Not every machine has its own Dao. But the UAZ is very different from
+        all the other cars I’ve used. Let me explain it clearly, so I don’t have
+        to repeat it: The UAZ is not a car. It’s not a vehicle. Moving a person
+        from point A to point B is just something it sometimes does — not its
+        real purpose. Almost any other car does that better.
       </p>
 
       <p>
-        Ибо сказано:
+        The UAZ is an adventure. Every ride is like going to space, or an
+        expedition to Antarctica, or crossing the ocean on a raft made of beer
+        cans, or flying over the English Channel with 1000 hydrogen balloons.
+      </p>
+
+      <p>It’s a jump into the unknown — and the result is never certain.</p>
+
+      <p>
+        I understood everything right away when I drove my newly bought UAZ from
+        a faraway village to its new home — the Great Garage. For example, I
+        realized the wisdom of the designers who added a metal bumper bar. What
+        is it for? — It’s for braking by hitting the tank in front of you. There
+        were no other ways to stop. The steering wheel? — It’s for holding on
+        during bumps. Turning it doesn’t really change the car’s direction. Oh,
+        and the heater never turned off — which, at 42°C heat, gave the trip
+        some extra spice.
+      </p>
+
+      <p>
+        The car refused to go in any gear higher than third — it didn’t have
+        enough power. But since there were no brakes, that was probably a good
+        thing... I didn’t reach the garage by just a few kilometers — the
+        throttle linkage broke into small pieces. But the happy previous owner
+        gave me so many spare parts that all I needed to build another UAZ was
+        the frame.
+      </p>
+
+      <p>
+        For it is said:
         <ul>
-          <li>Лишних запчастей не бывает.</li>
+          <li>There is no such thing as extra parts.</li>
         </ul>
       </p>
 
-      <h3>Гаражище Великое</h3>
+      <h3>The Great Garage</h3>
 
       <ul>
         <li>
-          Если гайка твоя не идёт по резьбе болта твоего, то не спеши взяться за
-          Трубу твою. Включи сначала мозги твои и задумайся — а та ли гайка? С
-          той ли резьбою?
+          If your nut doesn’t go on your bolt’s thread — don’t grab your Pipe
+          too fast. First, turn on your brain and ask yourself: is it the right
+          nut? Is it the right thread?
         </li>
         <li>
-          Не спеши использовать Инструмент свой прежде Головы своей, дабы не
-          смотреть с ужасом на дело рук своих. Ибо иной и за Болгарку схватится
-          не подумавши, да так, что и Сварка не поможет…
+          Don’t use your Tool before your Head, or you may look with horror at
+          what you have done. Some grab the Angle Grinder without thinking — and
+          even the Welder can’t help after that...
         </li>
         <li>
-          Следующий Путём УАЗДАО всегда ждёт пиздеца. Но лишь Истинный Мастер
-          Пути к нему всегда готов — свеж диск Болгарки его, и полон баллон
-          Сварки его.
+          The one who follows the Path of UAZDAO always expects trouble. But
+          only the True Master of the Path is always ready — his Grinder disc is
+          fresh, and his Welder tank is full.
         </li>
         <li>
-          Пусть будет засран твой Гараж и полон хлама багажник — но разум
-          Следующего Путём всегда чист. Потому что Всё Путём.
+          Let your Garage be messy and your trunk full of junk — but the mind of
+          the one who follows the Path must stay clean. Because everything is on
+          the Path.
         </li>
       </ul>
 
       <p>
-        «Если вас трамвай раздавит, вы сначала вскрикнете. Раз раздавит, два
-        раздавит… — а потом привыкнете!».
+        “If a tram runs over you, you’ll scream at first. It runs over you once,
+        twice... — and then you get used to it!”
       </p>
 
       <p>
-        …На тот момент я уже находился в последней стадии трамвайного
-        привыкания. В каждой жизни непременно есть сколько-то жопы, но иногда
-        вдруг оказывается, что ничего кроме неё просто нет. Иногда с этим надо
-        что-то делать, иногда — наоборот, перестать делать то, что делал раньше.
-        Если жизнь отправила тебя в нокаут, то не исключено, что лучшей
-        стратегией будет просто немного поваляться на ринге, а не вскакивать
-        обратно, чтобы огрести ещё. Можно, конечно, устраивать шаманские пляски,
-        бия себя в грудь вместо бубна и вопия во Вселенную: «Жопа, жопа, ты
-        пришла!», можно устраивать публичные заламывания рук, ног и совести,
-        пытаясь вытрясти свою долю сочувствия из равнодушного социума, но
-        честнее отползти в сторонку, завалиться за плинтус и подумать, как ты
-        дошёл до жизни такой.
+        At that moment, I was already in the final stage of tram adaptation. In
+        every life, there’s always some crap. But sometimes it feels like
+        there’s nothing except that. Sometimes you need to do something about
+        it. Sometimes you need to stop doing what you always did. If life knocks
+        you out, maybe the best thing is just to lie on the ring for a while —
+        not jump up and get hit again. Sure, you can dance around like a shaman,
+        beating your chest instead of a drum and shouting to the Universe,
+        “Crap, crap, you are here!” You can also cry in public and try to get
+        sympathy from the cold-hearted society. But it’s more honest to crawl to
+        the side, hide behind the wall, and think: how did I end up like this?
       </p>
 
       <p>
-        Ну вот я и завалился в Гаражище, медленно и даже не без некоторого
-        удовольствия погружаясь в его странную жизнь. Своеобразный эскапизм,
-        которым пропитано это место, требует достижения определённого уровня
-        глубины этого самого погружения. Катаясь сюда на выходных, чтобы
-        протереть стёкла и попинать колёса, его не достигнешь, надо вжиться.
-        Это, знаете, как монастырь — можно съездить на экскурсию, можно
-        паломником, но толку от этого чуть. Чтобы понять, что тут делают все эти
-        люди, надо пожить их жизнью, и не день-два. Это ведь тоже эскапизм
-        своего рода, просто его мистика несколько более традиционна.
+        So I crawled into the Great Garage, slowly — and even with some pleasure
+        — diving into its strange life. There’s a kind of escape here. And to
+        feel it fully, you have to go deep. Just coming here on weekends to wipe
+        the windows and kick the tires won’t help. You need to live it. It’s
+        like a monastery — you can visit it, or go as a pilgrim, but that’s not
+        enough. To understand what people are doing here, you need to live their
+        life — for more than a day or two. It’s also a kind of escape — just
+        with more traditional magic.
       </p>
 
       <p>
-        Триггером включения мистики Гаражища становится тот момент, когда ты
-        впервые тут заночуешь. Потому, что тебе некуда идти. Или потому что
-        незачем. Или потому что лень. Или потому, что ты пьян, и тебе некуда,
-        незачем и неохота идти. Какая, к чёртовой матери, разница, где спать.
-        Вот он, куцый топчанчик, вот спальник из машины, надувная подушечка и
-        бутылочка колыбельной в маленьком холодильнике. И вот когда ты сидишь на
-        плоской крыше в продавленном сидении от «Москвича», дыша запахом
-        остывающего рубероида, и смотришь, как огромная шизофренического цвета
-        луна рубит огромное поле острыми тенями на квадраты проездов, тебя вдруг
-        принимает это место, и ты что-то понимаешь про себя и про него.
+        The moment you first sleep in the Garage is when the magic starts. Maybe
+        because you have nowhere to go. Maybe because you don’t need to go.
+        Maybe you’re just lazy. Or maybe you’re drunk and you don’t want to go,
+        don’t need to go, and don’t know where to go. Who the hell cares where
+        you sleep? There’s the short cot, a sleeping bag from the car, an
+        inflatable pillow, and a bottle of lullaby in the mini fridge. And when
+        you sit on the flat roof in an old seat from a “Moskvich,” breathing the
+        smell of cooling tar, and you watch the huge, crazy-colored moon cutting
+        the big field into sharp-shadowed squares — that’s when the Garage
+        accepts you. And you understand something about it — and about yourself.
       </p>
 
       <p>
-        Или не принимает — тогда ты просто пьяный одинокий дурак на крыше
-        гаража, иди спать уже.
+        Or maybe it doesn’t accept you. Then you’re just a drunk, lonely fool on
+        a garage roof. Go to sleep.
       </p>
 
       <p>
-        Я тугой, скептичный циник, мне понадобилось посидеть вот так не одну
-        ночь. Сидеть, курить, присасываться к горлышку и снова откидываться на
-        спинку балансирующего на кривых полозьях старого кресла. Думать, думать
-        — и потом не думать, глядя пустыми глазами в Луну. Если бы не стоящий
-        подо мной в гараже УАЗ, я бы, наверное, так ничего не понял, но он
-        оказался настолько этому месту сродни, что стал моим интерфейсом к
-        Гаражищу Великому.
+        I’m a slow, skeptical cynic. I had to sit like that many nights. Sit,
+        smoke, sip from the bottle, and lean back in an old chair rocking on its
+        crooked legs. Think, think — and then stop thinking. Just stare at the
+        Moon with empty eyes. If not for the UAZ under me in the garage, I
+        probably wouldn’t understand anything. But it fits this place so
+        perfectly, it became my interface to the Great Garage.
       </p>
 
       <p>
-        УАЗ вообще часто приводил меня к людям и людей ко мне. Отчего-то он не
-        оставляет никого равнодушным, и как-то особенно обозначает вот эту точку
-        в Мироздании, которая есть я. А тогда было лето, ночь, луна, бутылка
-        виски и много-много печального безмыслия, которое однажды было нарушено
-        самым неожиданным образом.
+        The UAZ often brought people to me — and me to people. For some reason,
+        it never leaves anyone indifferent. It somehow marks that point in the
+        Universe — that point which is me. And that night, it was summer, night,
+        moon, a bottle of whiskey, and a lot of quiet, sad emptiness… which was
+        broken in the most unexpected way.
       </p>
 
-      <p>— Утаешь, евек?</p>
+      <p>“— Yuhhyersh, yevyek?”</p>
 
       <p>
-        Не будь я слишком пьян для резких движений, я мог бы подпрыгнуть от
-        ужаса и навернуться с гаража вниз башкой, на чём бы моя история и
-        закончилась. Но адреналин был блокирован алкоголем, и я даже ничуть не
-        обосрался, вот ни капельки. Но представьте себе — ночь луна, тишина,
-        обзор на 360 градусов, и полное одиночество. И потом тебе кто-то
-        бормочет в ухо не пойми что. Мягко говоря, неожиданно.
+        If I hadn’t been too drunk to move quickly, I might have jumped in fear
+        and fallen off the garage headfirst — and that would’ve been the end of
+        my story. But the alcohol blocked the adrenaline, so I didn’t even shit
+        myself. Not even a little. Just imagine — night, full moon, silence, a
+        360-degree view, and complete loneliness. And then someone whispers
+        something strange in your ear. That’s… surprising, to say the least.
       </p>
 
-      <p>— Утаешь, ашую? Устишь?</p>
+      <p>“— Yuhhyersh, ashooyuh? Yusteersh?”</p>
 
       <p>
-        Чёрный силуэт за моим плечом, разумеется, не был ангелом смерти, иначе
-        кто бы сейчас это всё рассказывал? Разглядеть кого-то спьяну в
-        сверхконтрастном лунном контражуре сложно, и мне показалось сперва, что
-        это какой-то ребёнок — этакий Гаврош в странных обносках. Беспризорник
-        из старого кино. Может быть, из-за его необычной манеры говорить, глотая
-        начала слов, шепелявя и путая согласные — так говорят иногда маленькие
-        дети. Когда же я повернулся к нему, и лунный свет лёг иначе, он,
-        наоборот, показался древним усохшим старичком, с дефектами речи из-за
-        возрастной атрофии речевого аппарата и отсутствия зубов. Но и это не так
-        — зубы у него все, и старичком он тоже не был. Вообще по внешности
-        невозможно было сказать, сколько ему лет даже приблизительно, но по
-        поведению я воспринимал его скорее, как подростка. Росточку он и правда
-        невеликого, метр с кепкой, и вид имел изрядно бомжеватый. Собственно,
-        так я тогда и подумал, продышавшись от неожиданности — бомжик какой-то
-        приблудился. Это было странно — бомжей в Гаражищах не водилось вовсе,
-        что им там делать-то? Но, в общем, не странней многого, что я видел в
-        жизни.
+        The black shape behind my shoulder wasn’t the angel of death — or I
+        wouldn’t be telling this story now. Trying to see someone when you’re
+        drunk, in high-contrast moonlight, is hard. At first, I thought it was a
+        child — like Gavroche in ragged clothes. A street kid from an old movie.
+        Maybe it was the way he talked — swallowing beginnings of words,
+        lisping, mixing up sounds — like some small kids do. But then, when I
+        turned and the moonlight hit him differently, he looked like an old
+        shriveled man. A grandpa with no teeth, speech messed up from age. But
+        no — he had all his teeth. And he wasn’t old. Honestly, you couldn’t
+        tell his age from his face. But from the way he acted, I felt he was
+        more like a teenager. He was short — maybe a meter and a cap — and
+        looked like a hobo. That’s what I thought after I caught my breath —
+        just some homeless guy. Which was weird, because there were no homeless
+        people in the Garage place. What would they do there? Still, not the
+        strangest thing I’ve ever seen.
       </p>
 
-      <p>— Тебе чего? — спросил я несколько неласково.</p>
+      <p>“— What do you want?” I asked, not very friendly.</p>
 
-      <p>— Утишь?</p>
+      <p>“— Yusteersh?”</p>
 
       <p>
-        — Что? Не понимаю! — начал раздражаться я. Не люблю бомжей, знаете ли.
-        Не за что-то конкретное, а так. Брезгую. Запах этот… Хотя от него-то как
-        раз не пахло. Не то что бомжом, а вообще ничем. Может поэтому от общения
-        с ним всегда оставалось ощущение некоторой нереальности.
+        “— What? I don’t understand!” I started getting annoyed. I don’t like
+        hobos, you know. Not for any real reason — just... I don’t like them.
+        That smell... Though, to be honest, he didn’t smell at all. Not like a
+        hobo — not like anything. Maybe that’s why talking to him always felt a
+        bit unreal.
       </p>
 
-      <p>— Ты кто вообще?</p>
+      <p>“— Who are you, anyway?”</p>
 
-      <p>— Сандр а.</p>
+      <p>“— Sandr a.”</p>
 
-      <p>— Александр, что ли, Саша?</p>
+      <p>“— Alexander? Sasha?”</p>
 
-      <p>— Ни. Ни кса, ни аша. Сандр. Сандр а.</p>
+      <p>“— No. Not Xandr, not Sasha. Sandr. Sandr a.”</p>
 
       <p>
-        Понимать его вначале было трудно, но потом я как-то приспособился.
-        Однако, даже когда я научился разбирать его невнятную скороговорку, то,
-        как его на самом деле зовут, всё равно не понял. Он бурно протестовал
-        против Александра, ничего более созвучного в голову не пришло — так и
-        остался Сандером.
+        It was hard to understand him at first, but later I got used to it.
+        Still, even when I learned to follow his strange, mumbled fast-talking,
+        I never really figured out his name. He strongly protested against
+        “Alexander.” I couldn’t think of anything closer — so he stayed Sandr.
       </p>
 
-      <p>— И что тебе нужно, Сандер?</p>
+      <p>“— So what do you want, Sandr?”</p>
 
       <p>
-        Тот потоптался как-то смущённо, ковырнул ножкой, пожал плечиками — я уже
-        решил, что точно, сейчас выпить попросит. Мне не то чтобы жалко, но не
-        люблю бесцеремонности и не нуждаюсь в компании. Так что я уже внутренне
-        начал выстраивать умеренно вежливый отказ, но человечек меня удивил.
+        He stood there, looking a bit shy, kicked the ground with his foot,
+        shrugged his little shoulders — I thought for sure he was going to ask
+        for a drink. I wouldn’t mind sharing, but I don’t like pushy people, and
+        I didn’t need company. So I was already preparing a polite way to say
+        no. But the little guy surprised me.
       </p>
       <br />
-      <a href="#header" aria-label="Перейти к началу страницы">
-        Вверх
+      <a href="#header" aria-label="Go to the top of the page">
+        Up
       </a>
     </div>
   );

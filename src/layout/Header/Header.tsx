@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <header id="header" className="Header">
       <Link to="/" className="Header__logo">
-        Уаздао
+        Uazdao
       </Link>
       <ul className="Header__menu">
         {menu?.map((m: MenuItem) => {

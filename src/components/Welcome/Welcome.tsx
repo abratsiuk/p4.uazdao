@@ -21,7 +21,7 @@ export const Welcome: React.FC = () => {
 
   return (
     <div className="Welcome">
-      <div className="Welcome__text">Уаздао</div>
+      <div className="Welcome__text">Uazdao</div>
       <div className="Welcome__image Welcome__image_smoothly"></div>
     </div>
   );

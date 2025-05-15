@@ -8,24 +8,25 @@ export const Home: React.FC = () => {
       <Image
         parentClassName="Home__image"
         src="images/book/title.webp"
-        alt="Обложка книги 'УАЗдао' или 'Дао, выраженное руками'"
+        alt="Cover of the book 'UAZdao' or 'The Dao Expressed by Hands'"
       />
       <div className="Home__quotes">
         <blockquote
           className="Home__quote"
-          aria-label="Цитата из Дао Дэ Цзина: 'Дао, которое может быть выражено словами, не есть настоящее дао.'"
+          aria-label="Quote from the Tao Te Ching: 'The Dao that can be spoken is not the true Dao.'"
         >
           <span className="Home__quoteText">
-            Дао, которое может быть выражено словами, не есть настоящее дао.
+            The Dao that can be spoken is not the true Dao.
           </span>
-          <cite className="Home__quoteCite">Дао Дэ Цзин</cite>
+          <cite className="Home__quoteCite">Tao Te Ching</cite>
         </blockquote>
 
         <blockquote className="Home__quote">
           <span className="Home__quoteText">
-            Дело Мастера боится, потому что Мастер знает много страшных слов.
+            The Work is afraid of the Master, because the Master knows many
+            scary words.
           </span>
-          <cite className="Home__quoteCite">УАЗдао</cite>
+          <cite className="Home__quoteCite">UAZdao</cite>
         </blockquote>
       </div>
     </div>

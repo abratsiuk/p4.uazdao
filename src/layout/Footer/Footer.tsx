@@ -17,11 +17,11 @@ export const Footer = () => {
       >
         <div className="footer__my">© 2024 abratsiuk</div>
         <div className="footer__ievlev">
-          <span style={{ marginRight: '0.5rem' }}>© 2021 Павел Иевлев</span>
-          <ExternalLink
-            href="https://www.rulit.me/books/uazdao-ili-dao-vyrazhennoe-rukami-read-445410-1.html"
-            text="Уаздао или Дао, выраженное руками"
-          />
+          <span style={{ marginRight: '0.5rem' }}>© 2021 Pavel Ievlev</span>
+          {/* <ExternalLink
+            href="#"
+            text="Uazdao or the Dao Expressed by Hands"
+          /> */}
         </div>
       </div>
 

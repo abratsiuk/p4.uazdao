@@ -32,9 +32,9 @@ export default [
       ...react.configs.recommended.rules,
       ...react.configs['jsx-runtime'].rules,
       ...reactHooks.configs.recommended.rules,
-      ...prettier.rules, // Отключение конфликтующих правил ESLint
-      'prettier/prettier': 'error', // Включение проверки Prettier как ошибки
-      'react/jsx-no-target-blank': 'off',
+      ...prettier.rules, // Disable ESLint rules that conflict with Prettier
+      'prettier/prettier': 'error', // Treat Prettier formatting issues as errors
+      'react/jsx-no-target-blank': 'off', // Disable warning for <a target="_blank"> without rel="noreferrer"
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },

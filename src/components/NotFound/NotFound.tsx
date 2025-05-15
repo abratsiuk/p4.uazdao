@@ -20,12 +20,11 @@ export const NotFound: React.FC = () => {
         className={`${styles.NotFound__image} ${styles.NotFound__image_mirror}`}
       ></div>
       <div className={styles.NotFound__image}></div>
-      <div className={styles.NotFound__text}>Не найдено.</div>
+      <div className={styles.NotFound__text}>Not found.</div>
       <div
         className={`${styles.NotFound__text} ${styles.NotFound__text_small}`}
       >
-        Через 10 секунд Вы будете перенаправлены на раздел
-        &quot;Изречения&quot;.
+        You will be redirected to the &quot;Sayings&quot; section in 10 seconds.
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ export const ExternalLink: React.FC<IExternalLinkProps> = ({
 }) => {
   return (
     <>
-      {href ? (
+      {href && href != '#' ? (
         <div className={parentClassName}>
           <a
             href={href}
@@ -23,6 +23,8 @@ export const ExternalLink: React.FC<IExternalLinkProps> = ({
             {text}
           </a>
         </div>
+      ) : href == '#' ? (
+        <div className={parentClassName}>{text}</div>
       ) : text_disabled ? (
         <div className={`${parentClassName} ${parentClassName_disabled}`}>
           {text_disabled}

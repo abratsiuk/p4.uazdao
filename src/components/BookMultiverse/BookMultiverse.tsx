@@ -5,478 +5,521 @@ import { Image } from '../Image';
 export const BookMultiverse: React.FC = () => {
   return (
     <div className={styles.BookMultiverse}>
-      <Image src="images/bookmultiverse/title.jpg" alt="аватар П.С.Иевлева" />
-      <h2>Павел Иевлев</h2>
-      <h1>Дело молодых</h1>
-      <h3>Глава 1. Криспи</h3>
-      <p>- Шеф, зачем они здесь?</p>
-      <p>- Криспи, зачем мы тут?</p>
-      <p>Фразы одновременным злым шёпотом с двух концов стола.</p>
+      <Image
+        parentClassName="book_title"
+        src="images/bookmultiverse/title.jpg"
+        alt="Avatar of P. S. Ievlev"
+      />
+      <h2>Pavel Ievlev</h2>
+      <h1>The Business of the Young</h1>
+      <h3>Chapter 1. Krispy</h3>
+      <p>“— Boss, why are they here?”</p>
+      <p>“— Krispy, why are we here?”</p>
       <p>
-        - Так надо, Пётр, - недовольно прошипел в ответ андрей. - Потом объясню.
+        Both phrases hissed in angry whispers from opposite ends of the table.
+      </p>
+      <p>
+        “— It’s necessary, Pyotr,” Andrey replied with a displeased hiss. “I’ll
+        explain later.”
       </p>
       <br />
       <p>...</p>
       <br />
-      <p>андрей снова прошёлся из угла в угол, покусал губу и добавил:</p>
+      <p>Andrey paced again from corner to corner, bit his lip, and added:</p>
       <p>
-        - И для всех повторяю ещё раз: что бы они тут ни вытворяли, какую бы
-        чушь ни несли - улыбаемся, киваем, соглашаемся, спокойно делаем свои
-        дела. Надолго их не хватит, я надеюсь. Налетят, наломают дров, поскачут
-        дальше спасать Мультиверсум. Всё, хватит рассиживаться, работаем.
+        “— And once again for everyone: whatever they do here, whatever nonsense
+        they say — we smile, nod, agree, and calmly keep doing our work.
+        Hopefully, they won’t last long. They’ll show up, mess things up, then
+        bounce off to save the Multiverse. Alright, enough sitting around. Let’s
+        get to work.”
       </p>
       <p>
-        В сгущающихся вечерних сумерках никто не заметил, как из разросшихся за
-        беседкой густых кустов осторожно выбралась девушка, и, внимательно
-        оглядевшись по сторонам, незаметно ушла за угол дома.
+        In the deepening evening twilight, no one noticed how a girl carefully
+        slipped out from the thick bushes near the gazebo, looked around
+        attentively, and quietly disappeared around the corner of the house.
       </p>
-      <h3>Глава 2. Зелёный</h3>
+      <h3>Chapter 2. Green</h3>
       <p>
-        В нынешние расслабленные времена торжествующего потребителя сакральное
-        значение гаражей уже подутрачено. Сначала они превратились из мужской
-        среды обитания - последнего моногендерного заповедника в стремительно
-        феминизирующемся социуме - в скучное место хранения машин. Ремонт
-        перестал быть источником самоактуализации и ушел в холодные равнодушные
-        сервисы, да и сами автомобили потеряли ту искру одушевленности, которой
-        их наделяли заботливые умелые руки хозяев.
-      </p>
-      <p>
-        Однако само Гаражище Великое - этот гигантский массив сросшихся боками
-        кирпичных коробок - сохраняет в себе некую странную магию. Триггером её
-        включения становится момент, когда ты впервые тут заночуешь. Потому что
-        тебе некуда идти. Или потому что незачем. Или потому что лень. Или
-        потому, что ты пьян и тебе некуда, незачем и неохота идти. Какая, к
-        чёртовой матери, разница, где спать! Вот куцый топчанчик, вот спальник
-        из машины, надувная подушечка и бутылочка колыбельной в маленьком
-        холодильнике. И вот когда ты сидишь на плоской крыше в продавленном
-        старом сиденьи, дыша запахом остывающего рубероида, и смотришь, как
-        огромная шизофренического цвета луна рубит поле острыми тенями на
-        квадраты проездов, Гаражище вдруг принимает тебя.
+        In today’s relaxed, consumer-driven times, the sacred meaning of garages
+        has mostly been lost. First, they changed from a male habitat — the last
+        mono-gender sanctuary in a rapidly feminizing society — into boring
+        storage for cars. Repair work stopped being a source of self-realization
+        and moved into cold, indifferent service centers. And even the cars
+        themselves lost that spark of soul once given to them by the caring,
+        skilled hands of their owners.
       </p>
       <p>
-        Или не принимает - тогда ты просто пьяный одинокий дурак на крыше
-        гаража, иди спать уже.
+        Still, the Great Garage itself — that massive sprawl of brick boxes
+        joined side by side — holds a strange kind of magic. The trigger to
+        activate it is the first time you spend the night there. Because you
+        have nowhere to go. Or no reason to go. Or you’re just lazy. Or you’re
+        drunk, and you have nowhere to go, no reason, and no desire to move. Who
+        the hell cares where you sleep? Here’s a short, worn-out cot, a sleeping
+        bag from the car, a small inflatable pillow, and a bottle of bedtime
+        potion in a mini-fridge. And then, sitting on the flat roof in a sunken
+        old seat, breathing in the smell of cooling tar, watching the massive,
+        lunatic-colored moon slash the field with sharp shadows into square
+        driveways — the Garage suddenly accepts you.
       </p>
       <p>
-        Я свалился в Гаражище, как боксер в нокаут. Если жизнь от души врезала
-        тебе по бестолковке, то это не зря. Иногда лучшей стратегией оказывается
-        просто немного поваляться вот тут, в уголочке ринга, а не вскакивать
-        обратно за добавкой. Отползти в сторонку, упасть за плинтус и подумать,
-        как ты дошёл до жизни такой.
+        Or it doesn’t. Then you’re just a drunk, lonely idiot on a garage roof.
+        Go to bed already.
       </p>
       <p>
-        Внезапно лишившись всего, что составляло еще недавно мою жизнь, я жил в
-        гараже. На топчане между верстаком и задним бампером было даже по-своему
-        уютно. В какой-то момент тебя настигает осознание, что всё не так уж
-        плохо. У кого ничего нет, тому и терять нечего. а кому нечего терять -
-        тому жить легко и не страшно. Сидеть ночами на крыше, курить,
-        присасываться к горлышку и снова откидываться на спинку балансирующего
-        на кривых полозьях старого автокресла. Думать, думать - и потом не
-        думать, глядя пустыми глазами в Луну, медленно и даже не без некоторого
-        удовольствия растворяясь в здешней странной полужизни. Своеобразный
-        эскапизм, которым пропитано это место, требует глубины погружения в
-        оригинальную местную философию «непротивления Жопе деянием».
+        I crashed into the Garage like a boxer knocked out cold. If life hits
+        you hard in the head, it’s not for nothing. Sometimes the best strategy
+        is to just lie there in the corner of the ring for a bit, instead of
+        jumping back up to get hit again. Crawl to the side, fall behind the
+        baseboard, and think: how the hell did it come to this?
       </p>
       <p>
-        «Расслабься, друг, - говорит тебе Гаражище, похлопывая по плечу грязной
-        корявой рукой механика. - Всё уже случилось. Сядь, успокойся, выпей.
-        Послушай, как тут тихо. Вот ты сражался, работал, преодолевал, боролся,
-        любил и ненавидел - и где оно всё теперь? Ты правда хочешь обратно в эту
-        мясорубку? Забей, мужик. Не так уж много тебе надо на самом-то деле».
+        Suddenly losing everything that used to be my life, I started living in
+        the garage. On a cot between the workbench and the rear bumper — it was
+        even kind of cozy. At some point, you realize — it’s not that bad. If
+        you’ve got nothing, you’ve got nothing to lose. And someone with nothing
+        to lose lives easier and without fear. Sitting on the roof at night,
+        smoking, sipping from the bottle, leaning back again in a crooked,
+        rocking car seat. Thinking, thinking — and then not thinking at all,
+        staring blankly at the moon, slowly and with a strange kind of pleasure
+        dissolving into this half-life that soaks this place. A unique kind of
+        escapism lives here — and it demands a deep dive into the local
+        philosophy of “non-resistance to the Ass of Destiny.”
       </p>
       <p>
-        В силу обстоятельств, которые я хотел бы оставить за скобками данного
-        повествования, из недвижимого имущества у меня остался старый гараж, а
-        из движимого - старый УаЗ. В силу ничтожной ценности на них никто не
-        претендовал. Впрочем, если уж во всем искать положительные стороны,
-        никто не претендовал теперь и на меня. Особое состояние полной свободы:
-        когда ты совсем, вообще, никому не нужен. В общем, было лето, ночь,
-        луна, бутылка и много-много печального безмыслия, которое было нарушено
-        самым неожиданным образом.
-      </p>
-      <p>- Ута́ешь, евек?</p>
-      <p>
-        Не будь я слишком пьян для резких движений, я мог бы подпрыгнуть от
-        ужаса и навернуться с гаража вниз башкой, на чём бы эта история и
-        закончилась. Но адреналин был блокирован алкоголем, и я даже не
-        вздрогнул. Хотя - ночь, луна, тишина, обзор на 360 градусов и полное
-        одиночество. И тут тебе кто-то бормочет на ухо. Мягко говоря,
-        неожиданно.
-      </p>
-      <p>- Ута́ешь, а́шую? Усти́шь?</p>
-      <p>
-        Чёрный силуэт за моим плечом, разумеется, не был ангелом смерти, иначе
-        кто бы сейчас это всё рассказывал? В сверхконтрастном лунном контражуре
-        мне показалось сперва, что это странный ребёнок - этакий Гаврош в чужих
-        не по размеру обносках. Беспризорник из старого кино. Может быть, из-за
-        его необычной манеры говорить, глотая начала слов, шепелявя и путая
-        согласные - так говорят иногда маленькие дети. Когда я повернулся, и
-        лунный свет лёг иначе, он, наоборот, показался древним усохшим
-        старичком, с дефектами речи из-за отсутствия зубов. Невозможно было
-        сказать, сколько ему лет даже приблизительно. Росточку невеликого, метр
-        с кепкой, и вид бомжеватый. Собственно, так я тогда и подумал,
-        продышавшись от неожиданности - бомжик какой-то приблудился. Это было
-        странно - бомжей в Гаражищах не водилось вовсе, что им тут делать-то?
-        Но, в общем, не странней многого, что я видел в жизни.
-      </p>
-      <p>- Тебе чего? - спросил я несколько неласково.</p>
-      <p>- Ути́шь?</p>
-      <p>
-        - Что? Не понимаю! - начал раздражаться я. Не люблю бомжей, знаете ли.
-        Не за что-то конкретное, а так. Брезгую. Запах этот… Хотя от него-то как
-        раз не пахло. Не то что бомжом, а вообще ничем. Может поэтому от общения
-        с ним оставалось ощущение некоторой нереальности.
-      </p>
-      <p>- Ты кто вообще?</p>
-      <p>- Сандр а.</p>
-      <p>- александр, что ли, Саша?</p>
-      <p>- Ни. Ни кса, ни аша. Сандр. Сандр а.</p>
-      <p>
-        Понимать его вначале было трудно, но потом я как-то приспособился.
-        Однако даже когда научился разбирать невнятную скороговорку, как его на
-        самом деле зовут, всё равно не понял. Он бурно протестовал против
-        александра, ничего более созвучного в голову не пришло - так и остался
-        Сандером.
-      </p>
-      <p>- И что тебе нужно, Сандер?</p>
-      <p>
-        Тот потоптался как-то смущённо, ковырнул ножкой, пожал плечиками - я уже
-        решил, что точно, сейчас выпить попросит. Мне не то чтобы жалко, но не
-        люблю бесцеремонности и не нуждаюсь в компании. Так что я уже внутренне
-        начал выстраивать умеренно вежливый отказ, но человечек меня удивил.
-      </p>
-      <p>- Уазь? - ткнул он пальцем в крышу. - Уазь вой?</p>
-      <p>Это были первые его слова, которые я понял.</p>
-      <p>
-        - Да, мой УаЗ. Собственный, маму его железную еть, - я был полон
-        технического скептицизма и несплюнутого яда.
-      </p>
-      <p>- Уазь - осё, - закивал головой Сандер.</p>
-      <p>
-        - Да, УаЗ - хорошо, - согласился я, чтобы не вдаваться в подробности.
-        Потому что где-то хорошо, но чаще криво, ржаво и не по резьбе
-        прикручено. Как и всё в моей жизни. Не просто так мы с УаЗом нашли друг
-        друга.
+        “Relax, my friend,” the Garage tells you, patting your shoulder with a
+        dirty, gnarled mechanic’s hand. “Everything’s already happened. Sit
+        down, calm down, have a drink. Listen to how quiet it is here. You
+        fought, worked, endured, struggled, loved and hated — and where is it
+        all now? Do you really want back into that meat grinder? Forget it, man.
+        You don’t need that much, not really.”
       </p>
       <p>
-        - Уазь - аоси грём, уазь - нуно, - подтвердил этот странный человечек.
+        Due to circumstances I’d prefer to leave out of this story, the only
+        real estate I had left was an old garage, and the only vehicle — an old
+        UAZ. Because they were basically worthless, no one else claimed them.
+        And — looking for positives — no one claimed me either. A special kind
+        of freedom: when you are truly, absolutely unnecessary to anyone. So —
+        it was summer, night, moonlight, a bottle, and a lot of sad, empty
+        thinking, which was suddenly interrupted in the most unexpected way.
+      </p>
+      <p>“Utáyesh, yevek?”</p>
+      <p>
+        If I hadn’t been too drunk for sudden moves, I might’ve jumped from
+        fright and fallen headfirst off the garage — ending this story right
+        there. But the alcohol blocked the adrenaline, and I didn’t even flinch.
+        Still — it was night, the moon, complete silence, a 360° view, and I was
+        absolutely alone. And then someone whispers in your ear. That’s…
+        unexpected, to put it mildly.
+      </p>
+      <p>“Utáyesh, áshuyu? Ustísh?”</p>
+      <p>
+        The black silhouette behind me wasn’t the Angel of Death — otherwise who
+        would be telling you this now? In the ultra-contrasted moonlight I first
+        thought it was a weird kid — a kind of Gavroche in oversized
+        hand-me-downs. Like a homeless child from an old movie. Maybe it was the
+        way he talked — swallowing word beginnings, lisping, mixing up
+        consonants — like little kids sometimes do. But when I turned and the
+        light hit differently, he looked like an ancient, shrunken old man with
+        speech issues from missing teeth. But no — he had teeth. And he wasn’t
+        really old either. It was impossible to guess his age. Short — barely
+        over a meter with his cap — and scruffy, borderline homeless. That’s
+        what I figured in the moment, catching my breath — some drifter bum.
+        Odd, though — bums don’t hang around the Garage Complex. What would they
+        do here? But then again — I’ve seen weirder.
+      </p>
+      <p>“— What do you want?” I asked, not very kindly.</p>
+      <p>“— Utísh?”</p>
+      <p>
+        “— What? I don’t understand!” I was starting to get annoyed. I don’t
+        like bums, you know. Not for anything specific — just in general. I find
+        them gross. That smell… Although this one didn’t smell. Not like a bum,
+        not like anything at all. Maybe that’s why there was this weird feeling
+        of unreality whenever I talked to him.
+      </p>
+      <p>“— Who are you, anyway?”</p>
+      <p>“— Sandr a.”</p>
+      <p>“— Alexander? Sasha?”</p>
+      <p>“— No. Not ‘xandr’, not ‘asha’. Sandr. Sandr a.”</p>
+      <p>
+        It was hard to understand him at first, but eventually I adapted. Even
+        when I got used to his mumbled, garbled speech, I still had no idea what
+        his real name was. He kept passionately rejecting “Alexander,” and I
+        couldn’t think of anything closer — so Sandr it was.
+      </p>
+      <p>“— And what do you want, Sandr?”</p>
+      <p>
+        He fidgeted, scraped his foot on the ground, shrugged his little
+        shoulders — I figured, for sure, he was about to ask for a drink. Not
+        that I minded much, but I don’t like pushiness, and I wasn’t in the mood
+        for company. So I was already mentally preparing a polite but firm “no.”
+        But the little guy surprised me.
+      </p>
+      <p>“— UAZ?” he pointed at the roof. “UAZ yours?”</p>
+      <p>Those were the first words he said that I actually understood.</p>
+      <p>
+        “— Yeah, it’s my UAZ. The damned rust-bucket, bless its iron mother,” I
+        muttered, full of technical pessimism and leftover bitterness.
+      </p>
+      <p>“— UAZ is good,” Sandr nodded seriously.</p>
+      <p>
+        “— Yeah, UAZ is good,” I agreed, just to avoid going into detail.
+        Because sure, sometimes it’s good — but more often it’s crooked, rusty,
+        and screwed on all wrong. Just like everything else in my life. It’s no
+        coincidence me and that UAZ found each other.
+      </p>
+      <p>“— UAZ... big thunder... UAZ needed,” said that strange little man.</p>
+      <p>
+        “— Needed for what?” I asked lazily, taking a sip from the bottle. I
+        didn’t bother with glasses — hygiene, you know. Dirty glasses are
+        disgusting, and fetching clean water meant a trip to the pump all the
+        way across the Garage Complex.
       </p>
       <p>
-        - Для чего нужно-то? - спросил я лениво, прикладываясь к бутылке.
-        Стаканами я пренебрегал из соображения гигиены. Грязные стаканы - это
-        безобразие, а за водой надо таскаться к колонке через всё Гаражище.
-      </p>
-      <p>
-        Не услышав ответа, я обернулся - но никого за плечом уже не было. Сандер
-        отбыл столь же бесшумно и таинственно, как появился. Это было бы
-        чертовски загадочно, если бы я не был пьян, и ночь, и луна, и вообще. В
-        такие моменты всегда чертовщина. а потом проснёшься - и, кроме сушняка,
-        никакой мистики. В общем, не придал я тогда значения этой нелепой
-        встрече, а зря. С неё-то всё и началось.
+        Not hearing a response, I turned — but there was no one behind me
+        anymore. Sandr had vanished as silently and mysteriously as he had
+        appeared. It would’ve felt properly eerie if I hadn’t been drunk, and it
+        wasn’t the middle of the night with the moon above and all that. Things
+        always feel spooky at times like that — until you wake up, parched, and
+        realize there was no mystery at all. So, I didn’t pay much attention to
+        that weird little meeting — which was a mistake. That’s where everything
+        started.
       </p>
       <Image src="images/bookmultiverse/g1_1.jpg" alt="" />
       <p>
-        Гаражище Великое было усеяно мелкими, совсем мелкими и мельчайшими
-        автосервисами. Влился в их число и я со своим гаражиком. Человеку, если
-        он одинок и неамбициозен, нужно крайне мало, а о том, что будет зимой, я
-        старался не думать. Жил сегодняшним днем и сегодняшним клиентом, с
-        очередным «там чота бумкает» или «масло поджирает, глянь». Не самая
-        худшая, кстати, работа.
+        The Great Garage was sprinkled with tiny, very tiny, and even
+        microscopic car repair shops. I joined their ranks with my little
+        garage. If you’re alone and not ambitious, you need very little. I tried
+        not to think about what would happen in winter. I lived one day at a
+        time, one client at a time, with the usual “something’s knocking in
+        there” or “burning oil — take a look.” Honestly, not the worst job in
+        the world.
       </p>
       <p>
-        В детстве я считал, что самая плохая работа на свете - это работа
-        санитара в морге. Я тогда отчего-то очень боялся покойников, и
-        находиться с ними в одном помещении казалось мне запредельным ужасом.
-        Поэтому я думал, что этим санитарам платят немеряные тыщи - потому что,
-        ну кто за маленькие-то деньги на такой кошмар согласится? (Когда я узнал
-        правду, мир не то чтобы рухнул, но покачнулся точно).
+        As a child, I used to think the worst job ever was being a morgue
+        assistant. I was really afraid of dead bodies back then, and just being
+        in the same room with one seemed like a waking nightmare. So I figured
+        morgue workers got paid insane amounts of money — because who else would
+        do something so awful for less? (When I found out the truth… well, the
+        world didn’t collapse — but it definitely wobbled.)
       </p>
       <p>
-        В школе мне казалось, что нет ничего гаже, чем быть сантехником. Лазить
-        туда, куда другие срут? Фу! Однако мне уже не казалось, что им платят за
-        их грязную работу много денег - в школе я уже начал смутно осознавать,
-        что мир чаще бывает несправедлив, чем наоборот.
+        In school, I thought nothing could be worse than being a plumber.
+        Crawling into places where other people shit? Yuck! But I already didn’t
+        believe they were paid well — by then, I was starting to suspect that
+        the world was more often unfair than fair.
       </p>
       <p>
-        Позже я стал понимать, что паршивых работ на вообще куда больше, чем
-        хороших, и чем тяжелее, грязнее и противнее работа, тем хуже она
-        оплачивается. Я принял это как данность, но до сих пор в глубине души не
-        могу понять, почему какой-то из-папки-в-папку-файлоперекладыватель,
-        сидящий в кондиционированном офисе, получает больше, чем мужик в
-        оранжевой жилетке, кидающий под палящим солнцем горячий асфальт лопатой.
-        Ведь у мужика очевидно работа тяжелее, да и пользы от неё больше?
+        Later, I realized that there are far more crappy jobs than good ones,
+        and the heavier, dirtier, and more disgusting the job, the worse it’s
+        paid. I accepted that as a fact of life, but deep down I still can’t
+        understand why some file-shuffling office drone in an air-conditioned
+        room gets paid more than the guy in an orange vest shoveling hot asphalt
+        under the burning sun. I mean, the guy’s clearly working harder — and
+        helping more people, too!
       </p>
       <p>
-        Поэтому в моём антирейтинге занятий человеческих долгое время лидировали
-        все профессии, включающие в себя использование лопаты. Мне казалось, что
-        на этом предмете лежит настоящее Древнее Проклятие: если какое-либо
-        занятие включает в себя непосредственный контакт с лопатой, то всё -
-        много унылого тяжёлого труда в отвратительных условиях и за тухлые гроши
-        вам гарантировано.
+        That’s why, for a long time, my personal ranking of terrible human jobs
+        was topped by anything involving a shovel. I believed that object
+        carried a real Ancient Curse: if your job involved direct contact with a
+        shovel — that’s it, you were guaranteed long, miserable, heavy labor in
+        shitty conditions for worthless pay.
       </p>
       <p>
-        Однако с некоторых пор Топ-10 паршивых работ для меня безоговорочно
-        возглавляет…
-      </p>
-      <p>Человек, Показывающий Палкой Влево!</p>
-      <p>
-        Он стоит на подземной парковке супермаркета в светоотражающей жёлтой
-        жилетке и показывает палкой влево. Утром и вечером, в жару и мороз, он
-        стоит там, в сумраке выезда, в облаке выхлопных газов и показывает.
-        Палкой. Влево. Всегда на одном и том же месте. Всегда в одной и той же
-        позе. Час за часом, день за днём. Он стоит. Показывает.
+        But recently, one job has taken the absolute top spot in my Worst Jobs
+        list…
       </p>
       <p>
-        Наверное, иногда ему доводится показать своей палкой и в другую сторону.
-        Скажем, поднять её вверх жестом «Стоп!». Ведь сам факт того, что он тут
-        стоит, должен подразумевать некоторую возможность реакции на
-        обстоятельства, иначе его заменили бы нарисованной на стене стрелочкой.
-        Я думаю, в эти дни у него праздник и, приходя вечером домой, он требует
-        к ужину стопку водки и говорит жене: «Позови детей!» Когда дети
-        приходят, робко топчась на пороге кухни, он торжественно выпивает
-        поданную стопку, лихо ставит её на стол и с гордостью говорит им:
-        «Знаете, сегодня я показал своей палкой „Стоп!“ Это было действительно
-        волнующе - такая ответственность! Но я прекрасно справился!» И дети,
-        разумеется, гордятся отцом и мечтают поскорее вырасти - чтобы тоже
-        Показывать Палкой Влево.
+        <strong>The Man Who Points Left With a Stick!</strong>
       </p>
       <p>
-        Увы, обширный жизненный опыт уже не даёт мне предположить, что за эту
-        удивительную работу платят много денег. Думаю, что возможности
-        карьерного роста там тоже невелики - даже Поднимающим Шлагбаум его вряд
-        ли возьмут - в этих будочках всегда сидят тётки, и у них, разумеется,
-        гендерная дискриминация. В эту мафию ему не втереться, всё схвачено.
-        Знаете, как это бывает - хорошие места всегда достаются по блату. Так и
-        будет он стоять на своём посту и показывать палкой влево, пока от
-        вечного сквозняка и ядовитых выхлопов не хватит его карачун. На похороны
-        его придут и блатные поднимательницы шлагбаумов, и беззаботные сборщики
-        тележек, и угрюмые уборщицы, и даже его коллега с другого конца парковки
-        - Человек, Показывающий Палкой Вправо. Они выпьют водки на поминках и
-        будут рассказывать, как хорошо покойный показывал палкой влево, и что
-        ему даже один раз довелось показать палкой «Стоп!» - и он справился
-        наилучшим образом. Достойный был человек и прожил хорошую жизнь. Всякому
-        бы так.
+        He stands in the underground parking lot of a supermarket, in a
+        reflective yellow vest, and points left with a stick. Morning and
+        evening, in heat and frost, he stands there, in the dim exit lane, in a
+        cloud of exhaust fumes, and points. With a stick. Left. Always the same
+        spot. Always the same pose. Hour after hour, day after day. He stands.
+        He points.
       </p>
       <p>
-        Я бы предположил, что в гроб ему положат жёлтую жилетку и полосатую
-        палку, а на надгробии напишут «Он Показывал Палкой Влево!» - но это вряд
-        ли. Люди, показывающие палкой влево, обычно не имеют достаточно фантазии
-        и похоронят его самым наиобычнейшим образом, как всех - с овальным
-        керамическим портретом и датами. Его роль в этом мире останется
-        неизвестной потомкам.
+        Maybe sometimes he gets to point his stick in another direction. Like
+        holding it up in a “Stop!” gesture. After all, the very fact that he
+        stands there must mean he’s meant to react to circumstances. Otherwise,
+        they’d just paint an arrow on the wall. I imagine on those days, it’s
+        like a holiday for him. He comes home, demands a shot of vodka with
+        dinner, and says to his wife, “Call the children!” The kids come in,
+        timidly standing at the kitchen door. He drinks the vodka in one proud
+        gulp, slams the glass down, and says: “You know what? Today, I signaled
+        ‘Stop!’ with my stick! It was thrilling — such responsibility! But I did
+        great.” And the kids, of course, are proud of their father and dream of
+        growing up — so they too can Point Left With a Stick.
       </p>
       <p>
-        И когда мне порой становится грустно, и кажется, что жизнь моя потеряла
-        смысл - я всегда вспоминаю про Человека, Показывающего Палкой Влево. И
-        мне становится легче.
+        Sadly, my vast life experience prevents me from believing that this
+        remarkable job pays well. I doubt there’s much career growth either — I
+        don’t think he’d even make it to Boom Gate Operator. Those booths are
+        always staffed by women, and they have gender-based gatekeeper
+        discrimination. That mafia is locked down tight — all the best spots go
+        to insiders. So he’ll stand there forever, pointing left, until the
+        constant drafts and exhaust fumes finally do him in. At his funeral will
+        be the gate-lifting ladies, the carefree cart collectors, the grumpy
+        cleaners, and even his colleague from the far side of the parking lot —
+        The Man Who Points Right With a Stick. They’ll drink vodka at the wake
+        and talk about how well the deceased pointed left, how he once even got
+        to signal “Stop!” — and did it perfectly. A worthy man. Lived a good
+        life. We should all be so lucky.
+      </p>
+      <p>
+        I’d like to think they’ll lay a yellow vest and striped stick in his
+        coffin, and carve on his gravestone: “He Pointed Left With a Stick!” But
+        probably not. People who point with sticks usually lack imagination.
+        They’ll bury him like everyone else — with an oval ceramic portrait and
+        dates. His role in the world will remain unknown to future generations.
+      </p>
+      <p>
+        And when I feel down, like life has no meaning — I always remember The
+        Man Who Points Left With a Stick. And I feel better.
       </p>
       <br />
       <p>
-        С утра кто-то из соседей слушал в своём гараже «Радио Дача».
-        Существование этого радио является, на мой взгляд, достаточным
-        опровержением теории Божественного Бытия. Бог, сотворивший золотые
-        закаты, рассветную дымку, изумрудное море и заснеженные горы в свете
-        луны, не потерпел бы в своём творении такой мерзости, как «Радио Дача».
-        Наличие такого радио в эфире вполне оправдало бы ещё один Потоп, а если
-        учесть существование «Радио Шансон», то и хороший кометный удар с
-        последующим ледниковым периодом. Некоторые явления требуют радикальных
-        мер.
+        In the morning, one of the neighbors was listening to “Radio Dacha” in
+        their garage. The existence of this station, in my opinion, is enough to
+        disprove the theory of Divine Creation. A God who made golden sunsets,
+        misty dawns, emerald seas, and moonlit snowy mountains would never allow
+        something as vile as “Radio Dacha” to exist in His creation. The mere
+        broadcast of that station would justify another Great Flood. And if we
+        consider the existence of “Radio Chanson” — then frankly, a good comet
+        strike followed by a new ice age wouldn’t be overkill. Some things just
+        require extreme measures.
       </p>
       <p>
-        Клиентов не было, и я возился с УаЗом. Благо, там всегда есть с чем
-        повозиться. Мотор вот работает, а призвук у него странный. Есть какое-то
-        верховое пристукивание на каждом четвёртом такте. Вроде бы и ерундовое,
-        а непонятно. Лазил полчаса с фонендоскопом, пытаясь понять - что стучит?
-        Так и не понял: для клапанного механизма - слишком глухо, для поршневой
-        группы - слишком звонко. Они ж по-разному звучат-то, поршневые звуки
-        водяная рубашка глушит. а так бы сказал, что, то ли юбка поршня блямкает
-        об цилиндр, то ли поршневой палец болтается… Но не клапанный зазор, те я
-        в первую очередь проверил. Лазил-лазил, слушал-слушал - вылезаю, а рядом
-        тот Сандер стоит. Ну, который с крыши. а я уж начал подумывать, что он
-        мне спьяну померещился.
+        There were no clients, so I was tinkering with the UAZ. There's always
+        something to tinker with. The engine was running, but there was a
+        strange sound. A kind of light tapping on every fourth stroke. Probably
+        nothing serious, but still weird. I’d been poking around with a
+        mechanic’s stethoscope for half an hour trying to figure it out. No
+        luck: too dull to be valve gear, too sharp for pistons. They sound
+        different — piston sounds usually get muffled by the coolant jacket. I'd
+        have said maybe the piston skirt was slapping the cylinder wall… or the
+        wrist pin was loose. But not a valve gap — I’d checked those first. I
+        kept listening, poking around — and when I finally came up for air,
+        Sandr was standing right there. You know, the one from the roof. And
+        here I thought I’d just hallucinated him while drunk.
       </p>
-      <p>- Еет!</p>
+      <p>“— Yeet!”</p>
       <p>
-        - И тебе привет, - кивнул я, подав руку по обычаю механиков - запястьем
-        вперёд. Потому, что кисть-то в масле вся.
-      </p>
-      <p>
-        Сандер аккуратно двумя пальчиками пожал мне предплечье, и уставился на
-        работающий двигатель, как будто сроду ничего интереснее не видал.
-      </p>
-      <p>- Работает, вишь! - похвастался я.</p>
-      <p>Сандер ткнул в сторону мотора тонким грязноватым пальцем и сказал:</p>
-      <p>- Ут ипаильно.</p>
-      <p>- Что неправильно?</p>
-      <p>- Ут. акая ука. Ывает отора. Ипаильно.</p>
-      <p>- Какая штука? Что она неправильно открывает?</p>
-      <p>
-        Вот не люблю я таких знатоков, вы себе представить не можете, как.
-        Сделает глубокомысленное лицо, пальцем ткнёт, скажет глупость
-        какую-нибудь, типа «карб бы продуть» или «свечи бы поменять» - потому
-        что, кроме карба и свечей, других деталей не знает, а как свечи
-        вывернуть, ему папа в детстве на старом «Москвиче» показывал.
-      </p>
-      <p>- Инаю.</p>
-      <p>- а чего говоришь тогда, если не знаешь?</p>
-      <p>- Ова инаю. Ижу осто. Ипаильно.</p>
-      <p>
-        ага, слова он, видите ли, не знает. Видит просто. «Я художник, я так
-        вижу». Тьфу.
-      </p>
-      <p></p>При свете дня Сандер был меньше похож на бомжа и совсем не похож на
-      подростка. Маленький и щуплый, одетый не то чтобы в лохмотья, но явно во
-      что-то с чужого, куда более широкого плеча, он имел в лице и моторике
-      какую-то неправильность, которая вроде бы и в глаза не бросалась, а всё же
-      была заметна. И это кроме дефекта речи. Кстати, на самом деле он говорил
-      куда понятнее, чем я это пытаюсь записать буквами, потому что почти все
-      слова угадывались по интонированию и расставлению ударений.
-      <p>- О! - вдруг просиял Сандер. - Я ииду Йози!</p>
-      <p>
-        - Кого приведёшь? - спохватился я на секунду позже, чем надо. Сандер уже
-        смылся, снова продемонстрировав удивительную способность исчезать из
-        поля зрения. а, впрочем, не до него было. Оставив тщетные попытки
-        слышать неслышимое и устав гипнотизировать взглядом мотор, я, вздохнув,
-        полез под машину ковыряться в подвесках. Это, знаете ли, практически
-        отдых. Слегка похоже на пляжный курорт. Я лежу на песочке, перед
-        гаражом, от солнца меня закрывает УаЗ, а на открытые части тела я наношу
-        разнообразные смазки…
+        “— Hey there,” I nodded and offered a mechanic’s handshake — palm in,
+        wrist first — because, well, my hand was covered in oil.
       </p>
       <p>
-        Это называется «шприцевание» - навык у нынешних автовладельцев
-        утраченный. О, это сладкое слово «шприцевание»! Как наивны и невинны
-        нынешние водители, никогда не видевшие литольного шприца! Не вонзавшие
-        его в шприц-маслёнку, не наблюдавшие, как лезет из узла старая смазка,
-        замещаясь новой… Что-то есть в этом нативное, архетипическое, отражающее
-        глубинное (я б даже сказал интимное) взаимоотношение водителя с машиной.
+        Sandr gently grabbed my forearm with two fingers and stared at the
+        engine like he’d never seen anything more fascinating in his life.
       </p>
-      Шприцевание подают как серьёзный недостаток старых машин, но как по мне -
-      это просто другое отношение к жизни, не испорченное цивилизацией
-      одноразовых вещей.
+      <p>“— It runs, see?” I boasted.</p>
+      <p>Sandr pointed at the engine with a thin, grubby finger and said:</p>
+      <p>“— Not wight.”</p>
+      <p>“— What’s not right?”</p>
+      <p>“— This fing. It opens bad. Wong.”</p>
+      <p>“— What thing? What does it open wrong?”</p>
       <p>
-        В УаЗе очен- То Йози! - важно кивнул головой Сандер, выделив голосом
-        этого самого Йози значимость. Как будто графа какого-нибудь привёл.ь
-        мало что требует замены по износу. Практически любой узел может быть
-        починен - быстро перебран на коленке самым тупым солдатом-срочником в
-        чистом поле под обстрелом при помощи молотка, пассатижей и известной
-        матери. Есть расходники - резинки. Остальное - сталь и чугун, причём всё
-        разбирается, раскручивается, вынимается и отсоединяется.
+        I really can’t stand those types, you know the ones — they make a wise
+        face, point at something, and mutter some nonsense like “Maybe clean the
+        carb” or “Could be the spark plugs” — because those are the only parts
+        they know. Their dad showed them once on an old Moskvitch when they were
+        kids.
       </p>
+      <p>“— Don’t know word.”</p>
+      <p>“— Then why talk if you don’t know?”</p>
+      <p>“— Don’t know name. But I see it. It wrong.”</p>
       <p>
-        УаЗ - автомобиль прошлого века не только по году выпуска, но и по
-        концепции отношения человека и мироздания. автомобиль эпохи
-        недостаточности ресурсов. Того времени, когда всего было мало и всякая
-        вещь была ценна и слабозаменима. Моему, например, больше тридцати лет от
-        роду, и ничто не мешает проездить ещё столько же. Не техническое
-        совершенство тому причиной, отнюдь - какое там, нафиг, совершенство, я
-        вас умоляю, - а концептуальная установка на бесконечный ремонт. УаЗ
-        никогда не бывает полностью исправен, но пребывать в этом состоянии он
-        может практически вечно. Пока хозяину не надоест чинить. Это не делает
-        его лучше современных машин, столь же малотребовательных к вниманию,
-        сколь и неремонтопригодных. Это просто другой подход, порождённый другой
-        эпохой, когда ресурсов было мало, а времени много. Точно как у меня
-        сейчас.
+        Right. He just “sees” it. “I’m an artist, that’s how I see things.” Ugh.
       </p>
       <p>
-        Когда я вылез ногами вперёд из-под машины, то увидел рядом весьма
-        довольного собой Сандера и ещё одного мужичка. Ростом он тоже был
-        невелик, но, в отличие от Сандера, в плечах широк, и вообще производил
-        впечатление крепкого, уверенного в себе парня. Тем не менее, между ним и
-        Сандером было некое не вполне отчётливое сходство - как у кровных, но
-        дальних родственников, или, даже, скорее, как у представителей
-        какого-нибудь редкого национального меньшинства.
+        In daylight, Sandr looked less like a bum and not at all like a teen.
+        Small and wiry, not quite in rags, but definitely wearing clothes meant
+        for someone much broader, he had something odd in his face and
+        movements. Not obvious, but noticeable. And that’s not even mentioning
+        his speech. Though, to be fair, he was much easier to understand than
+        this text makes it seem — you could guess most words from tone and
+        stress patterns.
+      </p>
+      <p>“— Oh!” Sandr suddenly lit up. “I bwings Yozzi!”</p>
+      <p>
+        “— Brings who?” I asked — one second too late. Sandr was already gone,
+        vanishing from view like he always did. But I didn’t have time to chase
+        after him anyway. Giving up my hopeless engine stethoscope session, I
+        sighed and slid under the car to mess with the suspension. Which, to be
+        honest, is practically a vacation. Sort of like a beach resort. I’m
+        lying on the sand — in front of the garage. The UAZ shades me from the
+        sun, and I’m applying various lubricants to the exposed parts of my
+        body…
       </p>
       <p>
-        - То Йози! - важно кивнул головой Сандер, выделив голосом этого самого
-        Йози значимость. Как будто графа какого-нибудь привёл.
+        This is called “greasing” — a skill modern car owners have lost. Oh, the
+        sweet word: greasing! How naive and innocent today’s drivers are, never
+        having seen a grease gun, never having pressed it into a nipple, never
+        having watched old grease ooze out as new grease pushes in… There’s
+        something raw, primal, even intimate in that act — it reflects a deep,
+        almost spiritual bond between driver and machine.
       </p>
-      <p>- Я Йози, - подтвердил гость, - будем знакомы.</p>
+
       <p>
-        Ну что же, по крайней мере, дефекта речи у него не было. И вообще, Йози
-        мне сразу глянулся. Открытое приятное лицо, крепкое, но без
-        самоутверждающего передавливания рукопожатие и широкая искренняя улыбка,
-        открывающая мелкие, острые и очень белые зубы. Имя его я принял тогда за
-        очередное сокращение от библейского Иосифа - имени, популярного не
-        только среди евреев. Впоследствии, впрочем, выяснилось, что сходство
-        случайное.
+        People talk about grease fittings as a flaw in old cars, but for me,
+        it’s just a different mindset — one not ruined by the throwaway culture
+        of modern civilization.
+      </p>
+
+      <p>
+        In the UAZ, very few parts actually need to be replaced from wear.
+        Almost every component can be repaired — quickly reassembled on the spot
+        by the dumbest army private under enemy fire, using only a hammer,
+        pliers, and a few colorful curses. Sure, there are rubber bits — those
+        wear out. But the rest is steel and cast iron, and everything comes
+        apart, unscrews, unbolts, unplugs.
+      </p>
+
+      <p>
+        The UAZ is not just a 20th-century vehicle by its year of manufacture —
+        it’s a product of a bygone worldview. A car from the era of scarcity. A
+        time when everything was rare, and things were valued because they were
+        hard to replace. Mine, for example, is over thirty years old — and
+        there’s nothing stopping it from going another thirty. Not because it’s
+        technically brilliant — ha! far from it — but because it was made for
+        endless repair. The UAZ is never fully functional, but it can stay like
+        that pretty much forever. As long as the owner doesn’t get tired of
+        fixing it. That doesn’t make it better than modern cars — which require
+        less attention but can’t be fixed. It’s just a different philosophy,
+        born in a different time — a time with fewer resources and more time.
+        Kinda like my life right now.
+      </p>
+
+      <p>
+        When I crawled out from under the UAZ feet first, I saw a very
+        proud-looking Sandr standing next to a new guy. He was short too, but
+        unlike Sandr, had broad shoulders and gave off a solid, confident vibe.
+        Still, there was something in their appearance — a faint similarity,
+        like distant relatives, or maybe people from the same small ethnic
+        group.
+      </p>
+
+      <p>
+        “This is Yozzi!” Sandr said with importance, emphasizing the name like
+        he’d brought a nobleman or something.
+      </p>
+
+      <p>“I’m Yozzi,” the newcomer confirmed. “Nice to meet you.”</p>
+
+      <p>
+        Well, at least he didn’t have a speech problem. Actually, I liked him
+        right away. Friendly, open face, firm handshake without macho crushing,
+        and a wide, genuine smile that showed small, sharp, very white teeth. I
+        assumed the name was a shortened version of Joseph — common in biblical
+        cultures, not just among Jews. Later, I’d find out the similarity was
+        purely coincidental.
+      </p>
+
+      <p>
+        “Zelyony,” I introduced myself, as usual. They called me that after the
+        mechanic from the cartoon *The Mystery of the Third Planet* — for my
+        beard, feel for machines, pessimism, and melancholia. “What’s wrong this
+        time?”, “This won’t end well!” — and other classic lines.
+      </p>
+
+      <p>
+        Yozzi wasn’t surprised by the name. While I was wiping grease off my
+        hands — I’d just finished stuffing steering knuckles with grease — he,
+        without a second thought, ducked under the UAZ and popped the hood with
+        confidence.
+      </p>
+
+      <p>“Good gryom,” he said approvingly.</p>
+
+      <p>
+        “Good what?” I asked. He said that word with a strange vowel — something
+        between “e” and “yo.” I’d heard it before. From Sandr.
+      </p>
+
+      <p>
+        “Gryom. That’s the word. The UAZ is gryom, the grinder is gryom, a clock
+        is gryom…”
+      </p>
+
+      <p>“A mechanism? A machine?”</p>
+
+      <p>
+        “Sort of, but not exactly. Any kind of complicated thing. Just a word —
+        doesn’t matter.”
+      </p>
+
+      <p>
+        “Gryom!” Sandr agreed emphatically. They both pronounced it exactly the
+        same way.
+      </p>
+
+      <p>“Can I start the engine?” Yozzi asked.</p>
+
+      <p>
+        I was planning to roll the UAZ into the garage anyway, so I just climbed
+        in and hit the starter. The engine fired up immediately, but when cold,
+        that odd ticking was louder. The three of us stood there staring into
+        the open hood as the fan blade sliced the air. Sandr shuffled around,
+        looking at Yozzi expectantly. Yozzi stayed silent. I shrugged and got
+        behind the wheel, slipped it into first gear, and gently rolled into the
+        garage. I’d had enough crawling around in the dirt for one day.
+      </p>
+
+      <p>
+        When the engine stopped and I stepped back outside, Sandr couldn’t hold
+        it in anymore:
+      </p>
+
+      <p>“Yozzi, tell him, tell him! It's wrong, tell him!”</p>
+
+      <p>Yozzi winced slightly, but eventually, almost reluctantly, said:</p>
+
+      <p>
+        “The exhaust valve seat on cylinder two is cracked. It’s slipped
+        slightly from the socket, and the valve is tapping. It could crumble.
+        Should replace it.”
+      </p>
+
+      <p>
+        “Oh, just like that? A crack, on cylinder two specifically?” I couldn’t
+        help but laugh. It felt like some sort of prank. Maybe they wanted to
+        see if I’d waste a day pulling the cylinder head off. I don’t know. But
+        I do know this — you can’t hear that kind of thing from the engine’s
+        sound. I may not be the world’s best mechanic, but I know the limits of
+        what’s possible.
+      </p>
+
+      <p>
+        Yozzi gave Sandr a look that clearly said, “See? Told you so.” Sandr got
+        excited:
+      </p>
+
+      <p>“Yozzi knows! Knows!”</p>
+
+      <p>
+        Great. Another “artist who sees it.” And I’m supposed to just tear off
+        the head based on that? Yeah, right. I already have enough on my plate —
+        the brakes aren’t done, the steering box has a huge play…
       </p>
       <p>
-        - Зелёный, - привычно представился я. Меня так прозвали в честь механика
-        из мультика «Тайна третьей планеты». За бороду, чувство техники,
-        пессимизм и меланхолию. «Ну, что у нас плохого?», «Добром это не
-        кончится!» - и прочие знаменитые цитаты.
+        Yozzi, however, wasn’t offended at all by my clear skepticism, and
+        didn’t push his diagnosis. Later, when I got to know him better, I
+        realized this was part of his idea of politeness — a kind of code about
+        respecting someone’s mental space. He gave his opinion, and even if he
+        was completely sure he was right, he left the decision to others. It
+        wasn’t indifference — more like a personal etiquette.
       </p>
-      <p>
-        У Йози мое представление вопросов не вызвало. Пока я оттирал руки от
-        солидола, которым набивал рулевые кулаки, он, не боясь испачкать одежду,
-        ловко нырнул под УаЗик, вынырнул оттуда, и, спросив разрешения, открыл
-        капот.
-      </p>
-      <p>- Годный грём, - сказал он одобрительно.</p>
-      <p>
-        - Годный что? - переспросил я. Это слово он произносил с промежуточным
-        звуком - между «е» и «ё», - и я его уже слышал. От Сандера.
-      </p>
-      <p>
-        - Грём. Слово такое. УаЗик - грём, - болгарка - тоже грём, часы - грём…
-      </p>
-      <p>- Механизм, машина?</p>
-      <p>
-        - Вроде того, но не совсем. Всякая сложная штука. Просто слово, неважно.
-      </p>
-      <p>
-        - Грём! - неизвестно к чему подтвердил Сандер. Произносили они с Йози
-        это слово, кстати, совершенно одинаково.
-      </p>
-      <p>- Можно завести мотор? - спросил Йози.</p>
-      <p>
-        Я всё равно собирался загонять УаЗик в гараж, так что просто залез в
-        кабину и включил стартер. Мотор схватил с пол-оборота, но на холодную
-        призвук был отчётливее. Мы втроём стояли и смотрели, как под открытым
-        капотом рубит воздух крыльчатка вентилятора. Сандер нервно приплясывал,
-        искательно глядя на Йози, Йози молчал. Я пожал плечами и сел за руль.
-        Воткнул первую и аккуратно закатился в ворота. На сегодня уже в песке
-        навалялся.
-      </p>
-      <p>Когда мотор затих, а я вышел на улицу, Сандер не выдержал:</p>
-      <p>- Йози, кажи му, кажи! Ипаильно ывает, кажи!</p>
-      <p>Йози чуть поморщился, но всё же, как бы нехотя, сказал:</p>
-      <p>
-        - Седло выпускного клапана треснуло на втором цилиндре. Чуть вышло из
-        гнезда, и клапан подстукивает. Может выкрошиться, поменять бы.
-      </p>
-      <p>
-        - Вот так прям треснуло, и именно на втором? - мне стало смешно.
-        Кажется, меня непонятно зачем, но разыгрывали. Может быть, чтобы
-        посмеяться, когда я, как дурак, убью целый день на то, чтобы снять
-        головку блока? Не знаю. Одно знаю: услышать это в звуке мотора нельзя
-        никак. Я, может, не самый лучший на свете механик, но границы возможного
-        понимаю.
-      </p>
-      <p>
-        Йози укоризненно посмотрел на Сандера, с выражением «ну, я же тебе
-        говорил» на лице. Сандер взволновался:
-      </p>
-      <p>- Йози нает! Нает!</p>
-      <p>
-        ага, ещё один, значит, «художник, который так видит». Ну-ну. Он видит, а
-        я башку снимай. ага, щазз. У меня и так есть, чем себя развлечь.
-        Тормоза, вон, не сделаны, рулевой редуктор люфтит…
-      </p>
-      <p>
-        Йози, впрочем, на мой явный скепсис не обиделся ничуть, и на диагнозе
-        своём не настаивал. Потом, когда мы познакомились поближе, я понял, что
-        это входит в его понятия о вежливости и в принцип ненарушения личного
-        ментального пространства. Он своё мнение сказал и, даже будучи абсолютно
-        в своей правоте уверенным, оставлял решение на других. Это не было
-        проявлением равнодушия, это, скорее, такой своеобразный этикет.
-      </p>
-      <p>- Может, по пиву? - сказал Йози и широко улыбнулся.</p>
-      <p>- И то верно, - не стал спорить я.</p>
-      <p>И мы пошли по пиву.</p>
+
+      <p>“Beer?” Yozzi said with a wide smile.</p>
+
+      <p>“Sounds good,” I agreed without argument.</p>
+
+      <p>And off we went for a beer.</p>
+
       <br />
-      <a href="#header" aria-label="Перейти к началу страницы">
-        Вверх
+      <a href="#header" aria-label="Go to the top of the page">
+        Back to Top
       </a>
     </div>
   );

@@ -3,132 +3,137 @@ import { ISentenceItemData } from '../interfaces/ISentenceItemData';
 const sentencesData = [
   {
     imgPath: 'p69',
-    header: 'Уаздао:',
+    header: 'Uazdao:',
     footer: '',
-    text: '... 15. В гараже матерятся даже самые выдержанные и интеллигентные люди. Без этих заклинаний вы просто ничего не открутите, проверено.',
+    text: '... 15. Even calm and smart people swear in the garage. Without these “magic words”, you can’t unscrew anything. It’s tested.',
   },
   {
     imgPath: 'p67',
-    header: 'Уаздао:',
+    header: 'Uazdao:',
     footer: '',
-    text: 'Не бойся делать то, чего не умеешь. Помни, Ковчег был построен любителем. Профессионалы построили Титаник.',
+    text: 'Don’t be afraid to do what you don’t know. Remember, an amateur built the Ark. Professionals built the Titanic.',
   },
   {
     imgPath: 'p41',
-    header: 'Уаздао:',
+    header: 'Uazdao:',
     footer: '',
-    text: 'Не бойся Сложного, ибо каждое Сложное состоит из множества Простых. Если не пугает тебя откручивание Гайки Колёсной, то отчего пугает Коробка Передач? Крути Гайку за Гайкой, и сам удивишься потом, как было просто всё. Ибо сказано: «Нет простого и сложного, нужно лишь придрочиться…»',
+    text: 'Don’t be afraid of hard things. Every hard thing is made of many simple things. If you are not afraid to unscrew a wheel nut, why be afraid of the gearbox? Unscrew one nut after another, and later you will see — it was simple. Because: “There is no easy or hard. You just need to get used to it.”',
   },
   {
     imgPath: 'p119',
-    header: 'Ибо сказано:',
+    header: 'For it is said:',
     footer: '',
-    text: 'Не спеши использовать Инструмент свой прежде Головы своей, дабы не смотреть с ужасом на дело рук своих. Ибо иной и за Болгарку схватится не подумавши, да так, что и Сварка не поможет…',
+    text: 'Don’t use a tool before using your head. Or you will be afraid to look at what you did. Some people take an angle grinder without thinking — and even welding can’t help after that...',
   },
   {
     imgPath: 'p255',
-    header: 'Ибо сказано:',
+    header: 'For it is said:',
     footer: '',
-    text: 'Не тот Мастер, кто починит УАЗ на Пути, а тот, кто и так до Гаража дотянет.',
+    text: 'A real master is not the one who fixes the UAZ on the road, but the one who drives it to the garage without stopping.',
   },
   {
     imgPath: 'p128',
-    header: 'Ибо сказано:',
+    header: 'For it is said:',
     footer: '',
-    text: 'Любая дорога куда-нибудь, да приводит. Даже если никакой дороги там нет.',
+    text: 'Every road leads somewhere. Even if there is no road, it still leads somewhere.',
   },
   {
     imgPath: 'p128',
-    header: 'Ибо сказано:',
+    header: 'For it is said:',
     footer: '',
-    text: 'Истинный Мастер не только не строит планов, но и не даёт планам строить себя.',
+    text: 'A true Master does not make many plans and does not let plans control him.',
   },
   {
     imgPath: 'p130',
-    header: 'Ибо сказано:',
+    header: 'For it is said:',
     footer: '',
-    text: 'Будущее наступило вчера, в половине восьмого вечера. Не жди ничего, всё, что должно было случиться - уже случилось.',
+    text: 'The future came yesterday at 7:30 p.m. Don’t wait — everything that had to happen already happened.',
   },
   {
     imgPath: 'p6',
-    header: 'Уаздао:',
+    header: 'Uazdao:',
     footer: '',
-    text: 'А вот в бытовой речи мата следует по возможности избегать. Не поминать всуе. Не путать сакральное с обыденным. Не размывать смыслов и не опошлять важного.',
+    text: 'But in everyday life, you should try not to swear. Don’t use strong words for nothing. Don’t mix the important with the usual. Don’t lose the real meaning.',
   },
   {
     imgPath: 'p23',
-    header: 'Ибо сказано:',
+    header: 'For it is said:',
     footer: '',
-    text: 'Чти Догмат, но включай и Голову. Ибо не всякий провод, обозначенный на схеме "чёрным", воистину чёрен, и не всякий "белый" на самом деле бел. Помни - неисповедимы пути Конвейера, и Руководство По Ремонту следует уважать, но понимать метафорически.',
+    text: 'Respect the Rule, but also use your Head. Not every “black” wire in the diagram is really black, and not every “white” one is truly white. Remember — the ways of the Factory are strange. The Repair Manual is important, but must be understood like a metaphor.',
   },
   {
     imgPath: 'p24',
-    header: 'Ибо сказано:',
+    header: 'For it is said:',
     footer: '',
-    text: 'Не пытайся сделать всё сразу. Помни - всякий узел должен быть починен, но не всякий - именно сейчас.',
+    text: 'Don’t try to do everything at once. Remember — every part must be fixed, but not all parts need to be fixed right now.',
   },
   {
     imgPath: 'p41',
-    header: 'Ибо сказано:',
+    header: 'For it is said:',
     footer: '',
-    text: 'Сделанное правильно - красиво. Если сделанное тебе не нравится - то и работать оно будет хреново. Перевари, пересверли, выпили заново, поставь новую - ну, или хотя бы покрась. В крайнем случае, возьми кувалду потяжелее и размахнись получше, ибо сказано: «Красота - это великая сила! А значит, равна немалой массе, умноженной на неслабое ускорение…».',
+    text: 'What is done right — looks good. If you don’t like how it looks, it won’t work well. Weld it again, drill again, cut again, put a new one — or at least paint it. Or take a bigger hammer and hit better. Because: “Beauty is great power! That means it’s mass times strong acceleration…”',
   },
   {
     imgPath: 'p50',
-    header: 'Ибо сказано:',
+    header: 'For it is said:',
     footer: '',
-    text: 'Сомневаешься - переделай! Дважды и трижды открути, подпили, смажь, затяни, покрась и поменяй прокладку. Ибо совершенство недостижимо, но стремиться к нему следует.',
+    text: 'If you are not sure — redo it! Unscrew it again, file it, oil it, tighten it, paint it, and change the gasket. You can’t reach perfection, but you must try.',
   },
   {
     imgPath: 'p62',
-    header: 'Ибо сказано:',
+    header: 'For it is said:',
     footer: '',
-    text: 'И когда мне порой становится грустно от того, что гайка не идёт по резьбе, что клиент сам не понимает, чего хочет, что на стакан технического творчества - ведро гайкокрутительской рутины, что от сварки к вечеру болят глаза и от ключей сводит пальцы - я всегда вспоминаю про Человека, Показывающего Палкой Влево. И мне становится легче. Может быть, вам эта история тоже поможет? В конце концов, вам же не нужно вставать каждое утро и идти показывать палкой влево? А если всё-таки нужно, то помните: вы вовсе не обязаны заниматься этим всю жизнь…',
+    text: 'Sometimes I feel sad: the nut doesn’t move, the client doesn’t know what they want, there’s too much boring work and little fun, my eyes hurt from welding, and my fingers hurt from tools… Then I remember the Man Who Points Left With a Stick. And I feel better. Maybe this story will help you too. After all, you don’t have to wake up every day and point left with a stick, right? And if you do — remember: you don’t have to do it your whole life...',
   },
   {
     imgPath: 'p67',
     header: '',
-    footer: '(цитата)',
-    text: `Информационное переедание даже хуже пищевого. 
-        От избыточной еды зарастает жиром жопа, от избыточной информации - мозги. 
-        Когда нечто узнаётся не путём интеллектуального процесса выведения нового из известного, а просто льётся в глаза потоком, это обесценивает процесс мышления. Зачем думать, если результат можно спросить у Гугла? 
-        Беда, впрочем, не столько даже в количестве информации, сколько в том, что она по большей части просто никчёмная. Нет, ну правда - при возможности моментально узнать что угодно, узнаём мы, как правило, все те же сплетни про трёхногую Матрёнину козу. Только козам этим нынче имя - легион, да и хватает их теперь лишь на секундный импульс лёгкого удивления и кнопку «лайк». Козы, оказывается, тоже подвержены инфляции…`,
+    footer: '(quote)',
+    text: `Information overeating is even worse than food overeating. 
+  Too much food makes your bottom fat, too much information makes your brain fat. 
+  When we don’t think but just read everything, thinking becomes less important. Why think, if Google gives the answer? 
+  But the problem is not just how much information we have. Most of it is useless. 
+  Really — when we can know anything, we often read gossip about a three-legged goat. And now there are many such goats — just for one second of surprise and a “like” button. Even goats now have inflation…`,
   },
   {
     imgPath: 'p69',
     header: '',
-    footer: '(цитата)',
-    text: `Внимания стоит только та информация, которая детерминирует дальнейшее поведение, а именно она-то и маскируется бесконечным навязчивым блеянием этих трёхногих коз. То, что какая-нибудь условная Хрюша Собачак отмочила очередное коленце, не меняет ни в чьей жизни ровно ничего. (Ну, кроме той неловкой, но маловероятной ситуации, когда вам не повезло быть, например, её мужем). На самом деле нас совершенно не касается проблема сомалийских пиратов, глобального потепления, озонового слоя, цены на нефть и даже, чёрт его подери, курса доллара.
-Специально обученные люди, которые кормятся вашим вниманием, будут изо всех сил объяснять в оба уха, как это важно - курс доллара и цена нефти, - но есть отличный способ проверки.
-1. Повлияет ли происходящее на мою жизнь?
-2. Могут ли мои действия что-то изменить?
-3. Нужно ли мне это менять?
-Информация не является очередным блеянием козы только в случае положительного ответа на ВСЕ ТРИ вопроса. «Нет» по любому из пунктов немедля переводит её в разряд пустых раздражителей.
-Можешь ли ты, изменив каким-то образом своё поведение, повлиять на цену нефти и курс доллара? Можешь? - Тогда оторви жопу от стула, пойди и повлияй. Не можешь? - Забей и занимайся дальше своими делами, это ни имеет к тебе никакого отношения. Оставь это тем, кто может.`,
+    footer: '(quote)',
+    text: `Only information that changes your future actions is important. But this real information is hidden behind endless noise from three-legged goats. 
+  For example, some famous person doing something silly changes nothing in your life. (Unless, of course, you are her husband — which is unlikely.)
+  Really, we don’t need to care about Somali pirates, global warming, the ozone layer, oil prices, or even — damn it — the dollar rate.
+  People who make money from your attention will say these things are very important. But here’s how to check:
+  1. Will this thing change my life?
+  2. Can I do something about it?
+  3. Do I need to do something about it?
+  If the answer is “yes” to ALL THREE — this is real information. If not — it’s just useless noise.
+  Can you change oil prices or the dollar rate with your actions? If yes — go and do it. If no — forget it and focus on your own life. Let the people who can change it take care of it.`,
   },
   {
     imgPath: 'p70',
     header: '',
-    footer: '(цитата)',
-    text: `Элитное потребление придумано для того, чтобы богатые люди могли вернуть хотя бы часть своих капиталов обратно в экономику. Во всех прочих случаях - вы только сужаете для себя поле возможностей.
-Дорогая пища более здоровая? 
-Ой, я вас умоляю! Наши предки жили на свежем воздухе, имели большую физическую активность, питались исключительно высококачественной натуральной пищей с высоким содержанием растительной клетчатки - и на пятидесятилетнего смотрели как на удивительный феномен долгожительства. Подумайте об этом.`,
+    footer: '(quote)',
+    text: `Rich people buy expensive things to give money back into the economy. 
+  But if you’re not rich, buying expensive things just gives you fewer options.
+  Is expensive food more healthy? 
+  Oh please! Our ancestors lived outside, worked a lot, ate good natural food full of fiber — and still, a person who lived to fifty was a miracle.
+  Think about that.`,
   },
   {
     imgPath: 'p121',
     header: '',
-    footer: '(цитата из книг П.С.Иевлева)',
-    text: `Я проводил глазами корягу. 
-        Лягушка смотрела на меня неодобрительно. 
-        Может быть, она в душе принцесса, но лучше не пробовать.
-        Из нацелованных лягух получаются просто наглые жабы.`,
+    footer: '(quote from books by P.S. Ievlev)',
+    text: `I watched the branch float away. 
+  A frog looked at me with disapproval.
+  Maybe she is a princess inside… but it’s better not to try.
+  If you try, you just get a very rude toad.`,
   },
   {
     imgPath: 'p128',
     header: '',
-    footer: '(цитата из книг П.С.Иевлева)',
-    text: `- ...День упрямства! Упрямство - душевное качество, допускающее только один единственно правильный путь, способ и метод. Для любых нужд и задач. 
-        Заменяет удовольствие от достижения цели!`,
+    footer: '(quote from books by P.S. Ievlev)',
+    text: `– ...Stubbornness Day! Stubbornness means thinking there is only one right way, one method, one answer. For every problem. 
+  It replaces the joy of reaching a goal!`,
   },
 ];
 

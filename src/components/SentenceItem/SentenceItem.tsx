@@ -22,14 +22,14 @@ export const SentenceItem: React.FC<ISentenceItemProps> = ({
       <ArrowLeft
         className={styles.SentenceItem__imageArrow}
         onClick={onNext}
-        aria-label="Предыдущее изречение"
+        aria-label="Previous saying"
       >
         <Image src={imgPath} alt="sentence image" />
       </ArrowLeft>
       <ArrowRight
         className={styles.SentenceItem__quoteArrow}
         onClick={onPrevious}
-        aria-label="Следующее изречение"
+        aria-label="Next saying"
       >
         <figure className={styles.SentenceItem__quote}>
           {header && (
