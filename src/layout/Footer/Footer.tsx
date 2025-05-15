@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { UazdaoContext } from '../../components/Context';
 import './Footer.scss';
-import { ExternalLink } from '../../components/ExternalLink';
+// import { ExternalLink } from '../../components/ExternalLink';
 
 export const Footer = () => {
   const { isFooterShowCar = false } = useContext(UazdaoContext);
