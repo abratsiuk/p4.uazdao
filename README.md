@@ -51,3 +51,4 @@ The app visually reflects the concepts described in the novels: the UAZ-469 as a
 * Optimized for readability and structured content presentation
 * Image gallery included (the screenshots referenced in your portfolio will display automatically)
 
+
